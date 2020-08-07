@@ -20,7 +20,7 @@
           :popupAnchor="[0, -30]"
           :icon-url="require('@/assets/img/marker.png')"
         />
-        <l-popup style="text-align: center">
+        <l-popup style="text-align: center;">
           1.
           <router-link to="/misto/Kostel">
             Kostel

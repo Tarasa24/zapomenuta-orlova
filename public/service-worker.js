@@ -11,7 +11,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 //Custom
-self.addEventListener('push', function(event) {
+self.addEventListener('push', function (event) {
   var title = 'Notification test';
   var body = event.data.text();
   var icon = '/img/icons/android-chrome-192x192.png';
