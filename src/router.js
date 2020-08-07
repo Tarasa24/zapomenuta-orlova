@@ -11,9 +11,19 @@ const routes = [
     component: Home,
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import('./pages/About.vue'),
+    path: '/mapa',
+    name: 'Mapa',
+    component: () => import('./pages/Map.vue'),
+  },
+  {
+    path: '/misto/:name',
+    name: 'Místo',
+    component: () => import('./pages/Place.vue'),
+  },
+  {
+    path: '*',
+    name: 'Not Found',
+    component: () => import('./pages/NotFound.vue'),
   },
 ];
 
