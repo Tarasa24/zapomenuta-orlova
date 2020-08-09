@@ -157,6 +157,7 @@ aside
     font-size: 1.25rem
     margin-left: 10px
     cursor: pointer
+    color: $primary
 
 .closed
   @keyframes close
