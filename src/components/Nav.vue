@@ -4,7 +4,12 @@
       <img class="logo" :src="require('@/assets/logo.png')" alt="logo" />
     </router-link>
 
-    <router-link class="link" to="/mapa">Mapa</router-link>
+    <router-link
+      class="link"
+      v-bind:class="{ highlighted: path == '/mapa' }"
+      to="/mapa"
+      >Mapa</router-link
+    >
     <router-link class="link" to="/o-projektu">O projektu</router-link>
 
     <a
@@ -19,7 +24,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      path: undefined,
+    };
+  },
+  watch: {
+    $route: function() {
+      this.path = this.$route.path;
+    },
+  },
+};
 </script>
 
 <style lang="sass" scoped>
@@ -39,9 +55,12 @@ nav
   text-decoration: none
   padding: 20px 0
   border-bottom: 5px solid transparent
+  @include transition(border-bottom)
   &:hover
-    @include transition(border-bottom)
     border-bottom: 5px solid $primary
+
+.highlighted
+  border-bottom: 5px solid $primary
 
 .orlova
   grid-column: 5
