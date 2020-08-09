@@ -2,10 +2,16 @@ import Vue from 'vue';
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router.js';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-Vue.config.productionTip = false;
+library.add(faMapMarkerAlt);
+Vue.component('fa', FontAwesomeIcon);
 
 import 'leaflet/dist/leaflet.css';
+
+Vue.config.productionTip = false;
 
 new Vue({
   router,

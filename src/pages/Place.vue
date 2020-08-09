@@ -3,7 +3,7 @@
     <section class="head">
       <l-map
         :zoom="14.5"
-        :center="latLng(49.846198, 18.429747)"
+        :center="[place.lat, place.lng]"
         :options="{ zoomControl: false, dragging: false }"
         class="map"
       >
@@ -11,7 +11,7 @@
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="© <a href='http://osm.org/copyright'>OpenStreetMap</a> contributors"
         />
-        <l-marker :lat-lng="latLng(49.84616, 18.429968)">
+        <l-marker :lat-lng="[place.lat, place.lng]">
           <l-icon
             :popupAnchor="[0, -30]"
             :icon-url="require('@/assets/img/marker.png')"
@@ -22,9 +22,9 @@
       <aside>
         <h1>
           <span class="circle">
-            <b>1</b>
+            <b>{{ place.nth }}</b>
           </span>
-          {{ $route.params.name }}
+          {{ place.name }}
         </h1>
 
         <p>
@@ -98,8 +98,9 @@
 </template>
 
 <script>
-import L from 'leaflet';
 import { LMap, LTileLayer, LMarker, LIcon } from 'vue2-leaflet';
+
+import data from '@/assets/data/main.json';
 
 export default {
   components: {
@@ -108,10 +109,19 @@ export default {
     LMarker,
     LIcon,
   },
-  methods: {
-    latLng(x, y) {
-      return L.latLng(x, y);
-    },
+  data() {
+    return {
+      place: {},
+    };
+  },
+  created() {
+    this.place = data[decodeURI(this.$route.params.name)];
+    if (!this.place) this.$router.replace('/mapa');
+    else {
+      this.place.name = this.$route.params.name;
+      this.place.nth =
+        Object.keys(data).indexOf(decodeURI(this.$route.params.name)) + 1;
+    }
   },
 };
 </script>

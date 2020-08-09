@@ -2,7 +2,7 @@
   <main>
     <l-map
       :zoom="15"
-      :center="latLng(49.846198, 18.429747)"
+      :center.sync="center"
       :options="{
         zoomSnap: 0.5,
         zoomControl: false,
@@ -15,26 +15,64 @@
       />
       <l-control-zoom position="topright" />
       <l-control-scale position="bottomright" :imperial="false" />
-      <l-marker :lat-lng="latLng(49.84616, 18.429968)">
+      <l-marker
+        v-for="(details, name, index) in places"
+        :key="name"
+        :lat-lng="[details.lat, details.lng]"
+      >
         <l-icon
           :popupAnchor="[0, -30]"
           :icon-url="require('@/assets/img/marker.png')"
         />
         <l-popup style="text-align: center;">
-          1.
-          <router-link to="/misto/Kostel">
-            Kostel
+          {{ index + 1 }}.
+          <router-link :to="`/misto/${encodeURI(name)}`">
+            {{ name }}
           </router-link>
           <br />
-          <i>49.84616, 18.429968</i>
+          <i>{{ details.lat }} {{ details.lng }}</i>
         </l-popup>
       </l-marker>
     </l-map>
+
+    <aside>
+      <h2>Seznam</h2>
+      <ol>
+        <li v-for="(details, name) in places" :key="name">
+          <router-link :to="`/misto/${encodeURI(name)}`">{{
+            name
+          }}</router-link>
+          <button
+            class="zoom"
+            @click="zoomTo(details.lat, details.lng)"
+            aria-label="Přiblížit"
+            title="Přiblížit"
+          >
+            <fa :icon="['fas', 'map-marker-alt']" />
+          </button>
+        </li>
+      </ol>
+      <button
+        class="open"
+        v-if="open"
+        @click="handleClick"
+        aria-label="Zmenšit postranní menu"
+      >
+        &lt;
+      </button>
+      <button
+        class="open"
+        v-else
+        @click="handleClick"
+        aria-label="Zvětšit postranní menu"
+      >
+        &gt;
+      </button>
+    </aside>
   </main>
 </template>
 
 <script>
-import L from 'leaflet';
 import {
   LMap,
   LTileLayer,
@@ -44,6 +82,8 @@ import {
   LPopup,
   LIcon,
 } from 'vue2-leaflet';
+
+import data from '@/assets/data/main.json';
 
 export default {
   name: 'Example',
@@ -56,9 +96,22 @@ export default {
     LPopup,
     LIcon,
   },
+  data() {
+    return {
+      open: true,
+      center: [49.846198, 18.429747],
+      places: data,
+    };
+  },
   methods: {
-    latLng(x, y) {
-      return L.latLng(x, y);
+    handleClick() {
+      if (this.open) event.target.parentNode.style.left = '-300px';
+      else event.target.parentNode.style.left = 0;
+
+      this.open = !this.open;
+    },
+    zoomTo(x, y) {
+      this.center = [x, y];
     },
   },
 };
@@ -68,4 +121,43 @@ export default {
 .map
   height: calc(100vh - 63px)
   width: 100%
+
+aside
+  position: fixed
+  top: 63px
+  left: 0
+  z-index: 400
+  height: calc(100vh - 63px)
+  width: 300px
+  background-color: rgba(white, 0.7)
+
+  text-align: left
+  h2
+    text-align: center
+  .open
+    position: absolute
+    top: 0
+    right: -20px
+    height: calc(100vh - 63px)
+    width: 20px
+
+    border: 0
+    color: white
+    font-weight: bold
+    background-color: $bg-dark
+    cursor: pointer
+
+    &:hover
+      background-color: black
+  li
+    font-size: 1.25rem
+    a
+      color: black
+      text-decoration: none
+  .zoom
+    background-color: transparent
+    border: 0
+    font-size: 1.25rem
+    margin-left: 10px
+    cursor: pointer
 </style>
