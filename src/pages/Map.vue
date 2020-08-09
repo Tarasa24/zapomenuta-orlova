@@ -35,7 +35,7 @@
       </l-marker>
     </l-map>
 
-    <aside>
+    <aside v-bind:class="{ opened: open, closed: !open }">
       <h2>Seznam</h2>
       <ol>
         <li v-for="(details, name) in places" :key="name">
@@ -53,7 +53,7 @@
         </li>
       </ol>
       <button
-        class="open"
+        class="sideBtn"
         v-if="open"
         @click="handleClick"
         aria-label="Zmenšit postranní menu"
@@ -61,7 +61,7 @@
         &lt;
       </button>
       <button
-        class="open"
+        class="sideBtn"
         v-else
         @click="handleClick"
         aria-label="Zvětšit postranní menu"
@@ -105,9 +105,6 @@ export default {
   },
   methods: {
     handleClick() {
-      if (this.open) event.target.parentNode.style.left = '-300px';
-      else event.target.parentNode.style.left = 0;
-
       this.open = !this.open;
     },
     zoomTo(x, y) {
@@ -134,7 +131,7 @@ aside
   text-align: left
   h2
     text-align: center
-  .open
+  .sideBtn
     position: absolute
     top: 0
     right: -20px
@@ -160,4 +157,24 @@ aside
     font-size: 1.25rem
     margin-left: 10px
     cursor: pointer
+
+.closed
+  @keyframes close
+    from
+      left: 0
+    to
+      left: -300px
+  animation-name: close
+  animation-duration: 1s
+  left: -300px
+
+.opened
+  @keyframes open
+    from
+      left: -300px
+    to
+      left: 0
+  animation-name: open
+  animation-duration: 1s
+  left: 0
 </style>
