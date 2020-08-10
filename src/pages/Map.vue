@@ -3,6 +3,12 @@
     <l-map
       :zoom="15"
       :center.sync="center"
+      :maxBounds="[
+        [49.8395629367, 18.4153975765],
+        [49.8528495864, 18.4445268716],
+      ]"
+      :minZoom="12"
+      :maxZoom="18"
       :options="{
         zoomSnap: 0.5,
         zoomControl: false,
@@ -10,7 +16,7 @@
       class="map"
     >
       <l-tile-layer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="© <a href='http://osm.org/copyright'>OpenStreetMap</a> contributors"
       />
       <l-control-zoom position="topright" />

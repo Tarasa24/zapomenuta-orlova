@@ -11,15 +11,25 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 //Custom
-self.addEventListener('push', function (event) {
-  var title = 'Notification test';
-  var body = event.data.text();
-  var icon = '/img/icons/android-chrome-192x192.png';
+importScripts('tiles.js');
 
+self.addEventListener('install', function(event) {
+  console.log('…installed');
   event.waitUntil(
-    self.registration.showNotification(title, {
-      body: body,
-      icon: icon,
+    caches.open('v1::fundamentals').then(function(cache) {
+      console.log('prefilling…');
+      cache.addAll(targetCache);
+    })
+  );
+});
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      if (response) {
+        return response;
+      }
+      return fetch(event.request);
     })
   );
 });
