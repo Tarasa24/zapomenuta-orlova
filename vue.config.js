@@ -3,6 +3,8 @@ const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
   productionSourceMap: false,
+  publicPath:
+    process.env.NODE_ENV === 'production' ? '/historicka-stezka/' : '/',
   css: {
     loaderOptions: {
       sass: {
