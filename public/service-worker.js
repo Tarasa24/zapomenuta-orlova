@@ -1,10 +1,21 @@
-// Workbox config
-workbox.setConfig({ debug: true });
-addEventListener('message', event => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    skipWaiting();
+// Updating
+self.addEventListener('message', e => {
+  if (!e.data) {
+    return;
+  }
+
+  switch (e.data) {
+    case 'skipWaiting':
+      self.skipWaiting();
+      break;
+    default:
+      break;
   }
 });
+
+// Workbox config
+workbox.setConfig({ debug: false });
+workbox.core.clientsClaim();
 
 // Precaching
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
@@ -14,10 +25,8 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 importScripts('tiles.js');
 
 self.addEventListener('install', function(event) {
-  console.log('…installed');
   event.waitUntil(
-    caches.open('v1::fundamentals').then(function(cache) {
-      console.log('prefilling…');
+    caches.open('OSM_TILES').then(function(cache) {
       cache.addAll(targetCache);
     })
   );

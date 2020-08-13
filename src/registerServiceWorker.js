@@ -7,8 +7,10 @@ if (process.env.NODE_ENV == 'production') {
     ready() {
       console.log('App is being served from cache by a service worker.');
     },
-    registered() {
-      console.log('Service worker has been registered.');
+    registered(registration) {
+      setInterval(() => {
+        registration.update();
+      }, 1000 * 60 * 60);
     },
     cached() {
       console.log('Content has been cached for offline use.');
@@ -16,11 +18,10 @@ if (process.env.NODE_ENV == 'production') {
     updatefound() {
       console.log('New content is downloading.');
     },
-    updated() {
-      console.log('New content is available; please refresh.');
-      setTimeout(() => {
-        window.location.reload(true);
-      }, 1000);
+    updated(registration) {
+      document.dispatchEvent(
+        new CustomEvent('swUpdated', { detail: registration })
+      );
     },
     offline() {
       console.log(
