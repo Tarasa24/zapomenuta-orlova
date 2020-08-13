@@ -29,7 +29,7 @@ module.exports = {
     manifestOptions: {
       name: 'Historická stezka starou Orlovou',
       short_name: 'Stezka - Orlová',
-      start_url: '/',
+      start_url: '/historicka-stezka/',
     },
     themeColor: '#fcba03',
     msTileColor: '#232b2b',
