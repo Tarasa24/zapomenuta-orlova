@@ -39,7 +39,9 @@
             {{ name }}
           </router-link>
           <br />
-          <i>{{ details.lat }} {{ details.lng }}</i>
+          <i>{{ convertCoord(details.lat, details.lng) }}</i>
+          <br />
+          <img src="https://via.placeholder.com/160x90" :alt="name" />
         </l-popup>
       </l-marker>
     </l-map>
@@ -119,6 +121,17 @@ export default {
     zoomTo(x, y) {
       this.center = [x, y];
     },
+    convertCoord(NS, EW) {
+      function convertDm(dd) {
+        dd = Math.abs(dd);
+        const deg = Math.floor(dd);
+        return `${deg}° ${((dd - deg) * 60).toFixed(3)}`;
+      }
+
+      return `${NS > 0 ? 'N' : 'S'} ${convertDm(NS)} ${
+        EW > 0 ? 'E' : 'W'
+      } ${convertDm(EW)}`;
+    },
   },
 };
 </script>
@@ -149,7 +162,7 @@ aside
 
     border: 0
     color: white
-    font-weight: bold
+    font-EWight: bold
     background-color: $bg-dark
     cursor: pointer
 
