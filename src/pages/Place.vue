@@ -2,14 +2,14 @@
   <main>
     <section class="head">
       <l-map
-        :zoom="14"
+        :zoom="17"
         :center="[place.lat, place.lng]"
         :maxBounds="[
           [49.7500600534, 18.107126193],
           [49.9503805554, 18.7595699213],
         ]"
-        :minZoom="14"
-        :maxZoom="14"
+        :minZoom="15"
+        :maxZoom="17"
         :options="{ zoomControl: false, dragging: false }"
         class="map"
       >
@@ -22,7 +22,7 @@
             :popupAnchor="[0, -50]"
             :iconSize="[50, 50]"
             :iconAnchor="[25, 50]"
-            :icon-url="require('@/assets/img/marker.png')"
+            :icon-url="require('@/assets/img/markerH.png')"
             :shadowUrl="require('@/assets/img/empty.png')"
           />
         </l-marker>

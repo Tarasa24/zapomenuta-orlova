@@ -14,6 +14,7 @@
         zoomControl: false,
       }"
       class="map"
+      ref="map"
     >
       <l-tile-layer
         url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -25,23 +26,33 @@
         v-for="(details, name, index) in places"
         :key="name"
         :lat-lng="[details.lat, details.lng]"
+        @click="
+          () => {
+            $router.push({ path: '/mapa', query: { h: name } });
+            zoomTo(details.lat, details.lng);
+          }
+        "
+        :ref="name"
       >
         <l-icon
           :popupAnchor="[0, -50]"
           :iconSize="[50, 50]"
           :iconAnchor="[25, 50]"
-          :icon-url="require('@/assets/img/marker.png')"
+          :icon-url="
+            highlighted != name
+              ? require('@/assets/img/marker.png')
+              : require('@/assets/img/markerH.png')
+          "
           :shadowUrl="require('@/assets/img/empty.png')"
         />
-        <l-popup style="text-align: center;">
-          {{ index + 1 }}.
+        <l-popup class="popup">
           <router-link :to="`/misto/${encodeURI(name)}`">
-            {{ name }}
+            <b>{{ index + 1 }}.{{ name }}</b>
+            <br />
+            <i>{{ convertCoord(details.lat, details.lng) }}</i>
+            <br />
+            <img src="https://via.placeholder.com/160x90" :alt="name" />
           </router-link>
-          <br />
-          <i>{{ convertCoord(details.lat, details.lng) }}</i>
-          <br />
-          <img src="https://via.placeholder.com/160x90" :alt="name" />
         </l-popup>
       </l-marker>
     </l-map>
@@ -55,7 +66,13 @@
           }}</router-link>
           <button
             class="zoom"
-            @click="zoomTo(details.lat, details.lng)"
+            @click="
+              () => {
+                $router.push({ path: '/mapa', query: { h: name } });
+                zoomTo(details.lat, details.lng);
+                $refs[name][0].mapObject.openPopup();
+              }
+            "
             aria-label="Přiblížit"
             title="Přiblížit"
           >
@@ -112,7 +129,31 @@ export default {
       open: true,
       center: [49.846198, 18.429747],
       places: data,
+      highlighted: null,
     };
+  },
+  watch: {
+    '$route.query.h': function() {
+      this.highlighted = this.$route.query.h;
+    },
+  },
+  created() {
+    this.highlighted = this.$route.query.h;
+    if (this.highlighted) {
+      this.center = [
+        this.places[this.highlighted].lat,
+        this.places[this.highlighted].lng,
+      ];
+      this.$nextTick(() => {
+        this.$refs[this.highlighted][0].mapObject.openPopup();
+      });
+    }
+
+    this.$nextTick(() => {
+      this.$refs.map.mapObject.on('popupclose', () => {
+        this.highlighted = null;
+      });
+    });
   },
   methods: {
     handleClick() {
@@ -140,6 +181,14 @@ export default {
 .map
   height: calc(100vh - 63px)
   width: 100%
+  .popup
+    text-align: center
+    a
+      text-decoration: none
+      color: black
+    b
+      text-decoration: underline
+      color: blue
 
 aside
   position: fixed
