@@ -4,8 +4,8 @@
       :zoom="15"
       :center.sync="center"
       :maxBounds="[
-        [49.8395629367, 18.4153975765],
-        [49.8528495864, 18.4445268716],
+        [49.7500600534, 18.107126193],
+        [49.9503805554, 18.7595699213],
       ]"
       :minZoom="12"
       :maxZoom="18"
@@ -27,8 +27,11 @@
         :lat-lng="[details.lat, details.lng]"
       >
         <l-icon
-          :popupAnchor="[0, -30]"
+          :popupAnchor="[0, -50]"
+          :iconSize="[50, 50]"
+          :iconAnchor="[25, 50]"
           :icon-url="require('@/assets/img/marker.png')"
+          :shadowUrl="require('@/assets/img/empty.png')"
         />
         <l-popup style="text-align: center;">
           {{ index + 1 }}.
