@@ -133,7 +133,7 @@ export default {
     };
   },
   watch: {
-    '$route.query.h': function() {
+    '$route.query.h': function () {
       this.highlighted = this.$route.query.h;
     },
   },

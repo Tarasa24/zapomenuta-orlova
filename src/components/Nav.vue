@@ -31,7 +31,7 @@ export default {
     };
   },
   watch: {
-    $route: function() {
+    $route: function () {
       this.path = this.$route.path;
     },
   },

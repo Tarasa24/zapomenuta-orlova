@@ -24,17 +24,17 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 //Custom
 importScripts('tiles.js');
 
-self.addEventListener('install', function(event) {
+self.addEventListener('install', function (event) {
   event.waitUntil(
-    caches.open('OSM_TILES').then(function(cache) {
+    caches.open('OSM_TILES').then(function (cache) {
       cache.addAll(targetCache);
     })
   );
 });
 
-self.addEventListener('fetch', function(event) {
+self.addEventListener('fetch', function (event) {
   event.respondWith(
-    caches.match(event.request).then(function(response) {
+    caches.match(event.request).then(function (response) {
       if (response) {
         return response;
       }
