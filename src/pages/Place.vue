@@ -109,7 +109,7 @@
 <script>
 import { LMap, LTileLayer, LMarker, LIcon } from 'vue2-leaflet';
 
-import data from '@/assets/data/main.json';
+import data from '@/assets/data/locations.json';
 
 export default {
   components: {

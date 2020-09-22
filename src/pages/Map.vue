@@ -111,7 +111,7 @@ import {
   LIcon,
 } from 'vue2-leaflet';
 
-import data from '@/assets/data/main.json';
+import data from '@/assets/data/locations.json';
 
 export default {
   name: 'Example',
@@ -196,7 +196,7 @@ aside
   left: 0
   z-index: 400
   height: calc(100vh - 63px)
-  width: 300px
+  width: 350px
   background-color: rgba(white, 0.7)
 
   text-align: left
@@ -226,7 +226,6 @@ aside
     background-color: transparent
     border: 0
     font-size: 1.25rem
-    margin-left: 10px
     cursor: pointer
     color: $primary
 
@@ -235,15 +234,15 @@ aside
     from
       left: 0
     to
-      left: -300px
+      left: -350px
   animation-name: close
   animation-duration: 1s
-  left: -300px
+  left: -350px
 
 .opened
   @keyframes open
     from
-      left: -300px
+      left: -350px
     to
       left: 0
   animation-name: open
