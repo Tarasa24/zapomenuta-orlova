@@ -7,7 +7,7 @@
         [49.7500600534, 18.107126193],
         [49.9503805554, 18.7595699213],
       ]"
-      :minZoom="12"
+      :minZoom="14"
       :maxZoom="18"
       :options="{
         zoomSnap: 0.5,
@@ -51,7 +51,10 @@
             <br />
             <i>{{ convertCoord(details.lat, details.lng) }}</i>
             <br />
-            <img src="https://via.placeholder.com/160x90" :alt="name" />
+            <img
+              :src="require(`@/assets/img/thumb/${name}.webp`)"
+              :alt="name"
+            />
           </router-link>
         </l-popup>
       </l-marker>
