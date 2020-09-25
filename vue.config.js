@@ -13,6 +13,14 @@ module.exports = {
     },
   },
   configureWebpack: {
+    module: {
+      rules: [
+        {
+          test: /\.md$/,
+          loader: 'raw-loader',
+        },
+      ],
+    },
     plugins: [
       new webpack.DefinePlugin({
         'process.env': {

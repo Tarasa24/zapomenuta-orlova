@@ -1,126 +1,73 @@
 <template>
   <main>
+    <img
+      class="main_img"
+      :src="
+        require(`@/assets/img/articles/${this.$route.params.name}/main.webp`)
+      "
+      alt="background image"
+    />
     <section class="head">
-      <l-map
-        :zoom="17"
-        :center="[place.lat, place.lng]"
-        :maxBounds="[
-          [49.7500600534, 18.107126193],
-          [49.9503805554, 18.7595699213],
-        ]"
-        :minZoom="15"
-        :maxZoom="17"
-        :options="{ zoomControl: false, dragging: false }"
-        class="map"
-      >
-        <l-tile-layer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution="© <a href='http://osm.org/copyright'>OpenStreetMap</a> contributors"
-        />
-        <l-marker :lat-lng="[place.lat, place.lng]">
-          <l-icon
-            :popupAnchor="[0, -50]"
-            :iconSize="[50, 50]"
-            :iconAnchor="[25, 50]"
-            :icon-url="require('@/assets/img/markerH.png')"
-            :shadowUrl="require('@/assets/img/empty.png')"
-          />
-        </l-marker>
-      </l-map>
-
-      <aside>
-        <h1>
-          <span class="circle">
-            <b>{{ place.nth }}</b>
-          </span>
-          {{ place.name }}
-        </h1>
-
-        <p>
-          Integer facilisis lacus odio, at fringilla magna fringilla laoreet.
-          Aliquam eget sodales arcu. Ut ultricies erat neque. Nullam in interdum
-          ligula, eget varius mi. Nullam suscipit urna auctor nisl luctus
-          volutpat. Nullam quam neque, scelerisque eu est a, pellentesque
-          pellentesque felis. Fusce lobortis ultricies sem, ut porta justo
-          elementum in. Integer facilisis lacus odio, at fringilla magna
-          fringilla laoreet. Aliquam eget sodales arcu. Ut ultricies erat neque.
-          Nullam in interdum ligula, eget varius mi. Nullam suscipit urna auctor
-          nisl luctus volutpat.
-        </p>
-
-        <p>
-          Integer facilisis lacus odio, at fringilla magna fringilla laoreet.
-          Aliquam eget sodales arcu. Ut ultricies erat neque. Nullam in interdum
-          ligula, eget varius mi. Nullam suscipit urna auctor nisl luctus
-          volutpat. Nullam quam neque, scelerisque eu est a, pellentesque
-          pellentesque felis. Fusce lobortis ultricies sem, ut porta justo
-          elementum in. Integer facilisis lacus odio, at fringilla magna
-          fringilla laoreet. Aliquam eget sodales arcu. Ut ultricies erat neque.
-          Nullam in interdum ligula, eget varius mi. Nullam suscipit urna auctor
-          nisl luctus volutpat.
-        </p>
-      </aside>
+      <span class="circle">
+        <b>{{ place.nth }}</b>
+      </span>
+      <h1>
+        {{ place.name }}
+      </h1>
     </section>
 
-    <section class="body">
-      <h2>Historie</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus
-        augue metus, vitae vulputate ipsum tincidunt id. Aenean ac tincidunt
-        orci. Etiam venenatis porta neque nec finibus. Pellentesque ut lacinia
-        diam. Donec id interdum eros, vitae ultrices justo. Nunc tempor varius
-        ex, ac faucibus nisl faucibus et. Integer tincidunt pellentesque magna,
-        nec blandit ex porttitor sit amet. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Nunc ullamcorper mauris odio. Morbi
-        eleifend commodo dapibus. Sed porttitor metus vitae placerat elementum.
-        Quisque at risus maximus elit vehicula consectetur. Maecenas tristique
-        varius eros, nec vestibulum tortor auctor quis. Mauris vel feugiat
-        felis, sit amet mattis nibh. Ut semper, elit in luctus sollicitudin,
-        orci augue interdum leo, sit amet finibus augue mauris quis nunc. Ut
-        hendrerit vitae velit eget venenatis. Nulla sit amet cursus enim. Etiam
-        magna quam, tempor sit amet erat et, iaculis malesuada arcu. Morbi at
-        nisi interdum ex suscipit tempor a a sapien. Nullam vulputate massa et
-        ipsum tempor imperdiet. Vestibulum quis libero vel mi porta gravida quis
-        sed odio. Aenean eget iaculis tortor. Nullam vel auctor dui, eu
-        imperdiet velit. Mauris tincidunt elementum porttitor. In fringilla
-        felis non velit blandit tempor ut eget nisi. Nam ac malesuada massa, sit
-        amet varius erat. Cras sed purus euismod, mattis nisi eget, fringilla
-        augue. Nulla mollis ornare eros. Curabitur non nisl eu dui ultricies
-        maximus. Sed ac turpis est. Quisque accumsan eros nec consectetur
-        pellentesque. Duis aliquam efficitur vestibulum. Cras quis leo elit.
-        Proin convallis fringilla ante at iaculis. Aliquam condimentum volutpat
-        magna vitae mattis. Fusce vestibulum pulvinar quam, sed iaculis lorem
-        pulvinar eu. Pellentesque sapien ante, commodo vel orci quis, tempus
-        condimentum risus. Proin sed sollicitudin metus. Pellentesque sit amet
-        nunc quis dui ornare facilisis. Suspendisse nec cursus lectus, eu
-        molestie ex. Proin tincidunt luctus velit, nec laoreet turpis pulvinar
-        in. Vestibulum ut tincidunt tellus. Donec in elementum nunc, accumsan
-        posuere urna. Curabitur pulvinar egestas orci vel pulvinar. Ut nec lacus
-        mauris. Curabitur tempus congue aliquam. Vestibulum tincidunt ipsum in
-        laoreet rhoncus. Duis vitae magna at elit ultricies ornare. Suspendisse
-        ut felis ut tellus accumsan interdum. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Mauris euismod dui dui, aliquet luctus
-        magna facilisis ut.
-      </p>
+    <section class="body" v-html="body" />
+
+    <section>
+      <hr />
+      <viewer
+        :images="images"
+        class="gallery"
+        :options="{
+          inline: false,
+          button: true,
+          navbar: false,
+          title: true,
+          toolbar: true,
+          tooltip: true,
+          movable: false,
+          zoomable: true,
+          rotatable: false,
+          scalable: false,
+          transition: false,
+          fullscreen: true,
+          keyboard: true,
+        }"
+      >
+        <img
+          v-for="image in images"
+          :src="
+            require(`@/assets/img/articles/${$route.params.name}/${image.file}`)
+          "
+          :key="image.file"
+          :alt="image.alt"
+        />
+      </viewer>
     </section>
   </main>
 </template>
 
 <script>
-import { LMap, LTileLayer, LMarker, LIcon } from 'vue2-leaflet';
+import marked from 'marked';
+import 'viewerjs/dist/viewer.css';
+import Viewer from 'v-viewer';
+import Vue from 'vue';
+Vue.use(Viewer);
 
 import data from '@/assets/data/locations.json';
 
 export default {
-  components: {
-    LMap,
-    LTileLayer,
-    LMarker,
-    LIcon,
-  },
+  components: {},
   data() {
     return {
       place: {},
+      body: '',
+      images: [],
     };
   },
   created() {
@@ -131,56 +78,73 @@ export default {
       this.place.nth =
         Object.keys(data).indexOf(decodeURI(this.$route.params.name)) + 1;
     }
+
+    const md = require(`@/assets/data/articles/${this.$route.params.name}.md`)
+      .default;
+    this.body = marked(md);
+
+    this.images = require(`@/assets/img/articles/${this.$route.params.name}/list.json`);
   },
 };
 </script>
 
-<style lang="sass" scoped>
+<style lang="sass">
+.main_img
+  width: 100%
+  filter: brightness(.4)
+  z-index: -99
+  height: 450px
+  object-fit: cover
+
 section
   width: 100%
   max-width: 1300px
   margin: auto
 
 .head
-  display: grid
-  grid-template-columns: 350px auto
-  margin-top: 50px
-
-  padding-bottom: 50px
-  margin-bottom: 50px
-  border-bottom: 2.5px solid $grey
-
-  .map
-    justify-self: center
-    align-self: center
-    width: 350px
-    height: 350px
-
-  aside
-    text-align: left
-    align-self: center
-    margin-left: 50px
-    .circle
-      background-color: $primary
-      color: white
-      border-radius: 50%
-      padding: 25px
-      margin-right: 25px
-      font-size: 0
-      position: relative
-      bottom: 12.5px
-      b
-        font-size: 1.5rem
-        position: absolute
-        top: 50%
-        left: 50%
-        transform: translate(-50%, -50%)
-    h1
+  position: absolute
+  top: 225px
+  left: 50vw
+  transform: translate(-50%, 0)
+  width: auto
+  h1
+    margin-top: 40px
+    color: white
+    text-transform: uppercase
+    font-size: 3.5rem
+  .circle
+    background-color: $primary
+    color: white
+    border-radius: 50%
+    padding: 30px
+    font-size: 0
+    position: relative
+    bottom: 12.5px
+    b
       font-size: 2rem
-    p
-      margin-top: 40px
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+
+hr
+  margin: 30px 10px
 
 .body
-  p
-    text-align: left
+  text-align: left
+  h2, h3, p
+    margin-left: 10px
+    margin-right: 10px
+
+.gallery
+  width: calc( 100% - 20px )
+  overflow-x: auto
+  display: flex
+  margin-bottom: 20px
+  img
+    align-self: center
+    margin: 10px
+    cursor: pointer
+    max-width: 20vw
+    max-height: 30vh
 </style>
