@@ -1,9 +1,7 @@
 <template>
   <main v-if="updateExists">
     Nová verze je k dispozici
-    <button @click="refreshApp">
-      Aktualizovat
-    </button>
+    <button @click="refreshApp">Aktualizovat</button>
     <button
       @click="
         () => {

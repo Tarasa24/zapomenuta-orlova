@@ -7,6 +7,7 @@
     "build": "vue-cli-service build",
     "test": "vue-cli-service test:e2e",
     "test-headless": "vue-cli-service test:e2e --headless",
+    "format": "prettier --write .",
     "test:prettier": "prettier --check ."
   },
   "dependencies": {
@@ -31,7 +32,7 @@
     "@vue/cli-service": "~4.4.0",
     "cypress": "^6.2.0",
     "node-sass": "^4.14.1",
-    "prettier": "^1.19.1",
+    "prettier": "^2.2.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
