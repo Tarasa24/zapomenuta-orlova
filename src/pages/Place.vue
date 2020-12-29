@@ -106,7 +106,7 @@ section
   top: 225px
   left: 50vw
   transform: translate(-50%, 0)
-  width: auto
+  width: 80%
   h1
     margin-top: 40px
     color: white
@@ -131,7 +131,7 @@ hr
   margin: 30px 10px
 
 .body
-  text-align: left
+  text-align: justify
   h2, h3, p
     margin-left: 10px
     margin-right: 10px

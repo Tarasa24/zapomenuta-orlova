@@ -129,7 +129,7 @@ export default {
   },
   data() {
     return {
-      open: true,
+      open: window.innerWidth >= 700,
       center: [49.846198, 18.429747],
       places: data,
       highlighted: null,
@@ -159,7 +159,18 @@ export default {
     })
   },
   methods: {
-    handleClick() {
+    handleClick(e) {
+      const el = document.getElementsByTagName('aside')[0]
+
+      el.animate(
+        [{ left: this.open ? '0' : '-350px' }, { left: this.open ? '-350px' : '0' }],
+        {
+          duration: 500,
+          easing: 'ease-in-out'
+        }
+      )
+      el.style.left = this.open ? '-350px' : '0'
+
       this.open = !this.open
     },
     zoomTo(x, y) {
@@ -233,22 +244,5 @@ aside
     color: $primary
 
 .closed
-  @keyframes close
-    from
-      left: 0
-    to
-      left: -350px
-  animation-name: close
-  animation-duration: 1s
   left: -350px
-
-.opened
-  @keyframes open
-    from
-      left: -350px
-    to
-      left: 0
-  animation-name: open
-  animation-duration: 1s
-  left: 0
 </style>
