@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test": "vue-cli-service test:e2e",
-    "test-headless": "vue-cli-service test:e2e --headless"
+    "test-headless": "vue-cli-service test:e2e --headless",
+    "test:prettier": "prettier --check ."
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
