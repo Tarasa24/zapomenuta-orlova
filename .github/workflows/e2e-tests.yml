@@ -2,7 +2,7 @@ name: End-to-end tests
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [master]
     paths-ignore:
       - 'dev/**'
       - '.github/**'
@@ -31,8 +31,11 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-  
+
       - run: npm ci
-  
+
       - name: Cypress run
-        uses: cypress-io/github-action@v2
+        run: npm run test-headless
+
+      - name: Prettier run
+        run: npm run test:prettier
