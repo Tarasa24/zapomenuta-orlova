@@ -3,8 +3,7 @@ const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
   productionSourceMap: false,
-  publicPath:
-    process.env.NODE_ENV === 'production' ? '/historicka-stezka/' : '/',
+  publicPath: '/',
   css: {
     loaderOptions: {
       sass: {
@@ -37,7 +36,7 @@ module.exports = {
     manifestOptions: {
       name: 'Historická stezka starou Orlovou',
       short_name: 'Stezka - Orlová',
-      start_url: '/historicka-stezka/',
+      start_url: '/',
     },
     themeColor: '#fcba03',
     msTileColor: '#232b2b',
