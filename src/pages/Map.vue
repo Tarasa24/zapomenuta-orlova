@@ -163,10 +163,13 @@ export default {
       const el = document.getElementsByTagName('aside')[0]
 
       el.animate(
-        [{ left: this.open ? '0' : '-350px' }, { left: this.open ? '-350px' : '0' }],
+        [
+          { left: this.open ? '0' : '-350px' },
+          { left: this.open ? '-350px' : '0' },
+        ],
         {
           duration: 500,
-          easing: 'ease-in-out'
+          easing: 'ease-in-out',
         }
       )
       el.style.left = this.open ? '-350px' : '0'

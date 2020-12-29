@@ -14,16 +14,17 @@ function normalize(str) {
 }
 
 describe('Places pages', () => {
-  for (const [ key, value ] of Object.entries(locations)) {
+  for (const [key, value] of Object.entries(locations)) {
     context(normalize(key), () => {
       before(() => {
         cy.visit('/misto/' + encodeURI(key))
       })
 
       it('Should have correct header and index number', () => {
-        cy
-          .get('.circle')
-          .should('contain', Object.keys(locations).indexOf(key) + 1)
+        cy.get('.circle').should(
+          'contain',
+          Object.keys(locations).indexOf(key) + 1
+        )
         cy.get('h1').should('contain', key)
       })
 
