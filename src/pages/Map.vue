@@ -28,8 +28,8 @@
         :lat-lng="[details.lat, details.lng]"
         @click="
           () => {
-            $router.push({ path: '/mapa', query: { h: name } });
-            zoomTo(details.lat, details.lng);
+            $router.push({ path: '/mapa', query: { h: name } })
+            zoomTo(details.lat, details.lng)
           }
         "
         :ref="name"
@@ -71,9 +71,9 @@
             class="zoom"
             @click="
               () => {
-                $router.push({ path: '/mapa', query: { h: name } });
-                zoomTo(details.lat, details.lng);
-                $refs[name][0].mapObject.openPopup();
+                $router.push({ path: '/mapa', query: { h: name } })
+                zoomTo(details.lat, details.lng)
+                $refs[name][0].mapObject.openPopup()
               }
             "
             aria-label="Přiblížit"
@@ -112,9 +112,9 @@ import {
   LMarker,
   LPopup,
   LIcon,
-} from 'vue2-leaflet';
+} from 'vue2-leaflet'
 
-import data from '@/assets/data/locations.json';
+import data from '@/assets/data/locations.json'
 
 export default {
   name: 'Example',
@@ -133,51 +133,51 @@ export default {
       center: [49.846198, 18.429747],
       places: data,
       highlighted: null,
-    };
+    }
   },
   watch: {
     '$route.query.h': function () {
-      this.highlighted = this.$route.query.h;
+      this.highlighted = this.$route.query.h
     },
   },
   created() {
-    this.highlighted = this.$route.query.h;
+    this.highlighted = this.$route.query.h
     if (this.highlighted) {
       this.center = [
         this.places[this.highlighted].lat,
         this.places[this.highlighted].lng,
-      ];
+      ]
       this.$nextTick(() => {
-        this.$refs[this.highlighted][0].mapObject.openPopup();
-      });
+        this.$refs[this.highlighted][0].mapObject.openPopup()
+      })
     }
 
     this.$nextTick(() => {
       this.$refs.map.mapObject.on('popupclose', () => {
-        this.highlighted = null;
-      });
-    });
+        this.highlighted = null
+      })
+    })
   },
   methods: {
     handleClick() {
-      this.open = !this.open;
+      this.open = !this.open
     },
     zoomTo(x, y) {
-      this.center = [x, y];
+      this.center = [x, y]
     },
     convertCoord(NS, EW) {
       function convertDm(dd) {
-        dd = Math.abs(dd);
-        const deg = Math.floor(dd);
-        return `${deg}° ${((dd - deg) * 60).toFixed(3)}`;
+        dd = Math.abs(dd)
+        const deg = Math.floor(dd)
+        return `${deg}° ${((dd - deg) * 60).toFixed(3)}`
       }
 
       return `${NS > 0 ? 'N' : 'S'} ${convertDm(NS)} ${
         EW > 0 ? 'E' : 'W'
-      } ${convertDm(EW)}`;
+      } ${convertDm(EW)}`
     },
   },
-};
+}
 </script>
 
 <style lang="sass" scoped>

@@ -1,44 +1,44 @@
 // Updating
-self.addEventListener('message', e => {
+self.addEventListener('message', (e) => {
   if (!e.data) {
-    return;
+    return
   }
 
   switch (e.data) {
     case 'skipWaiting':
-      self.skipWaiting();
-      break;
+      self.skipWaiting()
+      break
     default:
-      break;
+      break
   }
-});
+})
 
 // Workbox config
-workbox.setConfig({ debug: false });
-workbox.core.clientsClaim();
+workbox.setConfig({ debug: false })
+workbox.core.clientsClaim()
 
 // Precaching
-self.__precacheManifest = [].concat(self.__precacheManifest || []);
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+self.__precacheManifest = [].concat(self.__precacheManifest || [])
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
 
 //Custom
-importScripts('tiles.js');
+importScripts('tiles.js')
 
 self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open('OSM_TILES').then(function (cache) {
-      cache.addAll(targetCache);
+      cache.addAll(targetCache)
     })
-  );
-});
+  )
+})
 
 self.addEventListener('fetch', function (event) {
   event.respondWith(
     caches.match(event.request).then(function (response) {
       if (response) {
-        return response;
+        return response
       }
-      return fetch(event.request);
+      return fetch(event.request)
     })
-  );
-});
+  )
+})

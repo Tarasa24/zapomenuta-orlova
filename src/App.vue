@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import Nav from '@/components/Nav';
-import Update from '@/components/Update';
+import Nav from '@/components/Nav'
+import Update from '@/components/Update'
 
 export default {
   components: {
     Nav,
     Update,
   },
-};
+}
 </script>

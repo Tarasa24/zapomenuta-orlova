@@ -28,14 +28,14 @@ export default {
   data() {
     return {
       path: undefined,
-    };
+    }
   },
   watch: {
     $route: function () {
-      this.path = this.$route.path;
+      this.path = this.$route.path
     },
   },
-};
+}
 </script>
 
 <style lang="sass" scoped>

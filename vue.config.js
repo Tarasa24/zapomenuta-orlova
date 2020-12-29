@@ -1,5 +1,5 @@
-const webpack = require('webpack');
-const CompressionPlugin = require('compression-webpack-plugin');
+const webpack = require('webpack')
+const CompressionPlugin = require('compression-webpack-plugin')
 
 module.exports = {
   productionSourceMap: false,
@@ -45,4 +45,4 @@ module.exports = {
       swSrc: './public/service-worker.js',
     },
   },
-};
+}
