@@ -53,13 +53,13 @@
 </template>
 
 <script>
-import marked from 'marked';
-import 'viewerjs/dist/viewer.css';
-import Viewer from 'v-viewer';
-import Vue from 'vue';
-Vue.use(Viewer);
+import marked from 'marked'
+import 'viewerjs/dist/viewer.css'
+import Viewer from 'v-viewer'
+import Vue from 'vue'
+Vue.use(Viewer)
 
-import data from '@/assets/data/locations.json';
+import data from '@/assets/data/locations.json'
 
 export default {
   components: {},
@@ -68,24 +68,24 @@ export default {
       place: {},
       body: '',
       images: [],
-    };
+    }
   },
   created() {
-    this.place = data[decodeURI(this.$route.params.name)];
-    if (!this.place) this.$router.replace('/mapa');
+    this.place = data[decodeURI(this.$route.params.name)]
+    if (!this.place) this.$router.replace('/mapa')
     else {
-      this.place.name = this.$route.params.name;
+      this.place.name = this.$route.params.name
       this.place.nth =
-        Object.keys(data).indexOf(decodeURI(this.$route.params.name)) + 1;
+        Object.keys(data).indexOf(decodeURI(this.$route.params.name)) + 1
     }
 
     const md = require(`@/assets/data/articles/${this.$route.params.name}.md`)
-      .default;
-    this.body = marked(md);
+      .default
+    this.body = marked(md)
 
-    this.images = require(`@/assets/img/articles/${this.$route.params.name}/list.json`);
+    this.images = require(`@/assets/img/articles/${this.$route.params.name}/list.json`)
   },
-};
+}
 </script>
 
 <style lang="sass">
@@ -106,7 +106,7 @@ section
   top: 225px
   left: 50vw
   transform: translate(-50%, 0)
-  width: auto
+  width: 80%
   h1
     margin-top: 40px
     color: white
@@ -131,7 +131,7 @@ hr
   margin: 30px 10px
 
 .body
-  text-align: left
+  text-align: justify
   h2, h3, p
     margin-left: 10px
     margin-right: 10px

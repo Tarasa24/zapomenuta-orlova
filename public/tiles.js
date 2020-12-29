@@ -504,4 +504,4 @@ var targetCache = [
   'https://a.tile.openstreetmap.org/18/144502/89084.png',
   'https://a.tile.openstreetmap.org/18/144502/89085.png',
   'https://a.tile.openstreetmap.org/18/144502/89086.png',
-];
+]
