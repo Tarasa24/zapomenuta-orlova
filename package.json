@@ -5,9 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test": "vue-cli-service test:e2e",
-    "test-headless": "vue-cli-service test:e2e --headless",
     "format": "prettier --write .",
+    "test": "vue-cli-service test:e2e --headless && prettier --check .",
+    "test:e2e": "vue-cli-service test:e2e",
     "test:prettier": "prettier --check ."
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "register-service-worker": "^1.7.1",
     "v-viewer": "^1.5.1",
     "vue": "^2.6.11",
+    "vue-page-transition": "^0.2.2",
     "vue-router": "^3.2.0",
     "vue2-leaflet": "^2.5.2"
   },
@@ -36,5 +37,5 @@
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
-  "browserslist": [ "> 1%", "last 2 versions", "not dead" ]
+  "browserslist": ["> 1%", "last 2 versions", "not dead"]
 }

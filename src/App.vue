@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Nav />
-    <router-view />
+    <vue-page-transition name="fade">
+      <router-view />
+    </vue-page-transition>
     <Update />
   </div>
 </template>
