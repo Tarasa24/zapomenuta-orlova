@@ -51,6 +51,8 @@ V současné době slouží park k rekreaci. V areálu parku se nachází hrob R
 - V nemocnici zemřela dělnice Marie Petrová, která se účastnila orlovské stávky ze dne 4. dubna 1925, a to na následky těžkého zranění páteře po třech týdnech v orlovské nemocnici.
 - Pacientů, kteří si za pobyt v nemocnici platili, bylo při vzniku nemocnice málo. Tito soukromí pacienti se léčili za poplatek, který za Rakousko-Uherska činil pro 3. třídu 2,30 korun/den, pro 2. třídu 5 korun/den.
 
+---
+
 ### Zajímavá místa v okolí:
 
 - **Kostel Narození Panny Marie** – (uveď číslo tabulky)

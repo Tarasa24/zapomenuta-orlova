@@ -16,6 +16,8 @@ V současnosti se ve městě plyny zpracovávají v degazačním zařízení za 
 
 - Metan je zápalný pouhou jiskrou už tehdy, je-li metanu ve vzduchu více než 5 procent.
 
+---
+
 ### Zajímavá místa v okolí:
 
 - **Dělnický dům** – (uveď číslo tabulky)

@@ -40,6 +40,8 @@ Do bývalé budovy gymnázia v Orlové-Městě se nastěhovala učňovská škol
 - Na matiční slavnosti v Orlové dne 14. července 1912, která měla za úkol pokročit k zestátnění ústavu, měl hlavní projev redaktor, dramatik a spisovatel František Sokol-Tůma.
 - V současných prostorách školy se v roce 2009 natáčel seriál pro mládež 4teens z produkce České televize Ostrava.
 
+---
+
 ### Zajímavá místa v okolí:
 
 - **Bývalý dělnický dům** – (uveď číslo tabulky)

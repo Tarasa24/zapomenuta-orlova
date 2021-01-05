@@ -18,6 +18,8 @@ Zvýšenou těžbou uhlí a s tím související větší využívání těžké
 - Velice podobná nádražní budova pro přepravu osob dodnes stojí v Bystřici nad Olší, nacházející se mezi městy Třinec a Jablunkov.
 - Orlová uvažovala o znovuzavedení vlakového spojení formou vlakotramvaje. Projekt se ale nakonec kvůli vysokým nákladům dodnes nerealizoval.
 
+---
+
 ### Zajímavá místa v okolí:
 
 - **Kostel Narození Panny Marie** – tabulka (uveď číslo tabulky)

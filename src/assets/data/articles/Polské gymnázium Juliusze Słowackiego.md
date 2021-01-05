@@ -30,6 +30,8 @@ Budova gymnázia na orlovských Obrokách byla srovnána se zemí v roce 1987. J
 - Za 2. světové války budova školy Na Obrokách sloužila jiným účelům. Nejdříve zde působila hornická škola, poté německý učitelský seminář, v posledních měsících války pak vojenská nemocnice a kasárna.
 - Mezi lety 1979 – 1986 v budově bývalého gymnázia Na Obrokách sídlila provozovna podniku TESLA Valašské Meziříčí. Vyráběly se zde a montovaly reproduktorové soupravy, mikrofony a zařízení pro rozhlas po drátě.
 
+---
+
 ### Zajímavá místa v okolí
 
 - **Věčný oheň** – (uveď číslo tabulky)

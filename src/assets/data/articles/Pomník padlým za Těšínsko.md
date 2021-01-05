@@ -31,6 +31,8 @@ Po uzavření příměří v Paříži 3. února 1919 se začaly určovat hranic
 - Českoslovenští politici ustoupili od pokračování v bojích východně za Vislou také proto, že v Bílsku a okolí se nacházelo dost německých obyvatel.
 - Spojenecká komise v čele s Italy uvažovala se také o tom, že se Těšínsko stane samostatným státem. Tento kuriózní návrh se neprosadil.
 
+---
+
 ### Zajímavá místa v okolí
 
 _V areálu orlovského hřbitova:_

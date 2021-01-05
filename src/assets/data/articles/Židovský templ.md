@@ -18,6 +18,8 @@ V současnosti se v Orlové židovská obec nenachází, nejbližší se vyskytu
 
 - Jeden z přeživšího holocaustu byl známý Žid Robert Sylten narozený v Orlové, který se vždy hlásil k československé národnosti, přestože běžně hovořil německy.
 
+---
+
 ### Zajímavá místa v okolí:
 
 - **Evangelický kostel SCEAV** – (uveď číslo tabulky)

@@ -25,6 +25,8 @@ Kostel je chráněn jako kulturní památka České republiky. Konají se zde ve
 - Kostel byl za celou dobu své existence opravován nejméně šestkrát, a to v letech 1911, 1950, 1970, 1980, 1985, 2005.
 - Při generální opravě kostela v roce 1985 musely být odstraněny varhany. Nahradily je sice starší varhany (které fungují dodnes), nicméně se u nich objevují často vady. Uvažuje se o pořízení nových varhan, které by měly nahradit ty původní. Budoucí nástroj má být vybaven 2 manuály, pedálem, 12 rejstříky, tónovou i rejstříkovou mechanickou trakturou, s celkem 135 tóny.
 
+---
+
 ### Zajímavá místa v okolí:
 
 - **České reálné gymnázium** – (uveď číslo tabulky)

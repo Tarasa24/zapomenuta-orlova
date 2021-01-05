@@ -35,6 +35,8 @@ Památku obětem dodnes připomíná památník obětem stávky na Starém nám�
 - 15\. února 1930 vystoupil tehdejší komunistický poslanec Klement Gottwald na balkonu dělnického domu, kde byl zatčen před zraky několika set horníků. Později ho policejní komisařství v Karviné díky poslanecké imunitě propustilo.
 - V případě polského táboru lidu týdeník Obrana Slezska uvedl, že Poláci měli napadnout Čechy za pomocí boxer, nožů, okovaných holí s bodci a sekerkami. Týdeník také psal o nedůvěryhodné interpretaci polského sociálního demokrata Daszyńskiego a kritizoval nečinnost Petra Cingra proti útisku, na který prý jen nečinně nahlížel z okna.
 
+---
+
 ### Zajímavá místa v okolí:
 
 - **Věčný oheň** – (uveď číslo tabulky)

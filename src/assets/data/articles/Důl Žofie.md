@@ -31,6 +31,8 @@ Samotný konec hornictví na území Orlové nastal 28. listopadu 2019, kdy na D
 - V roce 2018 byl uveden film Dukla 61, mapující tragickou událost výbuchu Dolu Dukla
   v Havířově z roku 1961. Natáčelo se také v areálu Dolu Žofie.
 
+---
+
 ### Zajímavá místa v okolí:
 
 - Orlovské nádraží

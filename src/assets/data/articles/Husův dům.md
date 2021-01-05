@@ -22,6 +22,8 @@ Své aktivity provozuje sbor dodnes. Konají se zde bohoslužby a jiné nábože
 - Nedělní škola byla velice populární. Za rok 1927 měla celkovou návštěvnost přes 19 tisíc dětí rozdělených do 6 tříd.
 - Synodní senior ThDr. Josef Křenek zemřel 17 dnů po prvním znovuotevření Husova domu ve věku 64 let (zemřel 15. června 1949).
 
+---
+
 ### Zajímavá místa v okolí
 
 - **Bývalá orlovská pošta** – sídlo poštovního a telegrafního úřadu v Orlové, na ul. Františka Palackého 915, asi 150 metrů od Husova domu, dnes slouží k jiné podnikatelské činnosti.

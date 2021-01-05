@@ -35,6 +35,8 @@ V letech 1903 – 1905 byl kostel až na presbytář rozebrán a přestavěn na 
 - V jižní věži byly během rekonstrukce nalezeny dokumenty o životě obyvatel před novou výstavbou kostela.
 - Do kostela chodili také lidé z tehdy samostatných obcí Poruba a Lazy, po vlastním kostelu Lazečtí obyvatelé po kostelu netoužili z obavy na velmi pravděpodobné dosazení polského faráře.
 
+---
+
 ### Zajímavá místa v okolí:
 
 - **Bývalý orlovský zámek a zámecký park** – (uveď číslo tabulky)
