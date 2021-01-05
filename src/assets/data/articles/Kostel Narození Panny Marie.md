@@ -39,8 +39,8 @@ V letech 1903 – 1905 byl kostel až na presbytář rozebrán a přestavěn na 
 
 ### Zajímavá místa v okolí:
 
-- **Bývalý orlovský zámek a zámecký park** – (uveď číslo tabulky)
-- **Orlovské nádraží** - (uveď číslo tabulky)
+- **Bývalý orlovský zámek a zámecký park** – Tabule číslo [4](/misto/4)
+- **Orlovské nádraží** - Tabule číslo [1](/misto/1)
 - **Bývalý hotel Stern** – na ul. Nádražní 112, kdysi hotel, exteriér se secesními prvky, dnes v soukromých rukou.
 - **Budova římskokatolické farnosti** – ul. Lidická 770, sídlí zde orlovská farnost od roku 1996.
 - **Staré náměstí** - významný střed města Orlové, kde se konaly trhy, manifestace, demonstrace a další významné akce a události. Do roku 1939 ji město nevlastnilo, ale pouze si jej pronajímalo, což byl ojedinělý případ z celého Československa. Na náměstí byl 6. července 1930 přivítán československý prezident T. G. Masaryk.

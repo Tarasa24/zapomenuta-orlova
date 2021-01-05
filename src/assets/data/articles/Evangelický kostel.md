@@ -29,7 +29,7 @@ Kostel je chráněn jako kulturní památka České republiky. Konají se zde ve
 
 ### Zajímavá místa v okolí:
 
-- **České reálné gymnázium** – (uveď číslo tabulky)
-- **Židovský templ** – (uveď číslo tabulky)
+- **České reálné gymnázium** – Tabule číslo [8](/misto/8)
+- **Židovský templ** – Tabule číslo [6](/misto/6)
 - **Orlovské jámy** – černouhelné jámy, jáma č. 1 hloubena v roce 1930, jáma č. 2 v roce 1896. Likvidovány zásypem, č. 1 roku 2001, č. 2 roku 1999.
 - **Jáma Mühsam a bývalá kolonie Mühsam** – černouhelná jáma Mühsam (česky Obtížná, lidově přezdívaná „Mízam“) mezi lety 1838 – 1896. Konečná likvidace jámy v roce 2001. Naproti jámy stála kolonie Mühsam, jednalo se o kolonii s prvními závodními byty v Orlové. V 50. a 60. letech 19. století zde vzniklo 42 domů s byty pro dělníky, poslední 4 domy byly dostavěny v roce 1907. Kolonie byla zničena postupně do roku 1989.

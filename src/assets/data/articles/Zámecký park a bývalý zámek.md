@@ -55,9 +55,9 @@ V současné době slouží park k rekreaci. V areálu parku se nachází hrob R
 
 ### Zajímavá místa v okolí:
 
-- **Kostel Narození Panny Marie** – (uveď číslo tabulky)
-- **Věčný oheň** – (uveď číslo tabulky)
-- **Dělnický dům** – (uveď číslo tabulky)
+- **Kostel Narození Panny Marie** – Tabule číslo [2](/misto/2)
+- **Věčný oheň** – Tabule číslo [9](/misto/9)
+- **Dělnický dům** – Tabule číslo [3](/misto/3)
 - **Staré náměstí** - významný střed města Orlové, kde se konaly trhy, manifestace, demonstrace a další významné akce a události. Do roku 1939 ji město nevlastnilo, ale pouze si jej pronajímalo, což byl ojedinělý případ z celého Československa. Na náměstí byl 6. července 1930 přivítán československý prezident T. G. Masaryk.
 - **bývalá městská spořitelna** – funkcionalistická stavba z roku 1927 na ul. Petra Cingra 840. Sídlila zde spořitelna, svého času i knihovna. Spořitelní trezor byl uchováván ve speciální kapalině, která by zabránila zloději ke krádeži. Za socialismu byla okna z chodby nahrazená luxfery, po sametové revoluci došlo k výměně oken v přízemí a vybudována cukrárna. Budova momentálně chátrá a hledá se její další využití.
 - **ulice Petra Cingra** - hlavní ulice v Orlové, dříve s velkým podílem obchodů a služeb. Dřívější názvy hlavní třídy: Haupt Strasse, Masarykova třída, Piłsudskiego ulica, Adolf Hitler Strasse, Gottwaldova třída.

@@ -34,7 +34,7 @@ Budova gymnázia na orlovských Obrokách byla srovnána se zemí v roce 1987. J
 
 ### Zajímavá místa v okolí
 
-- **Věčný oheň** – (uveď číslo tabulky)
-- **Dělnický dům** - (uveď číslo tabulky)
-- **České gymnázium** - (uveď číslo tabulky)
+- **Věčný oheň** – Tabule číslo [9](/misto/9)
+- **Dělnický dům** - Tabule číslo [3](/misto/3)
+- **České gymnázium** - Tabule číslo [8](/misto/8)
 - **Požární zbrojnice** – na Bezručově ulici, v blízkosti se nacházelo kino Vlast.

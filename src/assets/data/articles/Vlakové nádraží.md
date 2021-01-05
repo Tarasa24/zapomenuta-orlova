@@ -22,5 +22,5 @@ Zvýšenou těžbou uhlí a s tím související větší využívání těžké
 
 ### Zajímavá místa v okolí:
 
-- **Kostel Narození Panny Marie** – tabulka (uveď číslo tabulky)
+- **Kostel Narození Panny Marie** – Tabule číslo [2](/misto/2)
 - **Bývalá orlovská jatka** – tvořena cihlovými budovami naproti cesty, do vybudování masokombinátu v Ostravě – Martinově (1963) zásoboval celý okres, poté konzervárna a pálenice pro soukromé pěstitele ovoce. Dnes jiná podnikatelská činnost.

@@ -146,8 +146,21 @@ hr
   text-align: justify
   width: calc( 100% - 20px )
   padding: 0 10px
-  li
+  ul
     margin-right: 10px
+    li
+      margin: 7.5px 0
+    a
+      background-color: $primary
+      text-decoration: none
+      color: white
+      font-weight: bold
+      font-stretch: condensed
+      border-radius: 50%
+      padding: 3px 8px
+      @include transition(background-color)
+      &:hover
+        background-color: rgba($primary, 0.7)
 
 .gallery
   width: 100%

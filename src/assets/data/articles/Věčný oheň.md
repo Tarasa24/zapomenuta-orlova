@@ -20,10 +20,10 @@ V současnosti se ve městě plyny zpracovávají v degazačním zařízení za 
 
 ### Zajímavá místa v okolí:
 
-- **Dělnický dům** – (uveď číslo tabulky)
-- **Zámecký park** – (uveď číslo tabulky)
-- **České reálné gymnázium** – (uveď číslo tabulky)
-- **Polské reálné gymnázium** – (uveď číslo tabulky)
+- **Dělnický dům** – Tabule číslo [3](/misto/3)
+- **Zámecký park** – Tabule číslo [4](/misto/4)
+- **České reálné gymnázium** – Tabule číslo [8](/misto/8)
+- **Polské reálné gymnázium** – Tabule číslo [5](/misto/5)
 - **Ulice Petra Cingra** - hlavní ulice v Orlové, dříve s velkým podílem obchodů a služeb. Dřívější názvy hlavní třídy: Haupt Strasse, Masarykova třída, Piłsudskiego ulica, Adolf Hitler Strasse, Gottwaldova třída.
 - **Orlovská pošta** – bývalé sídlo poštovního a telegrafního úřadu v Orlové, na ul. Františka Palackého 915, fungovala v období let 1932 – 1999, funkcionalistický styl, dnes jiná podnikatelská činnost.
 - **Požární zbrojnice** – ul. Bezručova 801, postavená v roce 1925, dodnes funguje Sbor dobrovolných hasičů Orlová-Město.

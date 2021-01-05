@@ -35,9 +35,9 @@ Samotný konec hornictví na území Orlové nastal 28. listopadu 2019, kdy na D
 
 ### Zajímavá místa v okolí:
 
-- Orlovské nádraží
-- kostel Narození Panny Marie
-- Pomník padlým za Těšínsko
-- Staré náměstí – významný střed města Orlové, kde se konaly trhy, manifestace, demonstrace a další významné akce a události. Do roku 1939 ji město nevlastnilo, ale pouze si jej pronajímalo, což byl ojedinělý případ z celého Československa. Na náměstí byl 6. července 1930 přivítán československý prezident T. G. Masaryk.
-- Bývalá klášterní škola – založena v roce 1877 milosrdnými sestrami řádu Karla Boromejského. Jednalo se o soukromou dívčí česko-německou školu, ve své vlastní budově nad závorami a u křižovatky od roku 1887. V roce 1946 byla na školu Místním národním výborem v Orlové uvalena národní správa, o dva roky později školu obsadila armáda. V květnu 1950 se kongregace rozhodla k opuštění budovy, a to v důsledku likvidačních zákroků proti katolické církvi. Dnes slouží objekt k podnikatelským účelům.
-- bývalá Klášterní kolonie – mezi hřbitovem a ulicí Ostravskou (silnice I/59). Pojmenována podle nedaleké klášterní školy Milosrdných sester sv. Karla Boromejského. Vystavěna v letech 1878 – 1901 pro společnost Kamenouhelné závody Orlová-Lazy. Jednalo se o první obytné stavby z režného spárovaného zdiva. Celkem 44 přízemních domků se 174 byty s vlastním vchodem. V roce 2005 domy zbourány společností OKD kvůli nevyhovujícímu stavu a výskytu žloutenky.
+- **Orlovské nádraží** - Tabule číslo [1](/misto/1)
+- **Kostel Narození Panny Marie** - Tabule číslo [2](/misto/2)
+- **Pomník padlým za Těšínsko** - Tabule číslo [11](/misto/11)
+- **Staré náměstí** – významný střed města Orlové, kde se konaly trhy, manifestace, demonstrace a další významné akce a události. Do roku 1939 ji město nevlastnilo, ale pouze si jej pronajímalo, což byl ojedinělý případ z celého Československa. Na náměstí byl 6. července 1930 přivítán československý prezident T. G. Masaryk.
+- **Bývalá klášterní škola** – založena v roce 1877 milosrdnými sestrami řádu Karla Boromejského. Jednalo se o soukromou dívčí česko-německou školu, ve své vlastní budově nad závorami a u křižovatky od roku 1887. V roce 1946 byla na školu Místním národním výborem v Orlové uvalena národní správa, o dva roky později školu obsadila armáda. V květnu 1950 se kongregace rozhodla k opuštění budovy, a to v důsledku likvidačních zákroků proti katolické církvi. Dnes slouží objekt k podnikatelským účelům.
+- **bývalá Klášterní kolonie** – mezi hřbitovem a ulicí Ostravskou (silnice I/59). Pojmenována podle nedaleké klášterní školy Milosrdných sester sv. Karla Boromejského. Vystavěna v letech 1878 – 1901 pro společnost Kamenouhelné závody Orlová-Lazy. Jednalo se o první obytné stavby z režného spárovaného zdiva. Celkem 44 přízemních domků se 174 byty s vlastním vchodem. V roce 2005 domy zbourány společností OKD kvůli nevyhovujícímu stavu a výskytu žloutenky.
