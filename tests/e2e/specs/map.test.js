@@ -7,44 +7,45 @@ describe('Map page', () => {
 
   context('Aside', () => {
     it(`Should list all locations (${Object.keys(locations).length})`, () => {
-      cy.get('aside ol')
+      cy
+        .get('aside ol')
         .children()
         .should('have.length', Object.keys(locations).length)
 
-      cy.get('aside ol')
-        .children()
-        .each(($el, index) => {
-          expect($el).to.contain(Object.keys(locations)[index])
+      cy.get('aside ol').children().each(($el, index) => {
+        expect($el).to.contain(Object.keys(locations)[index])
+      })
+    })
+
+    context('Initial state test', () => {
+      context('Mobile resolution', () => {
+        beforeEach(() => {
+          cy.viewport('iphone-7')
+          cy.reload()
         })
-    })
 
-    context('Mobile resolution initial state test', () => {
-      beforeEach(() => {
-        cy.viewport('iphone-7')
-        cy.reload()
+        it('Aside should be closed', () => {
+          cy.get('aside').should('have.class', 'closed')
+        })
+
+        after(() => {
+          cy.viewport(1000, 660)
+        })
       })
 
-      it('Aside should be closed', () => {
-        cy.get('aside').should('have.class', 'closed')
-      })
+      context('Desktop resolution initial state test', () => {
+        beforeEach(() => {
+          cy.viewport(1920, 1080)
+          cy.reload()
+        })
 
-      after(() => {
-        cy.viewport(1000, 660)
-      })
-    })
+        it('Aside should be opened', () => {
+          cy.get('aside').should('have.class', 'opened')
+        })
 
-    context('Desktop resolution initial state test', () => {
-      beforeEach(() => {
-        cy.viewport(1920, 1080)
-        cy.reload()
-      })
-
-      it('Aside should be opened', () => {
-        cy.get('aside').should('have.class', 'opened')
-      })
-
-      after(() => {
-        cy.viewport(1000, 660)
+        after(() => {
+          cy.viewport(1000, 660)
+        })
       })
     })
   })
