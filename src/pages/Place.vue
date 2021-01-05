@@ -14,6 +14,7 @@
       <h1>
         {{ place.name }}
       </h1>
+      <h4><i>{{ convertCoord(place.lat, place.lng) }}</i></h4>
     </section>
 
     <section class="body" v-html="body" />
@@ -60,6 +61,7 @@ import Vue from 'vue'
 Vue.use(Viewer)
 
 import data from '@/assets/data/locations.json'
+import { convertCoord } from '@/assets/js/helperFunctions.js'
 
 export default {
   components: {},
@@ -68,6 +70,7 @@ export default {
       place: {},
       body: '',
       images: [],
+      convertCoord: convertCoord
     }
   },
   created() {
@@ -113,11 +116,14 @@ section
     top: 150px
   h1
     margin-top: 40px
+    margin-bottom: 0
     color: white
     text-transform: uppercase
     font-size: 3.5rem
     @include small-device
       font-size: 2.25rem
+  h4 
+    color: white
   .circle
     background-color: $primary
     color: white

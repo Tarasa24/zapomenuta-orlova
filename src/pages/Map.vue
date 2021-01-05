@@ -117,6 +117,7 @@ import {
 } from 'vue2-leaflet'
 
 import data from '@/assets/data/locations.json'
+import { convertCoord } from '@/assets/js/helperFunctions.js'
 
 export default {
   name: 'Example',
@@ -135,6 +136,7 @@ export default {
       center: [49.846198, 18.429747],
       places: data,
       highlighted: null,
+      convertCoord: convertCoord
     }
   },
   watch: {
@@ -182,17 +184,6 @@ export default {
       this.center = [x, y]
 
       if (this.open && window.innerWidth < 700) this.handleClick()
-    },
-    convertCoord(NS, EW) {
-      function convertDm(dd) {
-        dd = Math.abs(dd)
-        const deg = Math.floor(dd)
-        return `${deg}° ${((dd - deg) * 60).toFixed(3)}`
-      }
-
-      return `${NS > 0 ? 'N' : 'S'} ${convertDm(NS)} ${
-        EW > 0 ? 'E' : 'W'
-      } ${convertDm(EW)}`
     },
   },
 }
