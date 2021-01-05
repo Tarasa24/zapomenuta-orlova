@@ -34,8 +34,8 @@ module.exports = {
   },
   pwa: {
     manifestOptions: {
-      name: 'Historická stezka starou Orlovou',
-      short_name: 'Stezka - Orlová',
+      name: 'Zapomenutá Orlová',
+      short_name: 'Zapomenutá Orlová',
       start_url: '/',
     },
     themeColor: '#fcba03',

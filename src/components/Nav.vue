@@ -1,7 +1,7 @@
 <template>
   <nav>
     <router-link to="/" class="logo">
-      <img class="logo" :src="require('@/assets/logo.png')" alt="logo" />
+      <img class="logo" v-lazy="require('@/assets/img/logo.webp')" alt="logo" />
     </router-link>
 
     <router-link
@@ -18,7 +18,7 @@
       rel="noopener noreferrer"
       class="orlova"
     >
-      <img :src="require('@/assets/img/orlova.png')" alt="Město Orlová logo" />
+      <img v-lazy="require('@/assets/img/orlova.webp')" alt="Město Orlová logo" />
     </a>
   </nav>
 </template>
