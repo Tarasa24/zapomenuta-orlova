@@ -95,6 +95,8 @@ export default {
   z-index: -99
   height: 450px
   object-fit: cover
+  @include small-device
+    height: 375px
 
 section
   width: 100%
@@ -107,11 +109,15 @@ section
   left: 50vw
   transform: translate(-50%, 0)
   width: 80%
+  @include small-device
+    top: 150px
   h1
     margin-top: 40px
     color: white
     text-transform: uppercase
     font-size: 3.5rem
+    @include small-device
+      font-size: 2.25rem
   .circle
     background-color: $primary
     color: white
@@ -132,8 +138,9 @@ hr
 
 .body
   text-align: justify
-  h2, h3, p
-    margin-left: 10px
+  width: calc( 100% - 20px )
+  padding: 0 10px
+  li
     margin-right: 10px
 
 .gallery

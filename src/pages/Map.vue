@@ -62,27 +62,29 @@
 
     <aside v-bind:class="{ opened: open, closed: !open }">
       <h2>Seznam</h2>
-      <ol>
-        <li v-for="(details, name) in places" :key="name">
-          <router-link :to="`/misto/${encodeURI(name)}`">{{
-            name
-          }}</router-link>
-          <button
-            class="zoom"
-            @click="
-              () => {
-                $router.push({ path: '/mapa', query: { h: name } })
-                zoomTo(details.lat, details.lng)
-                $refs[name][0].mapObject.openPopup()
-              }
-            "
-            aria-label="Přiblížit"
-            title="Přiblížit"
-          >
-            <fa :icon="['fas', 'map-marker-alt']" />
-          </button>
-        </li>
-      </ol>
+      <div class="list">
+        <ol>
+          <li v-for="(details, name) in places" :key="name">
+            <router-link :to="`/misto/${encodeURI(name)}`">{{
+              name
+            }}</router-link>
+            <button
+              class="zoom"
+              @click="
+                () => {
+                  $router.push({ path: '/mapa', query: { h: name } })
+                  zoomTo(details.lat, details.lng)
+                  $refs[name][0].mapObject.openPopup()
+                }
+              "
+              aria-label="Přiblížit"
+              title="Přiblížit"
+            >
+              <fa :icon="['fas', 'map-marker-alt']" />
+            </button>
+          </li>
+        </ol>
+      </div>
       <button
         class="sideBtn"
         v-if="open"
@@ -159,25 +161,27 @@ export default {
     })
   },
   methods: {
-    handleClick(e) {
+    handleClick() {
       const el = document.getElementsByTagName('aside')[0]
 
       el.animate(
         [
-          { left: this.open ? '0' : '-350px' },
-          { left: this.open ? '-350px' : '0' },
+          { left: this.open ? '0' : '-355px' },
+          { left: this.open ? '-355px' : '0' },
         ],
         {
           duration: 500,
           easing: 'ease-in-out',
         }
       )
-      el.style.left = this.open ? '-350px' : '0'
+      el.style.left = this.open ? '-355px' : '0'
 
       this.open = !this.open
     },
     zoomTo(x, y) {
       this.center = [x, y]
+
+      if (this.open && window.innerWidth < 700) this.handleClick()
     },
     convertCoord(NS, EW) {
       function convertDm(dd) {
@@ -211,34 +215,49 @@ aside
   position: fixed
   top: 63px
   left: 0
-  z-index: 400
-  height: calc(100vh - 63px)
-  width: 350px
+  z-index: 1001
+  width: 375px
+  min-height: 100vh
   background-color: rgba(white, 0.7)
+  display: grid
+  grid-template-columns: auto 20px
+  grid-template-rows: 45px calc( 100% - 45px )
 
   text-align: left
   h2
-    text-align: center
+    margin: 0
+    align-self: center
+    justify-self: center
   .sideBtn
-    position: absolute
-    top: 0
-    right: -20px
-    height: calc(100vh - 63px)
-    width: 20px
-
+    height: 100%
     border: 0
     color: white
-    font-EWight: bold
+    font-weight: bold
     background-color: $bg-dark
     cursor: pointer
+    position: sticky
+    right: 0
+    left: 0
+
+    grid-column: 2
+    grid-row: 1 / span 3
 
     &:hover
       background-color: black
-  li
-    font-size: 1.25rem
-    a
-      color: black
-      text-decoration: none
+  .list
+    grid-column: 1
+    grid-row: 2
+    @inclide small-device
+      overflow: auto
+      height: calc( 100% - 45px - 70px)
+    ol
+      font-size: 1.25rem
+      @include small-device-portrait
+        padding-right: 70px
+        font-size: 1rem
+      a
+        color: black
+        text-decoration: none
   .zoom
     background-color: transparent
     border: 0
@@ -247,5 +266,5 @@ aside
     color: $primary
 
 .closed
-  left: -350px
+  left: -355px
 </style>
