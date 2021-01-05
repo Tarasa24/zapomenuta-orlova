@@ -1,3 +1,5 @@
+# České gymnázium
+
 Území Těšínského Slezska bylo specifické svou skladbou obyvatel. Vedle Čechů a Němců zde žila nadpoloviční skupina Poláků, s nimiž se vedlo „soupeření mezi národy“, nejčastěji v oblasti kultury a vzdělání. Nejvíce v této soutěži vyhrávalo polské obyvatelstvo, které mimo jiné založilo v roce 1885 Matici školskou pro těšínské knížectví (oficiálně v polštině Macierz Szkolna dla Księstwa Cieszyńskiego), a teprve o čtyři roky později (1889) Češi založili Matici osvěty lidové pro knížectví Těšínské. Tyto dvě organizace se spolupodílely na vzdělání těšínského obyvatelstva, každá pro občany své národnosti.
 
 Matice osvěty lidové počítala s otevřením českého gymnázia na území Orlové. Za povolení se ve Vídni přimlouval říšský poslanec baron Rolsberg, pro zřízení JUDr. Ferdinand Pelc. Ministerstvo však nehodlalo poskytnout finanční prostředky na výstavbu českého gymnázia. První sbírka na její výstavbu se uskutečnila 18. července 1909, kde bylo vybráno 4 608 korun od 10 000 lidí. Veškeré peníze ze sbírek byly věnovány Matici osvěty lidové. Z jedné z plakátových výzev o přispění na výstavbu školy se uvádělo, že na staveniště bylo potřeba vynaložit asi 17 000 korun a na samotnou stavbu se zařízením pak 210 000 korun. Financemi přispěla i Ústřední matice školská.
@@ -16,7 +18,7 @@ Po roce 1953 došlo ke stěhování školy celkem čtyřikrát. První stěhová
 
 Do bývalé budovy gymnázia v Orlové-Městě se nastěhovala učňovská škola. Později byla kvůli důlním vlivům a chátrání srovnána se zemí v roce 1981.
 
-## Významní absolventi školy:
+# Významní absolventi školy:
 
 - **MUDr. Radim Uzel** – gynekolog, sexuolog, politik na regionální úrovnii
 - **PhDr. Miroslav Karas** - novinář, reportér a zpravodaj České televize

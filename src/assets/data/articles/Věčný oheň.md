@@ -1,3 +1,5 @@
+# Věčný oheň
+
 Dlouholetá tradice hornictví na Orlovsku měla kromě pozitivních vlivů ekonomických, vlivu zaměstnanosti a rozvoji regionu také negativní dopady. Často se v tomto případě skloňuje ve všech pádech slovo „poddolování“. Tento geologický proces však nebyl jediným strašákem nejen Ostravské pánve.
 
 V dolech se nacházela určitá koncentrace metanu, hořlavé uhlovodíkové látky plynného skupenství a lehčí než vzduch, která měla při nečekaných výbuších na svědomí několik životů. Metan se také neřízeně uvolňoval do ovzduší, hlavně z uzavřených dolů, a rovněž způsoboval značné škody. První zdokumentovaný výbuch způsobený důlními plyny pochází z roku 1890, kdy služka zatápěla v kamnech v domku nad přejezdem Košicko-bohumínské dráhy. Na následky výbuchu přítomného metanu žena za pět měsíců zemřela, mladá dívka v posteli přežila bez úhony.

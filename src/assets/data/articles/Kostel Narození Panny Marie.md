@@ -1,8 +1,10 @@
+# Kostel
+
 Novogotický římskokatolický kostel byl postaven roku 1905 namísto původního kostela z roku 1466, z nějž zůstal pouze presbytář (kněžiště). Vysvěcen byl 23. října 1906. Jméno kostel získal na základě svátku narození Panny Marie, který se slaví 8. září, protože v ten den roku 1903 byl položen základní kámen na jeho výstavbu.
 
 Kostel slouží plně svému účelu. Spadá pod římskokatolickou farnost v Orlové v ostravsko-opavské diecézi, jež má sídlo na ulici Lidické 770, hned nalevo od schodiště. Kostel je nazýván také jako „Slezské Hradčany“. Spolu se schodištěm, sochami a ohradní zdí je památkově chráněný od roku 1958.
 
-## Krátce o architektuře
+# Architektura
 
 Jedná se o trojlodní chrám s transeptem (příčnou lodí), stojí na návrší, ohrazený ohradní zdí. Ve dvou věžích se nachází 4 zvony, původně se ve věži nacházelo 6 zvonů. 2 původní zvony pochází z let 1435 a 1534 a nachází se v jižní věži. Další zvony (sv. Martina a sv. Barbory) byly posvěceny v roce 2010 a umístěny v severní věži namísto původních tří, které byly pro válečné účely sejmuty v roce 1942.
 
@@ -14,7 +16,7 @@ V interiéru jsou také vitrážová okna, ozdobná klenba a malby na stěnách,
 
 Ke kostelu vede přístupové schodiště z roku 1861, které je ve tvaru písmene Y. Po stranách doplňují 4 kamenných soch svatých v životní velikosti. Na dolní části schodiště (u cesty) se nachází dvě sochy z roku 1863, nalevo je to socha sv. Josefa a napravo socha sv. Benedikta. O 8 let později, tj. roku 1871, byly k horní části schodiště přidány další dvě sochy, nalevo je to socha sv. Hedviky a napravo socha sv. Jana Nepomuckého. Jedná se o velmi kvalitní dílenskou kamenickou práci.
 
-## Z historie
+# Historie
 
 Prvotně zde stála kaple údajně postavená za knížete Měška z rodu Piastovců. Datum zprovoznění kaple není znám. Podle pověsti se tak stalo na základě narození jeho syna Kazimíra. Měšek se svou družinou a manželkou Ludmilou se vydali na lov do zdejších lesů. Pod skalnatým návrším se nacházely duby, zde se tedy rozhodla družina s Měškem a Ludmilou odpočívat. Najednou se na nebi zjevil orel s úlovkem a ten orlovi vypadl ze zobáku a dopadl k nohám Ludmily. Měškova manželka se velice lekla a úspěšně porodila syna Kazimíra. Na tuto událost byla na návrší postavena ona zmíněná kaple, o níž je první zmínka z listiny vratislavského biskupa Vavřince z roku 1223, která je považována za první
 zmínku o Orlové. Již v té době patřila osada benediktýnskému řádu z Týnce u Krakova.

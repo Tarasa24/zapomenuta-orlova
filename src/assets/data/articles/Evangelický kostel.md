@@ -1,3 +1,5 @@
+# Evangelický kostel
+
 Vliv na evangelizaci obyvatelstva měl piastovecký kníže Václav III. Adam Těšínský, který se hlásil k evangelíkům. Benediktýnskému řádu dokonce zabavil roku 1561 orlovský kostel a předal ho protestantům, kteří zde působili do roku 1631.
 
 Evangelické vyznání se po době pobělohorské na území českých zemí potlačovalo. Jisté uvolnění nastalo roku 1781, a to na základě vydání Tolerančního patentu Josefem II, kdy byla evangelická víra povolena. V Orlové plná rovnoprávnost s katolíky nefungovala až do 40. let 19. století. Například katolický farář Metoděj Faster nařizoval protestantským dětem navštěvovat katolickou školu a ve třídách seděli odděleně. Na pohřbech zakazoval účast evangelického zpěváka, od evangelíků vybíral vyšší štolové poplatky (peníze pro kněze za liturgické úkony).

@@ -1,3 +1,5 @@
+# Židovský templ
+
 Národnostní a náboženská skladba obyvatel byla na Těšínsku pestrá. S Čechy, Poláky a Němci praktikující římskokatolickou a evangelickou víru zde žili také obyvatelé židovské národnosti. Podle sčítání lidu z roku 1910 žilo ve staré Orlové 374 obyvatel židovského vyznání, v Lazích pak 115, v Porubě 33 a v Polské (Horní) Lutyni rovněž 33 obyvatel. Početná část židovského obyvatelstva hovořila německým jazykem, proto byli při sčítáni lidu téhož roku zahrnuti k německé obcovací řeči.
 
 Židé na Orlovsku se usazovali po zrovnoprávnění po roce 1848. Narůstající počet lidí s židovským vyznáním přál ke vzniku židovského templu v Orlové (někdy bývá také nazývána jako synagoga). Novorománskou budovu s prvky maursko-orientálního stylu navrhl vídeňský architekt židovského původu Jakob Gartner, který navrhoval nejen synagogy, ale také obytné a veřejné stavby. Jeho kancelář se sídlem ve Vídni a pobočkou v Olomouci nechala postavit např. dodnes dochovanou synagogu v Trnavě, budovu spořitelny ve Šternberku nebo Porodnici císařovny Alžběty ve Vídni.

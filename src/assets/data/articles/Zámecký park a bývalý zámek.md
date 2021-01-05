@@ -1,4 +1,4 @@
-## Zámek
+# Zámek
 
 Arnošt Leberecht Bludovský v roce 1720 zdědil po Jáchymovi II. Bludovskému statek. V té době byl Arnošt Bludovský nezletilý. Spravovat zděděné statky mohl až kolem roku 1734, po němž nechal zesílit ekonomický tlak na poddané. Jeho poměrně dobré hospodářské výsledky umožnily stavbu barokního zámku u orlovského kostela a na místě staršího kláštera benediktýnek. Stavba byla započata ve čtyřicátých letech 18. století a ukončena v roce 1765. Poddané si ale stěžovali na zvyšování roboty (práce poddaných pro vrchnost) za hranou tehdejších předpisů, povstání vyvrcholilo v dubnu následujícího roku. Královská vyšetřovací komise nakonec uznala za pravdu poddaným a robota byla snížena.
 
@@ -30,7 +30,7 @@ V rámci optimalizace zdravotní péče v Moravskoslezském kraji rozhodli kraj�
 
 Zámek od února 1968 postupně chátral. Vzkřísit zámek pro kulturní účely se nakonec nepodařilo a na následky poklesů půdy a poddolování byl srovnán se zemí v roce 1975. Zámek měl v roce demolice 210. výročí.
 
-## Zámecký park
+# Zámecký park
 
 Spolu se zámkem byl také zřízen zámecký park. Původně sloužil pouze vyšší společnosti, po přebudování zámku na nemocnici začal areál sloužit jako odpočinková zóna pro pacienty. Spolu s demolicí zámku došlo k likvidaci části zámeckého parku, byly také poškozeny dřeviny. Regenerace parku proběhla od 90. let minulého století do roku 2000. Došlo k obnově parkových luk, vysadily se keře. Během těchto prací byly zasázeny také šest druhů exotických dřevin:
 

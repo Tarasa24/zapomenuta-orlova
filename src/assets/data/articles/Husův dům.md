@@ -1,3 +1,5 @@
+# Husův dům
+
 Českobratrská církev evangelická (ČCE) vznikla 17. prosince 1918 sloučením protestantských církví evangelické církve augsburského vyznání (=luteráni) a evangelické církve helvetského vyznání (=kalvinisté, zwingliáni). V čele církve je synodní rada, území je děleno do 14 seniorátů. Orlová spadá pod Moravskoslezský seniorát.
 
 V Orlové vznikl farní sbor ČCE v roce 1924. Střediskem se stal nově postavený Husův dům na ul. Františka Palackého 787. Dům byl postaven na návrh architekta a církevního pracovníka Fr. Pavlíka. Do provozu byl předán v témže roce, tehdy byla budova pouze dvoupatrová.

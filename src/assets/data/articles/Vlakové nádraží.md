@@ -1,3 +1,5 @@
+# Vlakové nádraží
+
 První úvahy o zavedení železnice mezi Košicemi a Bohumínem měl koncem 50. let 19. století těšínský arcivévodský ředitel Ludwig Hohenegger. Chtěl jednak zvýšit konkurenceschopnost vůči pruskému železu a umožnit dolům i hutím v Liptově a Spiši odbyt do třineckých železáren, jednak zvýšit odbyt černého uhlí v ostravsko-karvinském revíru, ale také zpřístupnit lázně Smokovec ve Vysokých Tatrách a zabezpečit tranzitní přepravu mezi Baltským a Černým mořem. Nákladná výstavba se započala roku 1867 belgickými podnikateli, bratry Richeovými, a o dva roky později – 1. února 1869, se otevřel první 32 kilometrový úsek Bohumín – Orlová – Těšín. Zbytek stavby převzala Anglo-rakouská banka a roku 1872 dráhu v celé délce dokončila.
 
 Po 1. světové válce se vedl spor o rozdělení Těšínska, jenž vyvrcholil Sedmidenní válkou. Košicko-bohumínská dráha pomohla budoucímu Československu získat tzv. Záolší, které patří České republice dodnes (byť s krátkou přestávkou po obsazení Těšínska Polskem počátkem října 1938 a konče osvobozením Orlové Rudou armádou od nacistů 3. května 1945).

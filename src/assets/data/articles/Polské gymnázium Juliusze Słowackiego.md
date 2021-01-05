@@ -1,3 +1,5 @@
+# Polské gymnázium
+
 Na území Těšínska se o vzdělávání početného polského obyvatelstva starala Matice školská Těšínského knížectví (polsky Macierz Szkolna dla Księstwa Cieszyńskiego) spolu s místními organizacemi. Na území dnešní Orlové se na počátku 20. století nacházelo velké množství polských škol, například průmyslová pokračovací škola, jednoroční rodinná škola, základní škola šestitřídní, mateřské školy a jiné. Mezi nimi patřilo i Polské reálné gymnázium Juliusze Słowackiego na orlovských Obrokách na ulici Dr. M. Tyrše.
 
 Valná hromada spolku Matice školské od října 1908 začala iniciovat zřízení polského reálného gymnázia na Těšínsku. Snaha Poláků na říšské radě k založení školy státem se nezdařil, a tak se Matice školská rozhodla k založení soukromé školy. Z měst Fryštát, stará Karvinná a Orlová si spolek vybral právě Orlovou. Vídeňské ministerstvo školu schválilo 7. září 1909 a vyrozumění souhlasu s výstavbou přišlo z Opavy 20. září 1909.
@@ -12,7 +14,7 @@ Po válce bylo polské gymnázium obnoveno. Na znovuobnovení poškozené školy
 
 Budova gymnázia na orlovských Obrokách byla srovnána se zemí v roce 1987. Její minulost připomíná pomník obelisku z červené švédské žuly odhalený při stém výročí založení polského gymnázia v roce 2009.
 
-## Významní absolventi školy:
+# Významní absolventi školy:
 
 - **Klemens Słowaczek** – sólista Berlínské opery, rodák ze Stonavy.
 - **Bronislav Poloczek** – český divadelní a filmový herec, rodák z Horní Suché.

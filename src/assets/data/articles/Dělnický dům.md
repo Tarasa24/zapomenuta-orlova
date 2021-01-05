@@ -1,3 +1,5 @@
+# Dělnický dům
+
 Oblast Orlovska měla bohatou kulturní, sportovní a politickou činnost, kterou se snažili provozovat lidé různého postavení ve společnosti. Politická orientace orlovského obyvatelstva za Rakousko- Uherska a první republiky směřovala doleva. Podporovatelé levice byli zpravidla dělníci a horníci, jichž bylo v roce 1930 podle sčítání lidu celkem přes 2,5 tisíce (asi 64,7 procent) ze čtyř tisíc ekonomicky aktivních obyvatel Orlové.
 
 Významným střediskem této významné skupiny obyvatelstva se stal Dělnický dům na křižovatce dnešních ulic Petra Cingra, Dr. M. Tyrše a Františka Palackého. Původní přízemní domek zakoupilo družstvo Stowarzyszenie Domu Robotniczego, jež v roce 1908 přestavělo domek na přízemní budovu se společenskými místnostmi a restaurací. Zde se projevovala nespokojenost horníků s pracovními a životními podmínkami. Vedoucí úlohu hornických stávek na přelomu 19. a 20. století měl sociálnědemokratický novinář a politik Petr Cingr, který se také účastnil tzv. táborů lidu na orlovském náměstí. Mimo to se konaly také kulturní akce, konference, výstavy, přednášky. Působil zde také sportovní kroužek Sparta.
@@ -8,7 +10,7 @@ Za významné události dělnického domu se dá považovat sjezd polského táb
 
 Dělnický dům po roce 1945 sloužil dočasně jako sídlo okresního výboru KSČ. Veškeré kulturní a společenské akce skončily v roce 1978, kdy byla budova z bezpečnostních důvodů uzavřena. O rok později, v roce 1979, došlo k demolici. Důvod byl stejný jako u všech tehdy demolovaných objektů – poddolování.
 
-## Polský tábor lidu v roce 1911
+# Polský tábor lidu v roce 1911
 
 26\. března 1911 byl svolán do dělnického domu polský tábor, aby protestoval proti údajným českým násilnostem při sčítání lidu. Podle jeho vyjádření mělo dojít ke „krádeži 50 tisíc polských duší.“
 
@@ -16,7 +18,7 @@ Nepokoje se začaly vyskytovat již 19. února téhož roku v Orlové, kdy schů
 
 Schůze začala již v 10 hodin dopoledne namísto ohlášených 15:00 hodin. Dělnický dům byl obsazen polskými delegáty (údajně také některými profesory orlovského polského reálného gymnázia se studenty z celého Těšínska), který se snažil nepouštět Čechy dovnitř. Po 14:00 hodině došlo k násilnostem, kdy Poláci začali mlátit do Čechů. Účastníci krvavého incidentu byli zatčeni.
 
-## Orlovská stávka 4. dubna 1925
+# Orlovská stávka 4. dubna 1925
 
 Přelom března a dubna roku 1925 se nesl v duchu dělnické stávky na Ostravsku organizované Komunistickou stranou Československa a Rudými odbory. Plakát z 30. Března 1925 uváděl, že se do všeobecné stávky zapojují horníci, kovodělníci a lučebníci (pracovníci chemických závodů) za zvýšení mezd.
 
