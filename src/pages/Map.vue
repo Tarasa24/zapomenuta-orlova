@@ -40,8 +40,8 @@
           :iconAnchor="[25, 50]"
           :icon-url="
             highlighted != index
-              ? require('@/assets/img/marker.png')
-              : require('@/assets/img/markerH.png')
+              ? require('@/assets/img/pin.svg')
+              : require('@/assets/img/pin_highlighted.svg')
           "
           :shadowUrl="require('@/assets/img/empty.png')"
         />
