@@ -37,8 +37,7 @@
       historických textů. A nesmíme zapomenout na pamětníky a jiné zájemce o místní historii. Děkujeme všem za informace a neustálou podporu.
     </p>
 
-    <h2>Náš tým</h2>
-
+    <h2 class="team_h">Náš tým</h2>
     <div class="team flex">
       <span>
         <img v-lazy="require('@/assets/img/about/Ondra.webp')" alt="">
@@ -84,6 +83,8 @@ export default {
 main
   padding: 2vh 7.5vw
   text-align: left
+  @include small-device
+    padding: 1vh 20px
 
 .flex
   display: flex
@@ -109,6 +110,11 @@ main
     text-decoration: none
     color: black
 
+.team_h
+  text-align: center
+  font-size: 2rem
+  margin-top: 10vh
+
 .team
   flex-flow: wrap
   span
@@ -122,11 +128,13 @@ main
       text-decoration: none
       color: grey
       margin-top: 10px
+      @include transition(color)
 
       svg
         @include transition(transform)
         margin: 0 5px
       &:hover
+        color: $primary
         svg
           transform: scale(1.25)
 </style>
