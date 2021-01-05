@@ -30,12 +30,17 @@ describe('Places pages', () => {
 
       context('Formatting', () => {
         it('Should contain contain specific headers', () => {
-          cy.get('.body').children().first().then(($first) => {
-            const txt = $first.text()
-            cy.get('.body h1').first().should(($h1) => {
-              expect($h1.text()).to.eql(txt)
+          cy.get('.body')
+            .children()
+            .first()
+            .then(($first) => {
+              const txt = $first.text()
+              cy.get('.body h1')
+                .first()
+                .should(($h1) => {
+                  expect($h1.text()).to.eql(txt)
+                })
             })
-          })
           cy.get('h3#věděli-jste-že').should('exist')
           cy.get('h3#zajímavá-místa-v-okolí').should('exist')
         })

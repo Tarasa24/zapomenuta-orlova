@@ -65,9 +65,7 @@
       <div class="list">
         <ol>
           <li v-for="([name, details], index) in places" :key="index">
-            <router-link :to="`/misto/${index + 1}`">{{
-              name
-            }}</router-link>
+            <router-link :to="`/misto/${index + 1}`">{{ name }}</router-link>
             <button
               class="zoom"
               @click="
@@ -136,7 +134,7 @@ export default {
       center: [49.846198, 18.429747],
       places: Object.entries(data),
       highlighted: null,
-      convertCoord: convertCoord
+      convertCoord: convertCoord,
     }
   },
   watch: {

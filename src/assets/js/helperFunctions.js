@@ -5,9 +5,9 @@ function convertCoord(NS, EW) {
     return `${deg}° ${((dd - deg) * 60).toFixed(3)}`
   }
 
-  return `${NS > 0 ? 'N' : 'S'} ${convertDm(NS)} ${EW > 0
-    ? 'E'
-    : 'W'} ${convertDm(EW)}`
+  return `${NS > 0 ? 'N' : 'S'} ${convertDm(NS)} ${
+    EW > 0 ? 'E' : 'W'
+  } ${convertDm(EW)}`
 }
 
 module.exports = {

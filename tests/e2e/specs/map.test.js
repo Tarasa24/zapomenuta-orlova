@@ -7,14 +7,15 @@ describe('Map page', () => {
 
   context('Aside', () => {
     it(`Should list all locations (${Object.keys(locations).length})`, () => {
-      cy
-        .get('aside ol')
+      cy.get('aside ol')
         .children()
         .should('have.length', Object.keys(locations).length)
 
-      cy.get('aside ol').children().each(($el, index) => {
-        expect($el).to.contain(Object.keys(locations)[index])
-      })
+      cy.get('aside ol')
+        .children()
+        .each(($el, index) => {
+          expect($el).to.contain(Object.keys(locations)[index])
+        })
     })
 
     context('Initial state test', () => {

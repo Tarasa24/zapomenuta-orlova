@@ -18,7 +18,10 @@
       rel="noopener noreferrer"
       class="orlova"
     >
-      <img v-lazy="require('@/assets/img/orlova.webp')" alt="Město Orlová logo" />
+      <img
+        v-lazy="require('@/assets/img/orlova.webp')"
+        alt="Město Orlová logo"
+      />
     </a>
   </nav>
 </template>

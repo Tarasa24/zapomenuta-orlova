@@ -3,7 +3,9 @@
     <img
       class="main_img"
       :src="
-        place.name ? require(`@/assets/img/articles/${place.name}/main.webp`) : require(`@/assets/img/empty.png`)
+        place.name
+          ? require(`@/assets/img/articles/${place.name}/main.webp`)
+          : require(`@/assets/img/empty.png`)
       "
       alt="background image"
     />
@@ -14,7 +16,9 @@
       <h1>
         {{ place.name }}
       </h1>
-      <h4><i>{{ convertCoord(place.lat, place.lng) }}</i></h4>
+      <h4>
+        <i>{{ convertCoord(place.lat, place.lng) }}</i>
+      </h4>
     </section>
 
     <section class="body" v-html="body" />
@@ -42,9 +46,7 @@
       >
         <img
           v-for="image in images"
-          :src="
-            require(`@/assets/img/articles/${place.name}/${image.file}`)
-          "
+          :src="require(`@/assets/img/articles/${place.name}/${image.file}`)"
           :key="image.file"
           :alt="image.alt"
         />
@@ -70,18 +72,21 @@ export default {
       place: {},
       body: '',
       images: [],
-      convertCoord: convertCoord
+      convertCoord: convertCoord,
     }
   },
   created() {
-    if (typeof Object.entries(data)[this.$route.params.index - 1] === 'undefined') this.$router.replace('/mapa') 
+    if (
+      typeof Object.entries(data)[this.$route.params.index - 1] === 'undefined'
+    )
+      this.$router.replace('/mapa')
     else {
       const [name, details] = Object.entries(data)[this.$route.params.index - 1]
       this.place = details
 
       this.place.name = name
       this.place.nth = this.$route.params.index
-          
+
       const md = require(`@/assets/data/articles/${this.place.name}.md`).default
       this.body = marked(md)
 
@@ -122,7 +127,7 @@ section
     font-size: 3.5rem
     @include small-device
       font-size: 2.25rem
-  h4 
+  h4
     color: white
   .circle
     background-color: $primary

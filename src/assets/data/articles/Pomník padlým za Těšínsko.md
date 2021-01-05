@@ -44,8 +44,8 @@ _V areálu orlovského hřbitova:_
 _Mimo areál hřbitova:_
 
 - **bývalá Klášterní kolonie** – mezi hřbitovem a ulicí Ostravskou (silnice I/59). Pojmenována podle
-nedalekého kláštera Milosrdných sester sv. Karla Boromejského. Vystavěna v letech 1878 – 1901 pro
-Společnost kamenouhelných dolů Orlová-Lazy. Jednalo se o první obytné stavby z režného
-spárovaného zdiva. Celkem 44 přízemních domků se 174 byty s vlastním vchodem. V roce 2005 domy
-zbourány společností OKD kvůli nevyhovujícímu stavu a výskytu žloutenky.
+  nedalekého kláštera Milosrdných sester sv. Karla Boromejského. Vystavěna v letech 1878 – 1901 pro
+  Společnost kamenouhelných dolů Orlová-Lazy. Jednalo se o první obytné stavby z režného
+  spárovaného zdiva. Celkem 44 přízemních domků se 174 byty s vlastním vchodem. V roce 2005 domy
+  zbourány společností OKD kvůli nevyhovujícímu stavu a výskytu žloutenky.
 - **Klášterní škola** – založena v roce 1877 milosrdnými sestrami řádu Karla Boromejského, jednalo se o soukromou dívčí česko-německou školu, ve své vlastní budově nad závorami a u křižovatky od roku 1887. Asi na přelomu 40. a 50. let 20. století byla škola státem konfiskována. Dnes slouží k podnikatelské činnosti.
