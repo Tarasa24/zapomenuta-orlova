@@ -3,7 +3,7 @@
     <img
       class="main_img"
       :src="
-        require(`@/assets/img/articles/${this.$route.params.name}/main.webp`)
+        place.name ? require(`@/assets/img/articles/${place.name}/main.webp`) : require(`@/assets/img/empty.png`)
       "
       alt="background image"
     />
@@ -43,7 +43,7 @@
         <img
           v-for="image in images"
           :src="
-            require(`@/assets/img/articles/${$route.params.name}/${image.file}`)
+            require(`@/assets/img/articles/${place.name}/${image.file}`)
           "
           :key="image.file"
           :alt="image.alt"
@@ -74,19 +74,19 @@ export default {
     }
   },
   created() {
-    this.place = data[decodeURI(this.$route.params.name)]
-    if (!this.place) this.$router.replace('/mapa')
+    if (typeof Object.entries(data)[this.$route.params.index - 1] === 'undefined') this.$router.replace('/mapa') 
     else {
-      this.place.name = this.$route.params.name
-      this.place.nth =
-        Object.keys(data).indexOf(decodeURI(this.$route.params.name)) + 1
+      const [name, details] = Object.entries(data)[this.$route.params.index - 1]
+      this.place = details
+
+      this.place.name = name
+      this.place.nth = this.$route.params.index
+          
+      const md = require(`@/assets/data/articles/${this.place.name}.md`).default
+      this.body = marked(md)
+
+      this.images = require(`@/assets/img/articles/${this.place.name}/list.json`)
     }
-
-    const md = require(`@/assets/data/articles/${this.$route.params.name}.md`)
-      .default
-    this.body = marked(md)
-
-    this.images = require(`@/assets/img/articles/${this.$route.params.name}/list.json`)
   },
 }
 </script>
@@ -150,7 +150,7 @@ hr
     margin-right: 10px
 
 .gallery
-  width: calc( 100% - 20px )
+  width: 100%
   overflow-x: auto
   display: flex
   margin-bottom: 20px

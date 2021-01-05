@@ -52,9 +52,11 @@ describe('Map page', () => {
 
   context('Map', () => {
     it('Should open popup with each query param', () => {
-      for (const [key, value] of Object.entries(locations)) {
-        cy.visit('/mapa?h=' + encodeURI(key))
+      let index = 0
+      for (const [place, details] in Object.entries(locations)) {
+        cy.visit('/mapa?h=' + (index + 1))
         cy.get('.leaflet-popup-content').should('exist')
+        index++
       }
     })
   })

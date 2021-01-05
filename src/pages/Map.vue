@@ -23,30 +23,30 @@
       <l-control-zoom position="topright" />
       <l-control-scale position="bottomright" :imperial="false" />
       <l-marker
-        v-for="(details, name, index) in places"
+        v-for="([name, details], index) in places"
         :key="name"
         :lat-lng="[details.lat, details.lng]"
         @click="
           () => {
-            $router.push({ path: '/mapa', query: { h: name } })
+            $router.push({ path: '/mapa', query: { h: index + 1 } })
             zoomTo(details.lat, details.lng)
           }
         "
-        :ref="name"
+        :ref="index"
       >
         <l-icon
           :popupAnchor="[0, -50]"
           :iconSize="[50, 50]"
           :iconAnchor="[25, 50]"
           :icon-url="
-            highlighted != name
+            highlighted != index
               ? require('@/assets/img/marker.png')
               : require('@/assets/img/markerH.png')
           "
           :shadowUrl="require('@/assets/img/empty.png')"
         />
         <l-popup class="popup">
-          <router-link :to="`/misto/${encodeURI(name)}`">
+          <router-link :to="`/misto/${index + 1}`">
             <b>{{ index + 1 }}.{{ name }}</b>
             <br />
             <i>{{ convertCoord(details.lat, details.lng) }}</i>
@@ -64,17 +64,17 @@
       <h2>Seznam</h2>
       <div class="list">
         <ol>
-          <li v-for="(details, name) in places" :key="name">
-            <router-link :to="`/misto/${encodeURI(name)}`">{{
+          <li v-for="([name, details], index) in places" :key="index">
+            <router-link :to="`/misto/${index + 1}`">{{
               name
             }}</router-link>
             <button
               class="zoom"
               @click="
                 () => {
-                  $router.push({ path: '/mapa', query: { h: name } })
+                  $router.push({ path: '/mapa', query: { h: index + 1 } })
                   zoomTo(details.lat, details.lng)
-                  $refs[name][0].mapObject.openPopup()
+                  $refs[index][0].mapObject.openPopup()
                 }
               "
               aria-label="Přiblížit"
@@ -134,22 +134,22 @@ export default {
     return {
       open: window.innerWidth >= 700,
       center: [49.846198, 18.429747],
-      places: data,
+      places: Object.entries(data),
       highlighted: null,
       convertCoord: convertCoord
     }
   },
   watch: {
     '$route.query.h': function () {
-      this.highlighted = this.$route.query.h
+      this.highlighted = this.$route.query.h - 1
     },
   },
   created() {
-    this.highlighted = this.$route.query.h
-    if (this.highlighted) {
+    this.highlighted = this.$route.query.h - 1
+    if (this.$route.query.h) {
       this.center = [
-        this.places[this.highlighted].lat,
-        this.places[this.highlighted].lng,
+        this.places[this.highlighted][1].lat,
+        this.places[this.highlighted][1].lng,
       ]
       this.$nextTick(() => {
         this.$refs[this.highlighted][0].mapObject.openPopup()

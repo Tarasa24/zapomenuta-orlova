@@ -14,17 +14,17 @@ function normalize(str) {
 }
 
 describe('Places pages', () => {
-  for (const [key, value] of Object.entries(locations)) {
-    context(normalize(key), () => {
+  for (const i in Object.entries(locations)) {
+    const index = Number(i)
+    const place = Object.entries(locations)[index][0]
+    context(normalize(place), () => {
       before(() => {
-        cy.visit('/misto/' + encodeURI(key))
+        cy.visit('/misto/' + Number(index + 1))
       })
 
       it('Should have correct header, index number and coordinates', () => {
-        cy
-          .get('.head .circle')
-          .should('contain', Object.keys(locations).indexOf(key) + 1)
-        cy.get('.head h1').should('contain', key)
+        cy.get('.head .circle').should('contain', index + 1)
+        cy.get('.head h1').should('contain', place)
         cy.get('.head i').should('exist')
       })
 
@@ -56,7 +56,7 @@ describe('Places pages', () => {
           cy.get('.gallery').should('exist')
         })
 
-        const list = require(`../../../src/assets/img/articles/${key}/list.json`)
+        const list = require(`../../../src/assets/img/articles/${place}/list.json`)
         it(`Gallery should have ${list.length} element(s)`, () => {
           cy.get('.gallery img').should('have.length', list.length)
         })
