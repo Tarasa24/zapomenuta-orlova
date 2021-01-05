@@ -3,13 +3,23 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router.js'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faMapMarkerAlt, faTimes } from '@fortawesome/free-solid-svg-icons'
+import {
+  faMapMarkerAlt,
+  faTimes,
+  faEnvelope,
+  faGlobe,
+} from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VuePageTransition from 'vue-page-transition'
+import VueLazyload from 'vue-lazyload'
 
-library.add(faMapMarkerAlt, faTimes)
+library.add(faMapMarkerAlt, faTimes, faEnvelope, faGithub, faGlobe)
 Vue.component('fa', FontAwesomeIcon)
 Vue.use(VuePageTransition)
+Vue.use(VueLazyload, {
+  loading: require('./assets/img/loading.svg'),
+})
 
 import 'leaflet/dist/leaflet.css'
 

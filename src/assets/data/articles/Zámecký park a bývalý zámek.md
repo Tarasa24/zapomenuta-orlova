@@ -1,4 +1,4 @@
-## Zámek
+# Zámek
 
 Arnošt Leberecht Bludovský v roce 1720 zdědil po Jáchymovi II. Bludovskému statek. V té době byl Arnošt Bludovský nezletilý. Spravovat zděděné statky mohl až kolem roku 1734, po němž nechal zesílit ekonomický tlak na poddané. Jeho poměrně dobré hospodářské výsledky umožnily stavbu barokního zámku u orlovského kostela a na místě staršího kláštera benediktýnek. Stavba byla započata ve čtyřicátých letech 18. století a ukončena v roce 1765. Poddané si ale stěžovali na zvyšování roboty (práce poddaných pro vrchnost) za hranou tehdejších předpisů, povstání vyvrcholilo v dubnu následujícího roku. Královská vyšetřovací komise nakonec uznala za pravdu poddaným a robota byla snížena.
 
@@ -30,7 +30,7 @@ V rámci optimalizace zdravotní péče v Moravskoslezském kraji rozhodli kraj�
 
 Zámek od února 1968 postupně chátral. Vzkřísit zámek pro kulturní účely se nakonec nepodařilo a na následky poklesů půdy a poddolování byl srovnán se zemí v roce 1975. Zámek měl v roce demolice 210. výročí.
 
-## Zámecký park
+# Zámecký park
 
 Spolu se zámkem byl také zřízen zámecký park. Původně sloužil pouze vyšší společnosti, po přebudování zámku na nemocnici začal areál sloužit jako odpočinková zóna pro pacienty. Spolu s demolicí zámku došlo k likvidaci části zámeckého parku, byly také poškozeny dřeviny. Regenerace parku proběhla od 90. let minulého století do roku 2000. Došlo k obnově parkových luk, vysadily se keře. Během těchto prací byly zasázeny také šest druhů exotických dřevin:
 
@@ -51,11 +51,13 @@ V současné době slouží park k rekreaci. V areálu parku se nachází hrob R
 - V nemocnici zemřela dělnice Marie Petrová, která se účastnila orlovské stávky ze dne 4. dubna 1925, a to na následky těžkého zranění páteře po třech týdnech v orlovské nemocnici.
 - Pacientů, kteří si za pobyt v nemocnici platili, bylo při vzniku nemocnice málo. Tito soukromí pacienti se léčili za poplatek, který za Rakousko-Uherska činil pro 3. třídu 2,30 korun/den, pro 2. třídu 5 korun/den.
 
+---
+
 ### Zajímavá místa v okolí:
 
-- **Kostel Narození Panny Marie** – (uveď číslo tabulky)
-- **Věčný oheň** – (uveď číslo tabulky)
-- **Dělnický dům** – (uveď číslo tabulky)
+- **Kostel Narození Panny Marie** – Tabule číslo [2](/misto/2)
+- **Věčný oheň** – Tabule číslo [9](/misto/9)
+- **Dělnický dům** – Tabule číslo [3](/misto/3)
 - **Staré náměstí** - významný střed města Orlové, kde se konaly trhy, manifestace, demonstrace a další významné akce a události. Do roku 1939 ji město nevlastnilo, ale pouze si jej pronajímalo, což byl ojedinělý případ z celého Československa. Na náměstí byl 6. července 1930 přivítán československý prezident T. G. Masaryk.
 - **bývalá městská spořitelna** – funkcionalistická stavba z roku 1927 na ul. Petra Cingra 840. Sídlila zde spořitelna, svého času i knihovna. Spořitelní trezor byl uchováván ve speciální kapalině, která by zabránila zloději ke krádeži. Za socialismu byla okna z chodby nahrazená luxfery, po sametové revoluci došlo k výměně oken v přízemí a vybudována cukrárna. Budova momentálně chátrá a hledá se její další využití.
 - **ulice Petra Cingra** - hlavní ulice v Orlové, dříve s velkým podílem obchodů a služeb. Dřívější názvy hlavní třídy: Haupt Strasse, Masarykova třída, Piłsudskiego ulica, Adolf Hitler Strasse, Gottwaldova třída.

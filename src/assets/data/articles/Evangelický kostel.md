@@ -1,3 +1,5 @@
+# Evangelický kostel
+
 Vliv na evangelizaci obyvatelstva měl piastovecký kníže Václav III. Adam Těšínský, který se hlásil k evangelíkům. Benediktýnskému řádu dokonce zabavil roku 1561 orlovský kostel a předal ho protestantům, kteří zde působili do roku 1631.
 
 Evangelické vyznání se po době pobělohorské na území českých zemí potlačovalo. Jisté uvolnění nastalo roku 1781, a to na základě vydání Tolerančního patentu Josefem II, kdy byla evangelická víra povolena. V Orlové plná rovnoprávnost s katolíky nefungovala až do 40. let 19. století. Například katolický farář Metoděj Faster nařizoval protestantským dětem navštěvovat katolickou školu a ve třídách seděli odděleně. Na pohřbech zakazoval účast evangelického zpěváka, od evangelíků vybíral vyšší štolové poplatky (peníze pro kněze za liturgické úkony).
@@ -23,9 +25,11 @@ Kostel je chráněn jako kulturní památka České republiky. Konají se zde ve
 - Kostel byl za celou dobu své existence opravován nejméně šestkrát, a to v letech 1911, 1950, 1970, 1980, 1985, 2005.
 - Při generální opravě kostela v roce 1985 musely být odstraněny varhany. Nahradily je sice starší varhany (které fungují dodnes), nicméně se u nich objevují často vady. Uvažuje se o pořízení nových varhan, které by měly nahradit ty původní. Budoucí nástroj má být vybaven 2 manuály, pedálem, 12 rejstříky, tónovou i rejstříkovou mechanickou trakturou, s celkem 135 tóny.
 
+---
+
 ### Zajímavá místa v okolí:
 
-- **České reálné gymnázium** – (uveď číslo tabulky)
-- **Židovský templ** – (uveď číslo tabulky)
+- **České reálné gymnázium** – Tabule číslo [8](/misto/8)
+- **Židovský templ** – Tabule číslo [6](/misto/6)
 - **Orlovské jámy** – černouhelné jámy, jáma č. 1 hloubena v roce 1930, jáma č. 2 v roce 1896. Likvidovány zásypem, č. 1 roku 2001, č. 2 roku 1999.
 - **Jáma Mühsam a bývalá kolonie Mühsam** – černouhelná jáma Mühsam (česky Obtížná, lidově přezdívaná „Mízam“) mezi lety 1838 – 1896. Konečná likvidace jámy v roce 2001. Naproti jámy stála kolonie Mühsam, jednalo se o kolonii s prvními závodními byty v Orlové. V 50. a 60. letech 19. století zde vzniklo 42 domů s byty pro dělníky, poslední 4 domy byly dostavěny v roce 1907. Kolonie byla zničena postupně do roku 1989.

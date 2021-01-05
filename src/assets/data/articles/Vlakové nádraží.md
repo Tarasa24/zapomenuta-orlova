@@ -1,3 +1,5 @@
+# Vlakové nádraží
+
 První úvahy o zavedení železnice mezi Košicemi a Bohumínem měl koncem 50. let 19. století těšínský arcivévodský ředitel Ludwig Hohenegger. Chtěl jednak zvýšit konkurenceschopnost vůči pruskému železu a umožnit dolům i hutím v Liptově a Spiši odbyt do třineckých železáren, jednak zvýšit odbyt černého uhlí v ostravsko-karvinském revíru, ale také zpřístupnit lázně Smokovec ve Vysokých Tatrách a zabezpečit tranzitní přepravu mezi Baltským a Černým mořem. Nákladná výstavba se započala roku 1867 belgickými podnikateli, bratry Richeovými, a o dva roky později – 1. února 1869, se otevřel první 32 kilometrový úsek Bohumín – Orlová – Těšín. Zbytek stavby převzala Anglo-rakouská banka a roku 1872 dráhu v celé délce dokončila.
 
 Po 1. světové válce se vedl spor o rozdělení Těšínska, jenž vyvrcholil Sedmidenní válkou. Košicko-bohumínská dráha pomohla budoucímu Československu získat tzv. Záolší, které patří České republice dodnes (byť s krátkou přestávkou po obsazení Těšínska Polskem počátkem října 1938 a konče osvobozením Orlové Rudou armádou od nacistů 3. května 1945).
@@ -16,7 +18,9 @@ Zvýšenou těžbou uhlí a s tím související větší využívání těžké
 - Velice podobná nádražní budova pro přepravu osob dodnes stojí v Bystřici nad Olší, nacházející se mezi městy Třinec a Jablunkov.
 - Orlová uvažovala o znovuzavedení vlakového spojení formou vlakotramvaje. Projekt se ale nakonec kvůli vysokým nákladům dodnes nerealizoval.
 
+---
+
 ### Zajímavá místa v okolí:
 
-- **Kostel Narození Panny Marie** – tabulka (uveď číslo tabulky)
+- **Kostel Narození Panny Marie** – Tabule číslo [2](/misto/2)
 - **Bývalá orlovská jatka** – tvořena cihlovými budovami naproti cesty, do vybudování masokombinátu v Ostravě – Martinově (1963) zásoboval celý okres, poté konzervárna a pálenice pro soukromé pěstitele ovoce. Dnes jiná podnikatelská činnost.

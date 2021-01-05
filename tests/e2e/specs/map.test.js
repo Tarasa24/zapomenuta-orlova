@@ -18,42 +18,46 @@ describe('Map page', () => {
         })
     })
 
-    context('Mobile resolution initial state test', () => {
-      beforeEach(() => {
-        cy.viewport('iphone-7')
-        cy.reload()
+    context('Initial state test', () => {
+      context('Mobile resolution', () => {
+        beforeEach(() => {
+          cy.viewport('iphone-7')
+          cy.reload()
+        })
+
+        it('Aside should be closed', () => {
+          cy.get('aside').should('have.class', 'closed')
+        })
+
+        after(() => {
+          cy.viewport(1000, 660)
+        })
       })
 
-      it('Aside should be closed', () => {
-        cy.get('aside').should('have.class', 'closed')
-      })
+      context('Desktop resolution initial state test', () => {
+        beforeEach(() => {
+          cy.viewport(1920, 1080)
+          cy.reload()
+        })
 
-      after(() => {
-        cy.viewport(1000, 660)
-      })
-    })
+        it('Aside should be opened', () => {
+          cy.get('aside').should('have.class', 'opened')
+        })
 
-    context('Desktop resolution initial state test', () => {
-      beforeEach(() => {
-        cy.viewport(1920, 1080)
-        cy.reload()
-      })
-
-      it('Aside should be opened', () => {
-        cy.get('aside').should('have.class', 'opened')
-      })
-
-      after(() => {
-        cy.viewport(1000, 660)
+        after(() => {
+          cy.viewport(1000, 660)
+        })
       })
     })
   })
 
   context('Map', () => {
     it('Should open popup with each query param', () => {
-      for (const [key, value] of Object.entries(locations)) {
-        cy.visit('/mapa?h=' + encodeURI(key))
+      let index = 0
+      for (const [place, details] in Object.entries(locations)) {
+        cy.visit('/mapa?h=' + (index + 1))
         cy.get('.leaflet-popup-content').should('exist')
+        index++
       }
     })
   })

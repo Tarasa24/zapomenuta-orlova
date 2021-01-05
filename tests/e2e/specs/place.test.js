@@ -14,38 +14,62 @@ function normalize(str) {
 }
 
 describe('Places pages', () => {
-  for (const [key, value] of Object.entries(locations)) {
-    context(normalize(key), () => {
+  for (const i in Object.entries(locations)) {
+    const index = Number(i)
+    const place = Object.entries(locations)[index][0]
+    context(normalize(place), () => {
       before(() => {
-        cy.visit('/misto/' + encodeURI(key))
+        cy.visit('/misto/' + Number(index + 1))
       })
 
-      it('Should have correct header and index number', () => {
-        cy.get('.circle').should(
-          'contain',
-          Object.keys(locations).indexOf(key) + 1
-        )
-        cy.get('h1').should('contain', key)
+      it('Should have correct header, index number and coordinates', () => {
+        cy.get('.head .circle').should('contain', index + 1)
+        cy.get('.head h1').should('contain', place)
+        cy.get('.head i').should('exist')
       })
 
-      it('Paragraphs should be aligned to block (as per popular request)', () => {
-        cy.get('.body p').each(($el) => {
-          expect($el).to.have.css('text-align', 'justify')
+      context('Formatting', () => {
+        it('Should contain contain specific headers', () => {
+          cy.get('.body')
+            .children()
+            .first()
+            .then(($first) => {
+              const txt = $first.text()
+              cy.get('.body h1')
+                .first()
+                .should(($h1) => {
+                  expect($h1.text()).to.eql(txt)
+                })
+            })
+          cy.get('h3#věděli-jste-že').should('exist')
+          cy.get('h3#zajímavá-místa-v-okolí').should('exist')
+        })
+
+        it('Paragraphs should be aligned to block (as per popular request)', () => {
+          cy.get('.body p').each(($el) => {
+            expect($el).to.have.css('text-align', 'justify')
+          })
+        })
+
+        it('Should contain hr three times', () => {
+          cy.get('hr').its('length').should('eq', 3)
         })
       })
 
-      it('Should contain contain specific headers', () => {
-        cy.get('h3#věděli-jste-že').should('exist')
-        cy.get('h3#zajímavá-místa-v-okolí').should('exist')
-      })
+      context('Gallery', () => {
+        it('Should contain gallery', () => {
+          cy.get('.gallery').should('exist')
+        })
 
-      it('Should contain gallery', () => {
-        cy.get('.gallery').should('exist')
-      })
+        const list = require(`../../../src/assets/img/articles/${place}/list.json`)
+        it(`Gallery should have ${list.length} element(s)`, () => {
+          cy.get('.gallery img').should('have.length', list.length)
+        })
 
-      const list = require(`../../../src/assets/img/articles/${key}/list.json`)
-      it(`Gallery should have ${list.length} element(s)`, () => {
-        cy.get('.gallery img').should('have.length', list.length)
+        it('Minimap should be first and main picture second', () => {
+          expect(list[0].file).to.eql('map.webp')
+          expect(list[1].file).to.eql('main.webp')
+        })
       })
     })
   }

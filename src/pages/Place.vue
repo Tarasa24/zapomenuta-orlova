@@ -3,7 +3,9 @@
     <img
       class="main_img"
       :src="
-        require(`@/assets/img/articles/${this.$route.params.name}/main.webp`)
+        place.name
+          ? require(`@/assets/img/articles/${place.name}/main.webp`)
+          : require(`@/assets/img/empty.png`)
       "
       alt="background image"
     />
@@ -14,6 +16,9 @@
       <h1>
         {{ place.name }}
       </h1>
+      <h4>
+        <i>{{ convertCoord(place.lat, place.lng) }}</i>
+      </h4>
     </section>
 
     <section class="body" v-html="body" />
@@ -41,9 +46,7 @@
       >
         <img
           v-for="image in images"
-          :src="
-            require(`@/assets/img/articles/${$route.params.name}/${image.file}`)
-          "
+          :src="require(`@/assets/img/articles/${place.name}/${image.file}`)"
           :key="image.file"
           :alt="image.alt"
         />
@@ -60,6 +63,7 @@ import Vue from 'vue'
 Vue.use(Viewer)
 
 import data from '@/assets/data/locations.json'
+import { convertCoord } from '@/assets/js/helperFunctions.js'
 
 export default {
   components: {},
@@ -68,22 +72,26 @@ export default {
       place: {},
       body: '',
       images: [],
+      convertCoord: convertCoord,
     }
   },
   created() {
-    this.place = data[decodeURI(this.$route.params.name)]
-    if (!this.place) this.$router.replace('/mapa')
+    if (
+      typeof Object.entries(data)[this.$route.params.index - 1] === 'undefined'
+    )
+      this.$router.replace('/mapa')
     else {
-      this.place.name = this.$route.params.name
-      this.place.nth =
-        Object.keys(data).indexOf(decodeURI(this.$route.params.name)) + 1
+      const [name, details] = Object.entries(data)[this.$route.params.index - 1]
+      this.place = details
+
+      this.place.name = name
+      this.place.nth = this.$route.params.index
+
+      const md = require(`@/assets/data/articles/${this.place.name}.md`).default
+      this.body = marked(md)
+
+      this.images = require(`@/assets/img/articles/${this.place.name}/list.json`)
     }
-
-    const md = require(`@/assets/data/articles/${this.$route.params.name}.md`)
-      .default
-    this.body = marked(md)
-
-    this.images = require(`@/assets/img/articles/${this.$route.params.name}/list.json`)
   },
 }
 </script>
@@ -95,6 +103,8 @@ export default {
   z-index: -99
   height: 450px
   object-fit: cover
+  @include small-device
+    height: 375px
 
 section
   width: 100%
@@ -107,11 +117,18 @@ section
   left: 50vw
   transform: translate(-50%, 0)
   width: 80%
+  @include small-device
+    top: 150px
   h1
     margin-top: 40px
+    margin-bottom: 0
     color: white
     text-transform: uppercase
     font-size: 3.5rem
+    @include small-device
+      font-size: 2.25rem
+  h4
+    color: white
   .circle
     background-color: $primary
     color: white
@@ -132,12 +149,26 @@ hr
 
 .body
   text-align: justify
-  h2, h3, p
-    margin-left: 10px
+  width: calc( 100% - 20px )
+  padding: 0 10px
+  ul
     margin-right: 10px
+    li
+      margin: 7.5px 0
+    a
+      background-color: $primary
+      text-decoration: none
+      color: white
+      font-weight: bold
+      font-stretch: condensed
+      border-radius: 50%
+      padding: 3px 8px
+      @include transition(background-color)
+      &:hover
+        background-color: rgba($primary, 0.7)
 
 .gallery
-  width: calc( 100% - 20px )
+  width: 100%
   overflow-x: auto
   display: flex
   margin-bottom: 20px

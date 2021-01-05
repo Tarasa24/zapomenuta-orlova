@@ -1,1 +1,4 @@
-[{ "file": "main.webp", "alt": "" }]
+[
+  { "file": "map.webp", "alt": "" },
+  { "file": "main.webp", "alt": "" }
+]

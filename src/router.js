@@ -12,13 +12,18 @@ const routes = [
   },
   {
     path: '/mapa',
-    name: 'Mapa',
+    name: 'Map',
     component: () => import('./pages/Map.vue'),
   },
   {
-    path: '/misto/:name',
-    name: 'Místo',
+    path: '/misto/:index',
+    name: 'Place',
     component: () => import('./pages/Place.vue'),
+  },
+  {
+    path: '/o-projektu',
+    name: 'About',
+    component: () => import('./pages/About.vue'),
   },
   {
     path: '*',
