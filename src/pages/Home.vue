@@ -23,7 +23,7 @@
 
     <div class="parallax" :style="{backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[0]})`}"/>
 
-    <section class="segment2 flex" id="aplikace">
+    <section class="flex" id="aplikace">
       <img v-lazy="require('@/assets/img/home/download.svg')" alt="">
       <div>
         <h2>APLIKACE</h2>
@@ -46,7 +46,7 @@
 
     <div class="parallax" :style="{backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[1]})`}"/>
 
-    <section class="segment3" id="outdoor">
+    <section id="outdoor">
       <div>
         <h2>OUTDOOROVÉ HRY</h2>
         <p>Součástí historických cedulí je i série geokeší Zapomenutá Orlová v outdooorové hře Geocaching. Doprovází je také štítky hry Munzee.</p>
@@ -75,7 +75,7 @@
 
     <div class="parallax" :style="{backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[2]})`}"/>
 
-    <section class="segment4 flex" id="mapa">
+    <section class="flex" id="mapa">
       <img v-lazy="require('@/assets/img/home/map.svg')" alt="">
       <div>
         <h2>MAPA</h2>
@@ -191,11 +191,11 @@ section
     b
       font-size: 1rem
 
-.segment1, .segment2
+.segment1, #aplikace
   a
     text-decoration: none
 
-.segment2, .segment4
+#aplikace, #mapa
   @include small-device-portrait
     display: grid
   h2
@@ -211,7 +211,7 @@ section
     @include small-device
       font-size: 2rem
 
-.segment3
+#outdoor
   h2
     @include small-device-landscape
       font-size: 2.2rem
