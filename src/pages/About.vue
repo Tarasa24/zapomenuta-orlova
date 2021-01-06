@@ -13,25 +13,6 @@
       Jedná se i zcela studentský projekt, který bylo možné uskutečnit za pomoci
       participativního rozpočtu Města Orlové.
     </p>
-    <p>
-      Součástí historických cedulí je i série geokeší Zapomenutá Orlová v
-      outdooorové hře Geocaching. Doprovází je také štítky hry Munzee.
-    </p>
-
-    <div class="games flex">
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        <span>
-          <img v-lazy="require('@/assets/img/about/geocaching.webp')" alt="" />
-          <b>Geocaching</b>
-        </span>
-      </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        <span>
-          <img v-lazy="require('@/assets/img/about/munzee.webp')" alt="" />
-          <b>Munzee</b>
-        </span>
-      </a>
-    </div>
 
     <h2>Poděkování</h2>
     <p>
@@ -105,6 +86,8 @@ export default {}
 
 <style lang="sass" scoped>
 main
+  max-width: 1300px
+  margin: auto
   padding: 2vh 7.5vw
   text-align: left
   @include small-device
@@ -122,17 +105,6 @@ main
   span
     display: grid
     justify-items: center
-
-.games
-  img
-    border-radius: 25%
-  span
-    @include transition(transform)
-    &:hover
-      transform: scale(.95)
-  a
-    text-decoration: none
-    color: black
 
 .team_h
   text-align: center

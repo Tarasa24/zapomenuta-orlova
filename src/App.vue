@@ -17,6 +17,21 @@ export default {
     Nav,
     Update,
   },
+  mounted() {
+    const c = [
+      String.raw`  ______                                            _    __     ____       _             __  `,
+      String.raw` |___  /                                           | |  /_/    / __ \     | |           /_/  `,
+      String.raw`    / / __ _ _ __   ___  _ __ ___   ___ _ __  _   _| |_ __ _  | |  | |_ __| | _____   ____ _ `,
+      String.raw`   / / / _' | '_ \ / _ \| '_ ' _ \ / _ \ '_ \| | | | __/ _' | | |  | | '__| |/ _ \ \ / / _' |`,
+      String.raw`  / /_| (_| | |_) | (_) | | | | | |  __/ | | | |_| | || (_| | | |__| | |  | | (_) \ V / (_| |`,
+      String.raw` /_____\__,_| .__/ \___/|_| |_| |_|\___|_| |_|\__,_|\__\__,_|  \____/|_|  |_|\___/ \_/ \__,_|`,
+      String.raw`            | |                                                                              `,
+      String.raw`            |_|                                                                              `,
+    ]
+    c.forEach((e) => {
+      document.appendChild(document.createComment(e))
+    })
+  },
 }
 </script>
 
@@ -27,8 +42,9 @@ export default {
   -moz-osx-font-smoothing: grayscale
   text-align: center
 
+html
+  scroll-behavior: smooth
+
 body
   margin: 0
-  background: $grey
-  background-image: linear-gradient(90deg, rgba($grey,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba($grey,1) 100%), linear-gradient(0deg, rgba($grey,1) 0%, rgba(255,255,255,1) 15%)
 </style>
