@@ -2,58 +2,74 @@
   <main>
     <section class="segment1 flex">
       <div>
-        <img v-lazy="require('@/assets/img/logo.webp')" alt="">
+        <img v-lazy="require('@/assets/img/logo.webp')" alt="" />
         <h1>ZAPOMENUTÁ ORLOVÁ</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          fringilla neque ac felis egestas eleifend. Vestibulum molestie convallis
-          arcu vitae porta. Fusce nec lorem odio. Nullam at nulla eu ante
-          tristique egestas. Aliquam et orci porta ligula interdum rutrum. Sed
-          mattis massa sodales tortor pellentesque pretium. Integer at placerat
-          risus.
+          fringilla neque ac felis egestas eleifend. Vestibulum molestie
+          convallis arcu vitae porta. Fusce nec lorem odio. Nullam at nulla eu
+          ante tristique egestas. Aliquam et orci porta ligula interdum rutrum.
+          Sed mattis massa sodales tortor pellentesque pretium. Integer at
+          placerat risus.
         </p>
         <a href="#aplikace">
           <button>
             <b>APLIKACE</b>
-            <fa :icon="['fas', 'chevron-down']"/>
+            <fa :icon="['fas', 'chevron-down']" />
           </button>
         </a>
       </div>
     </section>
 
-    <div class="parallax" :style="{backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[0]})`}"/>
+    <div
+      class="parallax"
+      :style="{
+        backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[0]})`,
+      }"
+    />
 
     <section class="flex" id="aplikace">
-      <img v-lazy="require('@/assets/img/home/download.svg')" alt="">
+      <img v-lazy="require('@/assets/img/home/download.svg')" alt="" />
       <div>
         <h2>APLIKACE</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          fringilla neque ac felis egestas eleifend. Vestibulum molestie convallis
-          arcu vitae porta. Fusce nec lorem odio. Nullam at nulla eu ante
-          tristique egestas. Aliquam et orci porta ligula interdum rutrum. Sed
-          mattis massa sodales tortor pellentesque pretium. Integer at placerat
-          risus.
+          fringilla neque ac felis egestas eleifend. Vestibulum molestie
+          convallis arcu vitae porta. Fusce nec lorem odio. Nullam at nulla eu
+          ante tristique egestas. Aliquam et orci porta ligula interdum rutrum.
+          Sed mattis massa sodales tortor pellentesque pretium. Integer at
+          placerat risus.
         </p>
         <a href="#outdoor">
           <button>
             <b>OUTDOOROVÉ HRY</b>
-            <fa :icon="['fas', 'chevron-down']"/>
+            <fa :icon="['fas', 'chevron-down']" />
           </button>
         </a>
       </div>
     </section>
 
-    <div class="parallax" :style="{backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[1]})`}"/>
+    <div
+      class="parallax"
+      :style="{
+        backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[1]})`,
+      }"
+    />
 
     <section id="outdoor">
       <div>
         <h2>OUTDOOROVÉ HRY</h2>
-        <p>Součástí historických cedulí je i série geokeší Zapomenutá Orlová v outdooorové hře Geocaching. Doprovází je také štítky hry Munzee.</p>
+        <p>
+          Součástí historických cedulí je i série geokeší Zapomenutá Orlová v
+          outdooorové hře Geocaching. Doprovází je také štítky hry Munzee.
+        </p>
         <div class="flex">
           <a href="#" target="_blank" rel="noopener noreferrer">
             <span>
-              <img v-lazy="require('@/assets/img/home/geocaching.webp')" alt="" />
+              <img
+                v-lazy="require('@/assets/img/home/geocaching.webp')"
+                alt=""
+              />
               <b>Geocaching</b>
             </span>
           </a>
@@ -67,25 +83,30 @@
         <a href="#mapa">
           <button>
             <b>MAPA</b>
-            <fa :icon="['fas', 'chevron-down']"/>
+            <fa :icon="['fas', 'chevron-down']" />
           </button>
         </a>
       </div>
     </section>
 
-    <div class="parallax" :style="{backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[2]})`}"/>
+    <div
+      class="parallax"
+      :style="{
+        backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[2]})`,
+      }"
+    />
 
     <section class="flex" id="mapa">
-      <img v-lazy="require('@/assets/img/home/map.svg')" alt="">
+      <img v-lazy="require('@/assets/img/home/map.svg')" alt="" />
       <div>
         <h2>MAPA</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          fringilla neque ac felis egestas eleifend. Vestibulum molestie convallis
-          arcu vitae porta. Fusce nec lorem odio. Nullam at nulla eu ante
-          tristique egestas. Aliquam et orci porta ligula interdum rutrum. Sed
-          mattis massa sodales tortor pellentesque pretium. Integer at placerat
-          risus.
+          fringilla neque ac felis egestas eleifend. Vestibulum molestie
+          convallis arcu vitae porta. Fusce nec lorem odio. Nullam at nulla eu
+          ante tristique egestas. Aliquam et orci porta ligula interdum rutrum.
+          Sed mattis massa sodales tortor pellentesque pretium. Integer at
+          placerat risus.
         </p>
         <router-link to="/mapa">
           <button>
@@ -104,7 +125,7 @@ export default {
   name: 'Home',
   data() {
     return {
-      parallaxArr: []
+      parallaxArr: [],
     }
   },
   mounted() {
@@ -118,18 +139,20 @@ export default {
   },
   methods: {
     shuffle(array) {
-      var currentIndex = array.length, temporaryValue, randomIndex;
+      var currentIndex = array.length,
+        temporaryValue,
+        randomIndex
       while (0 !== currentIndex) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-        temporaryValue = array[currentIndex];
-        array[currentIndex] = array[randomIndex];
-        array[randomIndex] = temporaryValue;
+        randomIndex = Math.floor(Math.random() * currentIndex)
+        currentIndex -= 1
+        temporaryValue = array[currentIndex]
+        array[currentIndex] = array[randomIndex]
+        array[randomIndex] = temporaryValue
       }
 
-      return array;
-    }
-  }
+      return array
+    },
+  },
 }
 </script>
 
@@ -140,7 +163,7 @@ export default {
   background-attachment: fixed
   background-position: center
   background-repeat: no-repeat
-  background-size: cover    
+  background-size: cover
 
 h1, h2
   margin-top: 5px
@@ -219,7 +242,7 @@ section
     @include small-device-portrait
       height: 17.5vh
       min-height: 100px
-  .flex 
+  .flex
     display: flex
     justify-content: center
     flex-wrap: wrap

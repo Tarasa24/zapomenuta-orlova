@@ -26,12 +26,12 @@ export default {
       String.raw`  / /_| (_| | |_) | (_) | | | | | |  __/ | | | |_| | || (_| | | |__| | |  | | (_) \ V / (_| |`,
       String.raw` /_____\__,_| .__/ \___/|_| |_| |_|\___|_| |_|\__,_|\__\__,_|  \____/|_|  |_|\___/ \_/ \__,_|`,
       String.raw`            | |                                                                              `,
-      String.raw`            |_|                                                                              `
+      String.raw`            |_|                                                                              `,
     ]
-    c.forEach(e => {
+    c.forEach((e) => {
       document.appendChild(document.createComment(e))
-    });    
-  }
+    })
+  },
 }
 </script>
 
