@@ -86,6 +86,8 @@ export default {}
 
 <style lang="sass" scoped>
 main
+  max-width: 1300px
+  margin: auto
   padding: 2vh 7.5vw
   text-align: left
   @include small-device
