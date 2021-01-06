@@ -17,6 +17,21 @@ export default {
     Nav,
     Update,
   },
+  mounted() {
+    const c = [
+      String.raw`  ______                                            _    __     ____       _             __  `,
+      String.raw` |___  /                                           | |  /_/    / __ \     | |           /_/  `,
+      String.raw`    / / __ _ _ __   ___  _ __ ___   ___ _ __  _   _| |_ __ _  | |  | |_ __| | _____   ____ _ `,
+      String.raw`   / / / _' | '_ \ / _ \| '_ ' _ \ / _ \ '_ \| | | | __/ _' | | |  | | '__| |/ _ \ \ / / _' |`,
+      String.raw`  / /_| (_| | |_) | (_) | | | | | |  __/ | | | |_| | || (_| | | |__| | |  | | (_) \ V / (_| |`,
+      String.raw` /_____\__,_| .__/ \___/|_| |_| |_|\___|_| |_|\__,_|\__\__,_|  \____/|_|  |_|\___/ \_/ \__,_|`,
+      String.raw`            | |                                                                              `,
+      String.raw`            |_|                                                                              `
+    ]
+    c.forEach(e => {
+      document.appendChild(document.createComment(e))
+    });    
+  }
 }
 </script>
 
