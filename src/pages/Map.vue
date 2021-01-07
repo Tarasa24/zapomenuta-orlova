@@ -58,6 +58,24 @@
           </router-link>
         </l-popup>
       </l-marker>
+
+      <span v-if="lookForPosition">
+        <l-circle
+          @click="zoomTo(position.lat, position.lng)"
+          :latLng="[position.lat, position.lng]"
+          :radius="position.acc / 2"
+          :color="positionAvailible ? '#FCBA03' : '#232B2B'"
+          :fillColor="positionAvailible ? '#FCBA03' : 'grey'"
+        />
+        <l-circle-marker
+          :latLng="[position.lat, position.lng]"
+          :radius="7.5"
+          :fill="true"
+          :fillColor="positionAvailible ? '#FC5D03' : 'grey'"
+          :fillOpacity="1"
+          color="#232B2B"
+        />
+      </span>
     </l-map>
 
     <aside v-bind:class="{ opened: open, closed: !open }">
@@ -112,10 +130,12 @@ import {
   LMarker,
   LPopup,
   LIcon,
+  LCircle,
+  LCircleMarker,
 } from 'vue2-leaflet'
 
 import data from '@/assets/data/locations.json'
-import { convertCoord } from '@/assets/js/helperFunctions.js'
+import { convertCoord, sleep } from '@/assets/js/helperFunctions.js'
 
 export default {
   name: 'Example',
@@ -127,6 +147,8 @@ export default {
     LMarker,
     LPopup,
     LIcon,
+    LCircle,
+    LCircleMarker,
   },
   data() {
     return {
@@ -135,6 +157,9 @@ export default {
       places: Object.entries(data),
       highlighted: null,
       convertCoord: convertCoord,
+      position: { lat: 0, lng: 0, acc: 0 },
+      lookForPosition: true,
+      positionAvailible: false,
     }
   },
   watch: {
@@ -142,7 +167,8 @@ export default {
       this.highlighted = this.$route.query.h - 1
     },
   },
-  created() {
+  async created() {
+    // selected pin handeling
     this.highlighted = this.$route.query.h - 1
     if (this.$route.query.h) {
       this.center = [
@@ -159,6 +185,15 @@ export default {
         this.highlighted = null
       })
     })
+
+    // position handeling
+    while (this.lookForPosition) {
+      this.displayPosition()
+      await sleep(2000)
+    }
+  },
+  destroyed() {
+    this.lookForPosition = false
   },
   methods: {
     handleClick() {
@@ -182,6 +217,28 @@ export default {
       this.center = [x, y]
 
       if (this.open && window.innerWidth < 700) this.handleClick()
+    },
+    displayPosition() {
+      if (!navigator.geolocation) {
+        this.lookForPosition = false
+      } else {
+        navigator.geolocation.getCurrentPosition(
+          (geo) => {
+            const position = geo.coords
+
+            this.positionAvailible = true
+            this.position = {
+              availible: true,
+              lat: position.latitude,
+              lng: position.longitude,
+              acc: position.accuracy,
+            }
+          },
+          (err) => {
+            this.positionAvailible = false
+          }
+        )
+      }
     },
   },
 }
