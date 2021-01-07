@@ -68,6 +68,7 @@
           :fillColor="positionAvailible ? '#FCBA03' : 'grey'"
         />
         <l-circle-marker
+          @click="zoomTo(position.lat, position.lng)"
           :latLng="[position.lat, position.lng]"
           :radius="7.5"
           :fill="true"
