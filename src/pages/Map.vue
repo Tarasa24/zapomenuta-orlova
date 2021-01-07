@@ -28,7 +28,8 @@
         :lat-lng="[details.lat, details.lng]"
         @click="
           () => {
-            $router.push({ path: '/mapa', query: { h: index + 1 } })
+            if ($route.query.h !== index + 1)
+              $router.push({ path: '/mapa', query: { h: index + 1 } })
             zoomTo(details.lat, details.lng)
           }
         "
@@ -58,6 +59,25 @@
           </router-link>
         </l-popup>
       </l-marker>
+
+      <span v-if="lookForPosition">
+        <l-circle
+          @click="zoomTo(position.lat, position.lng)"
+          :latLng="[position.lat, position.lng]"
+          :radius="position.acc / 2"
+          :color="positionAvailible ? '#FCBA03' : '#232B2B'"
+          :fillColor="positionAvailible ? '#FCBA03' : 'grey'"
+        />
+        <l-circle-marker
+          @click="zoomTo(position.lat, position.lng)"
+          :latLng="[position.lat, position.lng]"
+          :radius="7.5"
+          :fill="true"
+          :fillColor="positionAvailible ? '#FC5D03' : 'grey'"
+          :fillOpacity="1"
+          color="#232B2B"
+        />
+      </span>
     </l-map>
 
     <aside v-bind:class="{ opened: open, closed: !open }">
@@ -70,7 +90,8 @@
               class="zoom"
               @click="
                 () => {
-                  $router.push({ path: '/mapa', query: { h: index + 1 } })
+                  if ($route.query.h !== index + 1)
+                    $router.push({ path: '/mapa', query: { h: index + 1 } })
                   zoomTo(details.lat, details.lng)
                   $refs[index][0].mapObject.openPopup()
                 }
@@ -112,10 +133,12 @@ import {
   LMarker,
   LPopup,
   LIcon,
+  LCircle,
+  LCircleMarker,
 } from 'vue2-leaflet'
 
 import data from '@/assets/data/locations.json'
-import { convertCoord } from '@/assets/js/helperFunctions.js'
+import { convertCoord, sleep } from '@/assets/js/helperFunctions.js'
 
 export default {
   name: 'Example',
@@ -127,14 +150,20 @@ export default {
     LMarker,
     LPopup,
     LIcon,
+    LCircle,
+    LCircleMarker,
   },
   data() {
     return {
+      safeScreen: window.innerWidth >= 700,
       open: window.innerWidth >= 700,
       center: [49.846198, 18.429747],
       places: Object.entries(data),
       highlighted: null,
       convertCoord: convertCoord,
+      position: { lat: 0, lng: 0, acc: 0 },
+      lookForPosition: true,
+      positionAvailible: false,
     }
   },
   watch: {
@@ -142,14 +171,19 @@ export default {
       this.highlighted = this.$route.query.h - 1
     },
   },
-  created() {
+  async created() {
+    // safeScreen listener
+    window.addEventListener(
+      'resize',
+      () => (this.safeScreen = window.innerWidth >= 700)
+    )
+
+    // selected pin handeling
     this.highlighted = this.$route.query.h - 1
     if (this.$route.query.h) {
-      this.center = [
-        this.places[this.highlighted][1].lat,
-        this.places[this.highlighted][1].lng,
-      ]
+      const place = this.places[this.highlighted][1]
       this.$nextTick(() => {
+        this.center = this.calculateOffset(place.lat, place.lng)
         this.$refs[this.highlighted][0].mapObject.openPopup()
       })
     }
@@ -159,6 +193,19 @@ export default {
         this.highlighted = null
       })
     })
+
+    // position handeling
+    while (this.lookForPosition) {
+      this.displayPosition()
+      await sleep(2000)
+    }
+  },
+  destroyed() {
+    this.lookForPosition = false
+    window.removeEventListener(
+      'resize',
+      () => (this.safeScreen = window.innerWidth >= 700)
+    )
   },
   methods: {
     handleClick() {
@@ -177,11 +224,52 @@ export default {
       el.style.left = this.open ? '-355px' : '0'
 
       this.open = !this.open
+
+      if (this.safeScreen && this.places[this.highlighted]) {
+        const place = this.places[this.highlighted][1]
+        this.zoomTo(place.lat, place.lng)
+      }
     },
     zoomTo(x, y) {
-      this.center = [x, y]
+      this.center = this.calculateOffset(x, y)
 
-      if (this.open && window.innerWidth < 700) this.handleClick()
+      if (this.open && !this.safeScreen) this.handleClick()
+    },
+    calculateOffset(x, y) {
+      const map = this.$refs.map.mapObject
+      var center = map.project([x, y])
+
+      center.x = center.x
+
+      center = new L.point(
+        center.x - (this.open && this.safeScreen ? 375 / 2 : 0),
+        center.y
+      )
+      var target = map.unproject(center)
+
+      return [target.lat, target.lng]
+    },
+    displayPosition() {
+      if (!navigator.geolocation) {
+        this.lookForPosition = false
+      } else {
+        navigator.geolocation.getCurrentPosition(
+          (geo) => {
+            const position = geo.coords
+
+            this.positionAvailible = true
+            this.position = {
+              availible: true,
+              lat: position.latitude,
+              lng: position.longitude,
+              acc: position.accuracy,
+            }
+          },
+          (err) => {
+            this.positionAvailible = false
+          }
+        )
+      }
     },
   },
 }
