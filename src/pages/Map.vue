@@ -28,7 +28,8 @@
         :lat-lng="[details.lat, details.lng]"
         @click="
           () => {
-            if ($route.query.h !== index + 1) $router.push({ path: '/mapa', query: { h: index + 1 } })
+            if ($route.query.h !== index + 1)
+              $router.push({ path: '/mapa', query: { h: index + 1 } })
             zoomTo(details.lat, details.lng)
           }
         "
@@ -89,7 +90,8 @@
               class="zoom"
               @click="
                 () => {
-                  if ($route.query.h !== index + 1) $router.push({ path: '/mapa', query: { h: index + 1 } })
+                  if ($route.query.h !== index + 1)
+                    $router.push({ path: '/mapa', query: { h: index + 1 } })
                   zoomTo(details.lat, details.lng)
                   $refs[index][0].mapObject.openPopup()
                 }
@@ -171,7 +173,10 @@ export default {
   },
   async created() {
     // safeScreen listener
-    window.addEventListener('resize', () => this.safeScreen = window.innerWidth >= 700)
+    window.addEventListener(
+      'resize',
+      () => (this.safeScreen = window.innerWidth >= 700)
+    )
 
     // selected pin handeling
     this.highlighted = this.$route.query.h - 1
@@ -197,7 +202,10 @@ export default {
   },
   destroyed() {
     this.lookForPosition = false
-    window.removeEventListener('resize', () => this.safeScreen = window.innerWidth >= 700)
+    window.removeEventListener(
+      'resize',
+      () => (this.safeScreen = window.innerWidth >= 700)
+    )
   },
   methods: {
     handleClick() {
@@ -220,7 +228,7 @@ export default {
       if (this.safeScreen && this.places[this.highlighted]) {
         const place = this.places[this.highlighted][1]
         this.zoomTo(place.lat, place.lng)
-      } 
+      }
     },
     zoomTo(x, y) {
       this.center = this.calculateOffset(x, y)
@@ -229,12 +237,15 @@ export default {
     },
     calculateOffset(x, y) {
       const map = this.$refs.map.mapObject
-      var center = map.project([x, y]);
+      var center = map.project([x, y])
 
-      center.x = center.x 
+      center.x = center.x
 
-      center = new L.point(center.x - (this.open && this.safeScreen ? 375/2 : 0), center.y);
-      var target = map.unproject(center);
+      center = new L.point(
+        center.x - (this.open && this.safeScreen ? 375 / 2 : 0),
+        center.y
+      )
+      var target = map.unproject(center)
 
       return [target.lat, target.lng]
     },
