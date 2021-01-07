@@ -153,6 +153,7 @@ export default {
   },
   data() {
     return {
+      safeScreen: window.innerWidth >= 700,
       open: window.innerWidth >= 700,
       center: [49.846198, 18.429747],
       places: Object.entries(data),
@@ -169,14 +170,15 @@ export default {
     },
   },
   async created() {
+    // safeScreen listener
+    window.addEventListener('resize', () => this.safeScreen = window.innerWidth >= 700)
+
     // selected pin handeling
     this.highlighted = this.$route.query.h - 1
     if (this.$route.query.h) {
-      this.center = [
-        this.places[this.highlighted][1].lat,
-        this.places[this.highlighted][1].lng,
-      ]
+      const place = this.places[this.highlighted][1]
       this.$nextTick(() => {
+        this.center = this.calculateOffset(place.lat, place.lng)
         this.$refs[this.highlighted][0].mapObject.openPopup()
       })
     }
@@ -195,6 +197,7 @@ export default {
   },
   destroyed() {
     this.lookForPosition = false
+    window.removeEventListener('resize', () => this.safeScreen = window.innerWidth >= 700)
   },
   methods: {
     handleClick() {
@@ -213,11 +216,27 @@ export default {
       el.style.left = this.open ? '-355px' : '0'
 
       this.open = !this.open
+
+      if (this.safeScreen && this.places[this.highlighted]) {
+        const place = this.places[this.highlighted][1]
+        this.zoomTo(place.lat, place.lng)
+      } 
     },
     zoomTo(x, y) {
-      this.center = [x, y]
+      this.center = this.calculateOffset(x, y)
 
-      if (this.open && window.innerWidth < 700) this.handleClick()
+      if (this.open && !this.safeScreen) this.handleClick()
+    },
+    calculateOffset(x, y) {
+      const map = this.$refs.map.mapObject
+      var center = map.project([x, y]);
+
+      center.x = center.x 
+
+      center = new L.point(center.x - (this.open && this.safeScreen ? 375/2 : 0), center.y);
+      var target = map.unproject(center);
+
+      return [target.lat, target.lng]
     },
     displayPosition() {
       if (!navigator.geolocation) {
