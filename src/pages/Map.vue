@@ -28,7 +28,7 @@
         :lat-lng="[details.lat, details.lng]"
         @click="
           () => {
-            $router.push({ path: '/mapa', query: { h: index + 1 } })
+            if ($route.query.h !== index + 1) $router.push({ path: '/mapa', query: { h: index + 1 } })
             zoomTo(details.lat, details.lng)
           }
         "
@@ -88,7 +88,7 @@
               class="zoom"
               @click="
                 () => {
-                  $router.push({ path: '/mapa', query: { h: index + 1 } })
+                  if ($route.query.h !== index + 1) $router.push({ path: '/mapa', query: { h: index + 1 } })
                   zoomTo(details.lat, details.lng)
                   $refs[index][0].mapObject.openPopup()
                 }
