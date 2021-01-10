@@ -89,6 +89,7 @@ main
   max-width: 1300px
   margin: auto
   padding: 2vh 7.5vw
+  padding-top: 63px
   text-align: left
   @include small-device
     padding: 1vh 20px
