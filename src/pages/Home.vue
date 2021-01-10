@@ -3,27 +3,40 @@
     <div
       class="parallax top-parallax"
       :style="{
-        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${parallaxArr[0] ? parallaxArr[0].src : null})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${
+          parallaxArr[0] ? parallaxArr[0].src : null
+        })`,
       }"
     />
 
     <section class="segment1 flex">
       <div>
-        <img class="circle-img" v-lazy="require('@/assets/img/logo.webp')" alt="" />
+        <img
+          class="circle-img"
+          v-lazy="require('@/assets/img/logo.webp')"
+          alt=""
+        />
         <h1>ZAPOMENUTÁ ORLOVÁ</h1>
         <p>
-          Vítejte na webu stezky Zapomenutou Orlovou. Jedná se unikátní projekt, s cílem přivést znovu do 
-          povědomí již dávno zapomenutá místa z Orlovské historie, které bývaly dříve chloubou našeho města. 
-          I když kvůli negativním vlivům důlní činnosti, muselo být bývalé centrum přesunout, určite to 
-          neznamená, že by měla být opomijena. Proto bychom vám jej chtěli přiblížit a provést vás historií 
-          těchto úchvatných lokací, dnes již na pokraji vymizení. 
+          Vítejte na webu stezky Zapomenutou Orlovou. Jedná se unikátní projekt,
+          s cílem přivést znovu do povědomí již dávno zapomenutá místa z
+          Orlovské historie, které bývaly dříve chloubou našeho města. I když
+          kvůli negativním vlivům důlní činnosti, muselo být bývalé centrum
+          přesunout, určite to neznamená, že by měla být opomijena. Proto bychom
+          vám jej chtěli přiblížit a provést vás historií těchto úchvatných
+          lokací, dnes již na pokraji vymizení.
         </p>
         <br />
         <p>
-          Stezka obsahuje celkem 12 cedulí roztoušených u významných staveb Staré Orlové:
+          Stezka obsahuje celkem 12 cedulí roztoušených u významných staveb
+          Staré Orlové:
         </p>
         <div class="gallery">
-          <router-link v-for="img in parallaxArr" :key="img.src || null" :to="'/misto/' + (img.index + 1)">
+          <router-link
+            v-for="img in parallaxArr"
+            :key="img.src || null"
+            :to="'/misto/' + (img.index + 1)"
+          >
             <img :src="img.src || null" :alt="'Místo' + (img.index + 1)" />
           </router-link>
         </div>
@@ -39,22 +52,31 @@
     <div
       class="parallax"
       :style="{
-        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${parallaxArr[1] ? parallaxArr[1].src : null})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${
+          parallaxArr[1] ? parallaxArr[1].src : null
+        })`,
       }"
     />
 
     <section class="flex" id="aplikace">
-      <img class='circle-img' v-lazy="require('@/assets/img/home/download.svg')" alt="" />
+      <img
+        class="circle-img"
+        v-lazy="require('@/assets/img/home/download.svg')"
+        alt=""
+      />
       <div>
         <h2>APLIKACE</h2>
         <p>
-          Tato stránka je postavená na technologii PWA, což znamená že je přístupná, jak ve formě webové stránky, 
-          tak ve formě instalovatelné aplikace, která vás bude provázet a to bez nutnosti připojení k internetu.
-          Doporučujeme si tedy předem stáhnout naši aplikaci a vyrazit na cestu!
+          Tato stránka je postavená na technologii PWA, což znamená že je
+          přístupná, jak ve formě webové stránky, tak ve formě instalovatelné
+          aplikace, která vás bude provázet a to bez nutnosti připojení k
+          internetu. Doporučujeme si tedy předem stáhnout naši aplikaci a
+          vyrazit na cestu!
         </p>
         <br />
         <p>
-          Podrobný návod, jak aplikaci stáhnout a nainstalovat je k dispozici <router-link to="/instalace">ZDE</router-link>.
+          Podrobný návod, jak aplikaci stáhnout a nainstalovat je k dispozici
+          <router-link to="/instalace">ZDE</router-link>.
         </p>
         <a href="#outdoor">
           <button>
@@ -68,7 +90,9 @@
     <div
       class="parallax"
       :style="{
-        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${parallaxArr[2] ? parallaxArr[2].src : null})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${
+          parallaxArr[2] ? parallaxArr[2].src : null
+        })`,
       }"
     />
 
@@ -82,7 +106,8 @@
         <div class="flex">
           <a href="#" target="_blank" rel="noopener noreferrer">
             <span>
-              <img class='circle-img'
+              <img
+                class="circle-img"
                 v-lazy="require('@/assets/img/home/geocaching.webp')"
                 alt="Geocaching"
               />
@@ -91,7 +116,11 @@
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
             <span>
-              <img class='circle-img' v-lazy="require('@/assets/img/home/munzee.webp')" alt="Munzee" />
+              <img
+                class="circle-img"
+                v-lazy="require('@/assets/img/home/munzee.webp')"
+                alt="Munzee"
+              />
               <b>Munzee</b>
             </span>
           </a>
@@ -108,19 +137,26 @@
     <div
       class="parallax"
       :style="{
-        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${parallaxArr[3] ? parallaxArr[3].src : null})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${
+          parallaxArr[3] ? parallaxArr[3].src : null
+        })`,
       }"
     />
 
     <section class="flex" id="mapa">
-      <img class='circle-img' v-lazy="require('@/assets/img/home/map.svg')" alt="map icon" />
+      <img
+        class="circle-img"
+        v-lazy="require('@/assets/img/home/map.svg')"
+        alt="map icon"
+      />
       <div>
         <h2>MAPA</h2>
         <p>
-          Na následující mapě naleznete všechny zapojené místa i s umístěním cedulí. Nebojte se na ně
-          kliknout a přečíst si náležité texty o jejich historii. Naleznete u nich také dobové fotografie, 
-          zajímavé fakta a další zajímavá místa v okolí. Mapa rovnež zobrazuje vaší polohu, a tak se neumsíte
-          obávat, že se ztratíte.
+          Na následující mapě naleznete všechny zapojené místa i s umístěním
+          cedulí. Nebojte se na ně kliknout a přečíst si náležité texty o jejich
+          historii. Naleznete u nich také dobové fotografie, zajímavé fakta a
+          další zajímavá místa v okolí. Mapa rovnež zobrazuje vaší polohu, a tak
+          se neumsíte obávat, že se ztratíte.
         </p>
         <router-link to="/mapa">
           <button>
@@ -140,7 +176,7 @@ export default {
   name: 'Home',
   data() {
     return {
-      parallaxArr: [{src: '', index: ''}],
+      parallaxArr: [{ src: '', index: '' }],
     }
   },
   mounted() {
@@ -148,7 +184,7 @@ export default {
     for (let i = 0; i < array.length; i++)
       array[i] = {
         src: require(`@/assets/img/articles/${array[i]}/main.webp`),
-        index: Object.keys(locations).indexOf(array[i])
+        index: Object.keys(locations).indexOf(array[i]),
       }
 
     this.parallaxArr = array
