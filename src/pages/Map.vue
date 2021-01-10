@@ -277,7 +277,7 @@ export default {
 
 <style lang="sass" scoped>
 .map
-  height: calc(100vh - 63px)
+  height: 100vh
   width: 100%
   .popup
     text-align: center
