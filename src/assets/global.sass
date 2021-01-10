@@ -3,8 +3,11 @@ $primary: #FCBA03
 $accent: #FC5D03
 $grey: #E5E5E5
 
-@mixin transition($effect)
-  transition: $effect .35s ease-in-out
+@mixin transition($effects...)
+  $out: ''
+  @each $effect in $effects
+    $out: #{$out} $effect .35s ease-in-out#{', '}
+  transition: $out
 
 // Responsivness mixins
 @mixin small-device
