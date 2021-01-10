@@ -37,9 +37,12 @@ module.exports = {
       name: 'Zapomenutá Orlová',
       short_name: 'Zapomenutá Orlová',
       start_url: '/',
+      background_color: '#232b2b',
     },
     themeColor: '#fcba03',
-    msTileColor: '#232b2b',
+    msTileColor: '#000000',
+    appleMobileWebAppCapable: 'yes',
+    appleMobileWebAppStatusBarStyle: 'black',
     workboxPluginMode: 'InjectManifest',
     workboxOptions: {
       swSrc: './public/service-worker.js',
