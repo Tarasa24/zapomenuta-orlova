@@ -48,6 +48,9 @@ nav
   background-color: $bg-dark
   align-items: center
   height: 63px
+  position: fixed
+  width: 100%
+  z-index: 9999
 
 .logo
   border-bottom: 0

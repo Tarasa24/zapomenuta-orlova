@@ -1,6 +1,6 @@
 <template>
-  <main v-if="updateExists">
-    Nová verze je k dispozici
+  <div v-if="updateExists" class="notification">
+    Je k dispozici nová verze
     <button @click="refreshApp">Aktualizovat</button>
     <button
       @click="
@@ -12,7 +12,7 @@
     >
       <fa :icon="['fas', 'times']" />
     </button>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -45,24 +45,36 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-main
+.notification
   position: fixed
   bottom: 10px
   left: 10px
+  @include small-device-portrait
+    right: 10px
   background-color: black
   color: white
   padding: 7.5px 15px
+  z-index: 999999
 
 button
   background-color: transparent
   border: 0
-  margin-left: 15px
   cursor: pointer
   padding: 10px
   &:nth-of-type(1)
     color: $primary
     font-weight: bold
     text-transform: uppercase
+    border-radius: 5px
+    margin: 0 22.5px 0 15px
+    @include transition(background-color, color)
+    &:hover
+      color: black
+      background-color: $primary
   &:nth-of-type(2)
+    margin-right: 2px
     color: white
+    position: absolute
+    right: 0
+    top: 0
 </style>

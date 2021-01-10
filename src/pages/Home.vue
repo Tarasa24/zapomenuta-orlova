@@ -1,17 +1,45 @@
 <template>
   <main>
+    <div
+      class="parallax top-parallax"
+      :style="{
+        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${
+          parallaxArr[0] ? parallaxArr[0].src : null
+        })`,
+      }"
+    />
+
     <section class="segment1 flex">
       <div>
-        <img v-lazy="require('@/assets/img/logo.webp')" alt="" />
+        <img
+          class="circle-img"
+          v-lazy="require('@/assets/img/logo.webp')"
+          alt=""
+        />
         <h1>ZAPOMENUTÁ ORLOVÁ</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          fringilla neque ac felis egestas eleifend. Vestibulum molestie
-          convallis arcu vitae porta. Fusce nec lorem odio. Nullam at nulla eu
-          ante tristique egestas. Aliquam et orci porta ligula interdum rutrum.
-          Sed mattis massa sodales tortor pellentesque pretium. Integer at
-          placerat risus.
+          Vítejte na webu stezky Zapomenutou Orlovou. Jedná se unikátní projekt,
+          s cílem přivést znovu do povědomí již dávno zapomenutá místa z
+          Orlovské historie, které bývaly dříve chloubou našeho města. I když
+          kvůli negativním vlivům důlní činnosti, muselo být bývalé centrum
+          přesunout, určite to neznamená, že by měla být opomijena. Proto bychom
+          vám jej chtěli přiblížit a provést vás historií těchto úchvatných
+          lokací, dnes již na pokraji vymizení.
         </p>
+        <br />
+        <p>
+          Stezka obsahuje celkem 12 cedulí roztoušených u významných staveb
+          Staré Orlové:
+        </p>
+        <div class="gallery">
+          <router-link
+            v-for="img in parallaxArr"
+            :key="img.src || null"
+            :to="'/misto/' + (img.index + 1)"
+          >
+            <img :src="img.src || null" :alt="'Místo' + (img.index + 1)" />
+          </router-link>
+        </div>
         <a href="#aplikace">
           <button>
             <b>APLIKACE</b>
@@ -24,21 +52,31 @@
     <div
       class="parallax"
       :style="{
-        backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[0]})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${
+          parallaxArr[1] ? parallaxArr[1].src : null
+        })`,
       }"
     />
 
     <section class="flex" id="aplikace">
-      <img v-lazy="require('@/assets/img/home/download.svg')" alt="" />
+      <img
+        class="circle-img"
+        v-lazy="require('@/assets/img/home/download.svg')"
+        alt=""
+      />
       <div>
         <h2>APLIKACE</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          fringilla neque ac felis egestas eleifend. Vestibulum molestie
-          convallis arcu vitae porta. Fusce nec lorem odio. Nullam at nulla eu
-          ante tristique egestas. Aliquam et orci porta ligula interdum rutrum.
-          Sed mattis massa sodales tortor pellentesque pretium. Integer at
-          placerat risus.
+          Tato stránka je postavená na technologii PWA, což znamená že je
+          přístupná, jak ve formě webové stránky, tak ve formě instalovatelné
+          aplikace, která vás bude provázet a to bez nutnosti připojení k
+          internetu. Doporučujeme si tedy předem stáhnout naši aplikaci a
+          vyrazit na cestu!
+        </p>
+        <br />
+        <p>
+          Podrobný návod, jak aplikaci stáhnout a nainstalovat je k dispozici
+          <router-link to="/instalace">ZDE</router-link>.
         </p>
         <a href="#outdoor">
           <button>
@@ -52,7 +90,9 @@
     <div
       class="parallax"
       :style="{
-        backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[1]})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${
+          parallaxArr[2] ? parallaxArr[2].src : null
+        })`,
       }"
     />
 
@@ -67,15 +107,20 @@
           <a href="#" target="_blank" rel="noopener noreferrer">
             <span>
               <img
+                class="circle-img"
                 v-lazy="require('@/assets/img/home/geocaching.webp')"
-                alt=""
+                alt="Geocaching"
               />
               <b>Geocaching</b>
             </span>
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
             <span>
-              <img v-lazy="require('@/assets/img/home/munzee.webp')" alt="" />
+              <img
+                class="circle-img"
+                v-lazy="require('@/assets/img/home/munzee.webp')"
+                alt="Munzee"
+              />
               <b>Munzee</b>
             </span>
           </a>
@@ -92,21 +137,26 @@
     <div
       class="parallax"
       :style="{
-        backgroundImage: `linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)),url(${parallaxArr[2]})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)),url(${
+          parallaxArr[3] ? parallaxArr[3].src : null
+        })`,
       }"
     />
 
     <section class="flex" id="mapa">
-      <img v-lazy="require('@/assets/img/home/map.svg')" alt="" />
+      <img
+        class="circle-img"
+        v-lazy="require('@/assets/img/home/map.svg')"
+        alt="map icon"
+      />
       <div>
         <h2>MAPA</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          fringilla neque ac felis egestas eleifend. Vestibulum molestie
-          convallis arcu vitae porta. Fusce nec lorem odio. Nullam at nulla eu
-          ante tristique egestas. Aliquam et orci porta ligula interdum rutrum.
-          Sed mattis massa sodales tortor pellentesque pretium. Integer at
-          placerat risus.
+          Na následující mapě naleznete všechny zapojené místa i s umístěním
+          cedulí. Nebojte se na ně kliknout a přečíst si náležité texty o jejich
+          historii. Naleznete u nich také dobové fotografie, zajímavé fakta a
+          další zajímavá místa v okolí. Mapa rovnež zobrazuje vaší polohu, a tak
+          se neumsíte obávat, že se ztratíte.
         </p>
         <router-link to="/mapa">
           <button>
@@ -119,21 +169,23 @@
 </template>
 
 <script>
+import Vue from 'vue'
 import locations from '../assets/data/locations.json'
 
 export default {
   name: 'Home',
   data() {
     return {
-      parallaxArr: [],
+      parallaxArr: [{ src: '', index: '' }],
     }
   },
   mounted() {
     let array = this.shuffle(Object.keys(locations))
-
-    for (let i = 0; i < array.length; i++) {
-      array[i] = require(`@/assets/img/articles/${array[i]}/main.webp`)
-    }
+    for (let i = 0; i < array.length; i++)
+      array[i] = {
+        src: require(`@/assets/img/articles/${array[i]}/main.webp`),
+        index: Object.keys(locations).indexOf(array[i]),
+      }
 
     this.parallaxArr = array
   },
@@ -170,15 +222,17 @@ h1, h2
 
 section
   background-color: white
-  padding: 2vh 15vw
+  padding: 63px 15vw 2vh 15vw
+  width: calc(100% - 30vw)
   @include small-device
-    padding: 2vh 5vw
+    padding: 63px 5vw 2vh 5vw
+    width: calc(100% - 10vw)
   display: flex
   align-items: center
   min-height: 100vh
   & > div
     width: 100%
-  img
+  .circle-img
     height: 25vh
     min-height: 150px
     max-height: 250px
@@ -196,7 +250,7 @@ section
   button
     display: grid
     text-align: center
-    margin: 5vh auto 0 auto
+    margin: 5vh auto
     border: 1px solid $grey
     border-radius: 10px
     background-color: $primary
@@ -225,20 +279,60 @@ section
     @include small-device-landscape
       font-size: 1.75rem
 
-.segment1
-  min-height: calc( 100vh - 63px)
+.top-parallax
+  height: 40vh
+  @include small-device-portrait
+    height: calc(45vh - 63px/2)
   @include small-device-landscape
-    min-height: 100vh
+    height: calc(60vh - 63px/2)
+
+.segment1
+  position: relative
+  min-height: 70vh
+  @include small-device-portrait
+    min-height: 55vh
+  @include small-device-landscape
+    min-height: 40vh
+  .circle-img
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translate(-50%, -50%)
+    background-color: white
+    border: 15px solid white
   h1
+    position: relative
     font-size: 4rem
+    z-index: 1
+    margin-top: 2vh
     @include small-device
       font-size: 2rem
+    @include small-device-portrait
+      margin-top: 5vh
+    @include small-device-landscape
+      margin-top: 7.5vh
+  .gallery
+    width: 100%
+    overflow-x: auto
+    display: flex
+    margin: 20px 0
+    a
+      display: flex
+    img
+      align-self: center
+      margin: 10px
+      cursor: pointer
+      max-width: 20vw
+      max-height: 20vh
+      @include small-device-portrait
+        max-width: 50vw
+        max-height: 50vh
 
 #outdoor
   h2
     @include small-device-landscape
       font-size: 2.2rem
-  img
+  .circle-img
     @include small-device-portrait
       height: 17.5vh
       min-height: 100px
