@@ -16,11 +16,15 @@ self.addEventListener('message', (e) => {
 // Workbox config
 workbox.setConfig({ debug: false })
 workbox.core.clientsClaim()
-workbox.routing.registerNavigationRoute('/index.html')
 
 // Precaching
 self.__precacheManifest = [].concat(self.__precacheManifest || [])
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
+
+// Routing
+workbox.routing.registerNavigationRoute(
+  workbox.precaching.getCacheKeyForURL('index.html')
+)
 
 //Custom
 importScripts('tiles.js')
