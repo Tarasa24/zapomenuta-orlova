@@ -50,7 +50,7 @@ nav
   height: 63px
   position: fixed
   width: 100%
-  z-index: 9999
+  z-index: 2014
 
 .logo
   border-bottom: 0

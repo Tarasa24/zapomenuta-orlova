@@ -81,8 +81,8 @@
     </l-map>
 
     <aside v-bind:class="{ opened: open, closed: !open }">
-      <h2>Seznam</h2>
       <div class="list">
+        <h2>Seznam</h2>
         <ol>
           <li v-for="([name, details], index) in places" :key="index">
             <router-link :to="`/misto/${index + 1}`">{{ name }}</router-link>
@@ -243,7 +243,7 @@ export default {
 
       center = new L.point(
         center.x - (this.open && this.safeScreen ? 375 / 2 : 0),
-        center.y
+        center.y - 140
       )
       var target = map.unproject(center)
 
@@ -286,7 +286,14 @@ export default {
       color: black
     b
       text-decoration: underline
-      color: blue
+      @include transition(color)
+    img
+      @include transition(transform)
+    &:hover
+      b
+        color: $accent
+      img
+        transform: scale(.95)
 
 aside
   position: fixed
@@ -298,13 +305,10 @@ aside
   background-color: rgba(white, 0.7)
   display: grid
   grid-template-columns: auto 20px
-  grid-template-rows: 45px calc( 100% - 45px )
-
   text-align: left
   h2
-    margin: 0
-    align-self: center
-    justify-self: center
+    margin: 12.5px
+    text-align: center
   .sideBtn
     height: 100%
     border: 0
@@ -322,12 +326,11 @@ aside
     &:hover
       background-color: black
   .list
-    grid-column: 1
-    grid-row: 2
-    @inclide small-device
+    @include small-device
       overflow: auto
-      height: calc( 100% - 45px - 70px)
+      height: calc(100vh - 63px)
     ol
+      margin: 0
       font-size: 1.25rem
       @include small-device-portrait
         padding-right: 70px
