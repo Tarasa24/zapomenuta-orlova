@@ -5,7 +5,7 @@
       <div class="point">
         <img
           :src="require('@/assets/img/installation/install_1.webp')"
-          alt="Installation step 1"
+          alt="Instalace 1"
         />
         <i
           >Při prvním otevření vás prohlížeč sám vyzve, abyste si aplikaci
@@ -15,21 +15,21 @@
       <div class="point">
         <img
           :src="require('@/assets/img/installation/install_2.webp')"
-          alt="Installation step 1"
+          alt="Instalace 2"
         />
         <i>Stejného efektu lze dosáhnout otevřením postranního menu...</i>
       </div>
       <div class="point">
         <img
           :src="require('@/assets/img/installation/install_3.webp')"
-          alt="Installation step 1"
+          alt="Instalace 3"
         />
         <i>... a stisknutím tlačítka "Přidat na plochu".</i>
       </div>
       <div class="point">
         <img
           :src="require('@/assets/img/installation/install_4.webp')"
-          alt="Installation step 1"
+          alt="Instalace 4"
         />
         <i>Svou volbu pak potvrdíte stisknutím tlačítka "Přidat".</i>
       </div>
