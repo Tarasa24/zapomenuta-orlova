@@ -27,8 +27,8 @@ const routes = [
   },
   {
     path: '/instalace',
-    name: 'Instalation',
-    component: () => import('./pages/Instalation.vue'),
+    name: 'Installation',
+    component: () => import('./pages/Installation.vue'),
   },
   {
     path: '*',
