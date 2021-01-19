@@ -229,7 +229,7 @@ section
     width: calc(100% - 10vw)
   display: flex
   align-items: center
-  min-height: 100vh
+  min-height: calc(100vh - 63px)
   & > div
     width: 100%
   .circle-img
