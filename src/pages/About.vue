@@ -92,7 +92,8 @@ main
   padding-top: 63px
   text-align: left
   @include small-device
-    padding: 1vh 20px
+    padding-left: 20px
+    padding-right: 20px
 
 .flex
   display: flex
