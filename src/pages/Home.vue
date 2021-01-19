@@ -29,17 +29,8 @@
         <br />
         <p>
           Stezka obsahuje celkem 12 cedulí roztoušených u významných staveb
-          Staré Orlové:
+          Staré Orlové.
         </p>
-        <div class="gallery">
-          <router-link
-            v-for="img in parallaxArr"
-            :key="img.src || null"
-            :to="'/misto/' + (img.index + 1)"
-          >
-            <img :src="img.src || null" :alt="'Místo' + (img.index + 1)" />
-          </router-link>
-        </div>
         <a href="#aplikace">
           <button>
             <b>APLIKACE</b>
@@ -311,22 +302,6 @@ section
       margin-top: 5vh
     @include small-device-landscape
       margin-top: 7.5vh
-  .gallery
-    width: 100%
-    overflow-x: auto
-    display: flex
-    margin: 20px 0
-    a
-      display: flex
-    img
-      align-self: center
-      margin: 10px
-      cursor: pointer
-      max-width: 20vw
-      max-height: 20vh
-      @include small-device-portrait
-        max-width: 50vw
-        max-height: 50vh
 
 #outdoor
   h2
