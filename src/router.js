@@ -26,6 +26,11 @@ const routes = [
     component: () => import('./pages/About.vue'),
   },
   {
+    path: '/instalace',
+    name: 'Instalation',
+    component: () => import('./pages/Instalation.vue'),
+  },
+  {
     path: '*',
     name: 'Not Found',
     component: () => import('./pages/NotFound.vue'),
