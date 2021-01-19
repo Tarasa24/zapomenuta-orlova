@@ -42,7 +42,15 @@ const router = new VueRouter({
   mode: 'history',
   routes,
   scrollBehavior(to, from, savedPosition) {
-    return { x: 0, y: 0 }
+    if (from.name == 'Installation' && to.hash)
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve({
+            selector: to.hash,
+          })
+        }, 400)
+      })
+    else return { x: 0, y: 0 }
   },
 })
 

@@ -34,6 +34,9 @@
         <i>Svou volbu pak potvrdíte stisknutím tlačítka "Přidat".</i>
       </div>
     </div>
+    <router-link to="/#aplikace">
+      <button><b>Zpět</b></button>
+    </router-link>
   </main>
 </template>
 
@@ -65,4 +68,21 @@ main
         padding-bottom: 20px
         margin-bottom: 10px
         border-bottom: 2px solid $grey
+button
+  text-align: center
+  margin: 5vh auto
+  border: 1px solid $grey
+  border-radius: 10px
+  background-color: $primary
+  cursor: pointer
+  width: 20vw
+  min-width: 350px
+  min-height: 50px
+  @include small-device-portrait
+    width: 95%
+  @include transition(background-color)
+  &:hover
+    background-color: $accent
+  b
+    font-size: 1rem
 </style>
