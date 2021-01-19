@@ -243,7 +243,7 @@ export default {
 
       center = new L.point(
         center.x - (this.open && this.safeScreen ? 375 / 2 : 0),
-        center.y
+        center.y - 140
       )
       var target = map.unproject(center)
 
