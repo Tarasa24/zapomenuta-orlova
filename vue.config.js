@@ -47,7 +47,6 @@ module.exports = {
     workboxOptions: {
       swSrc: './public/service-worker.js',
       exclude: [/_redirects/],
-      navigateFallback: 'index.html',
     },
   },
 }

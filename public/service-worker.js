@@ -16,6 +16,7 @@ self.addEventListener('message', (e) => {
 // Workbox config
 workbox.setConfig({ debug: false })
 workbox.core.clientsClaim()
+workbox.routing.registerNavigationRoute('/index.html')
 
 // Precaching
 self.__precacheManifest = [].concat(self.__precacheManifest || [])
