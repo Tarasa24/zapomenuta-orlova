@@ -5,17 +5,20 @@
       <router-view />
     </vue-page-transition>
     <Update />
+    <GDPR />
   </div>
 </template>
 
 <script>
 import Nav from '@/components/Nav'
 import Update from '@/components/Update'
+import GDPR from '@/components/GDPR'
 
 export default {
   components: {
     Nav,
     Update,
+    GDPR,
   },
   mounted() {
     const c = [
