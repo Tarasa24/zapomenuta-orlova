@@ -13,7 +13,7 @@
       <div>
         <img
           class="circle-img"
-          v-lazy="require('@/assets/img/logo_bg.webp')"
+          v-lazy="require('@/assets/img/logo_bg.png')"
           alt=""
         />
         <h1>ZAPOMENUTÁ ORLOVÁ</h1>
