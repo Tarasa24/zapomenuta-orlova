@@ -10,7 +10,7 @@ import {
   faGlobe,
   faChevronDown,
 } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VuePageTransition from 'vue-page-transition'
 import VueLazyload from 'vue-lazyload'
@@ -36,6 +36,7 @@ library.add(
   faTimes,
   faEnvelope,
   faGithub,
+  faFacebookF,
   faGlobe,
   faChevronDown
 )
