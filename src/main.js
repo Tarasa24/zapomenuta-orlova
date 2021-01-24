@@ -10,16 +10,33 @@ import {
   faGlobe,
   faChevronDown,
 } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VuePageTransition from 'vue-page-transition'
 import VueLazyload from 'vue-lazyload'
+import VueGtag from 'vue-gtag'
+
+let id
+switch (window.location.hostname) {
+  case 'zapomenuta-orlova.netlify.app':
+    id = 'G-P4CNPTGRMQ'
+    break
+  case 'zapomenuta.orlova.cz':
+    id = 'G-9TTWQTJKDV'
+    break
+}
+
+Vue.use(VueGtag, {
+  config: { id: id },
+  bootstrap: false,
+})
 
 library.add(
   faMapMarkerAlt,
   faTimes,
   faEnvelope,
   faGithub,
+  faFacebookF,
   faGlobe,
   faChevronDown
 )
