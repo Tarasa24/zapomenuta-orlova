@@ -37,15 +37,16 @@
 
     <span class="links">
       <a href="mailto:zapomenuta.orlova@gmail.com">
-        <fa :icon="['fas', 'envelope']"/>
+        <fa :icon="['fas', 'envelope']" />
         <span>zapomenuta.orlova@gmail.com</span>
       </a>
       <br />
       <a
         href="http://www.facebook.com/zapomenuta.orlova/"
         target="_blank"
-        rel="noopener noreferrer">
-        <fa :icon="['fab', 'facebook-f']"/>
+        rel="noopener noreferrer"
+      >
+        <fa :icon="['fab', 'facebook-f']" />
         <span>facebook.com/zapomenuta.orlova</span>
       </a>
     </span>
@@ -60,10 +61,8 @@
         </div>
         <span class="links">
           <a href="mailto:ondrej.chlubna01@gmail.com">
-            <fa :icon="['fas', 'envelope']"/>
-            <span>
-              ondrej.chlubna01@gmail.com
-            </span>
+            <fa :icon="['fas', 'envelope']" />
+            <span> ondrej.chlubna01@gmail.com </span>
           </a>
         </span>
       </span>
@@ -75,10 +74,8 @@
         </div>
         <span class="links">
           <a href="mailto:jurcak72@gmail.com">
-            <fa :icon="['fas', 'envelope']"/>
-            <span>
-              jurcak72@gmail.com
-            </span>
+            <fa :icon="['fas', 'envelope']" />
+            <span> jurcak72@gmail.com </span>
           </a>
         </span>
       </span>
@@ -92,29 +89,23 @@
         <span class="links">
           <a href="mailto:tarasa24@tarasa24.dev">
             <fa :icon="['fas', 'envelope']" />
-            <span>
-              tarasa24@tarasa24.dev
-            </span>
+            <span> tarasa24@tarasa24.dev </span>
           </a>
-          <a 
+          <a
             href="https://github.com/Tarasa24"
             target="_blank"
             rel="noopener noreferrer"
           >
             <fa :icon="['fab', 'github']" />
-            <span>
-              github.com/Tarasa24
-            </span>
+            <span> github.com/Tarasa24 </span>
           </a>
-          <a 
+          <a
             href="https://tarasa24.dev"
             target="_blank"
             rel="noopener noreferrer"
           >
             <fa :icon="['fas', 'globe']" />
-            <span>
-              tarasa24.dev
-            </span>
+            <span> tarasa24.dev </span>
           </a>
         </span>
       </span>
@@ -127,10 +118,8 @@
         </div>
         <span class="links">
           <a href="mailto:kkilik333@gmail.com">
-            <fa :icon="['fas', 'envelope']"/>
-            <span>
-              kkilik333@gmail.com
-            </span>
+            <fa :icon="['fas', 'envelope']" />
+            <span> kkilik333@gmail.com </span>
           </a>
         </span>
       </span>
