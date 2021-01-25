@@ -40,10 +40,10 @@ Památku na tuto smutnou událost dodnes připomíná památník obětem stávky
 ### Zajímavá místa v okolí:
 
 - **Věčný oheň** – Tabule číslo [9](/misto/9)
-- **České reálné gymnázium** – Tabule číslo [8](/misto/8)
-- **Polské reálné gymnázium** – Tabule číslo [5](/misto/5)
-- **Husův dům** – Tabule číslo [11](/misto/11)
-- **Bývalý zámek a zámecký park** – Tabule číslo [4](/misto/4)
+- **České gymnázium** – Tabule číslo [8](/misto/8)
+- **Polské gymnázium Juliusze Słowackiego** – Tabule číslo [5](/misto/5)
+- **Husův dům** – Tabule číslo [10](/misto/10)
+- **Zámecký park a bývalý zámek** – Tabule číslo [3](/misto/3)
 - **Bývalá hlavní třída (ul. Petra Cingra)** – dřívější názvy hlavní třídy: Haupt Straße, Masarykova třída, Piłsudskiego ulica, Adolf Hitler Straße, Gottwaldova třída
 - **Požární zbrojnice** – na ul. Bezručova, sídlo Sboru dobrovolných hasičů Orlová-Město
 - **Bývalá orlovská pošta** – bývalý poštovní a telegrafní úřad v Orlové, sídlil na ul. Františka Palackého (asi 200 metrů od křižovatky bývalého dělnického domu), za poštou svého času sídlila i obchodní akademie (budova srovnána se zemí).

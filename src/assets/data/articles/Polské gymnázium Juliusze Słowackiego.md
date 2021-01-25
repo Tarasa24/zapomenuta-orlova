@@ -33,6 +33,6 @@ Budova gymnázia Na Obrokách v roce 1962 sloužila hudební škole. Mezi lety 1
 ### Zajímavá místa v okolí
 
 - **Věčný oheň** – Tabule číslo [9](/misto/9)
-- **Dělnický dům** - Tabule číslo [3](/misto/3)
+- **Dělnický dům** - Tabule číslo [4](/misto/4)
 - **České gymnázium** - Tabule číslo [8](/misto/8)
 - **Požární zbrojnice** – na Bezručově ulici, v blízkosti se nacházelo kino Vlast.
