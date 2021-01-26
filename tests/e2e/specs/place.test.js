@@ -71,6 +71,23 @@ describe('Places pages', () => {
           expect(list[1].file).to.eql('main.webp')
         })
       })
+
+      it('Anchors should point to correct articles', () => {
+        const $lis = Cypress.$('li')
+        for (const $li of $lis) {
+          const strong = $li.getElementsByTagName('strong')[0],
+            a = $li.getElementsByTagName('a')[0]
+          if (a) {
+            const intended = strong.innerHTML,
+              actual = Object.keys(locations)[a.innerHTML - 1]
+
+            expect(intended).to.eql(actual)
+            expect(a.innerHTML).to.eql(
+              a.href.split('/')[a.href.split('/').length - 1]
+            )
+          }
+        }
+      })
     })
   }
 })

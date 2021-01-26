@@ -1,5 +1,8 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" },
-  { "file": "1.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  { "file": "main.webp", "alt": "Věčný oheň s přilehlými obchody" },
+  {
+    "file": "1.webp",
+    "alt": "Zachovalé foto Věčného ohně a nedaleké prodejny obuvi"
+  }
 ]

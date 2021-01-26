@@ -22,8 +22,8 @@ Hořkou závěrečnou tečku pro židovský templ si připravili nacisté. Po vy
 
 ### Zajímavá místa v okolí:
 
-- **Evangelický kostel SCEAV** – Tabule číslo [7](/misto/7)
-- **České reálné gymnázium** – Tabule číslo [8](/misto/8)
+- **Evangelický kostel** – Tabule číslo [7](/misto/7)
+- **České gymnázium** – Tabule číslo [8](/misto/8)
 - **Orlovské jámy** – černouhelné jámy, jáma č. 1 hloubena v roce 1930, jáma č. 2 v roce 1896. Likvidovány zásypem, č. 1 roku 2001, č. 2 roku 1999.
 - **Jáma Mühsam a bývalá kolonie Mühsam** – černouhelná jáma Mühsam (česky Obtížná) mezi lety 1838 – 1896. Konečná likvidace jámy v roce 2001. Naproti jámy stála kolonie Mühsam, jednalo se o kolonii s prvními závodními byty v Orlové. V 50. a 60. letech 19. století zde vzniklo 42 domů s byty pro dělníky, poslední 4 domy byly dostavěny v roce 1907. Kolonie byla zničena postupně do roku 1989.
 - **Osada Pod lipou** – bývalá úřednická osada pod evangelickým kostelem, nacházelo se zde 14 domků z období let 1901 – 1924. V lokalitě našlo své dočasné útočiště také orlovská nemocnice po roce 1968. Bývalý brigádnický domov nemocnice opustila roku 1979, léčebna dlouhodobě nemocných se přesunula do areálu nemocnice v Orlové-Lutyni roku 1988. Dnes je osada zahrádkářskou kolonií.

@@ -18,17 +18,17 @@
         />
         <h1>ZAPOMENUTÁ ORLOVÁ</h1>
         <p>
-          Vítejte na webu stezky Zapomenutou Orlovou. Jedná se unikátní projekt,
+          Vítejte na webu stezky Zapomenutou Orlovou. Jedná se unikátní projekt
           s cílem přivést znovu do povědomí již dávno zapomenutá místa z
-          Orlovské historie, které bývaly dříve chloubou našeho města. I když
-          kvůli negativním vlivům důlní činnosti, muselo být bývalé centrum
-          přesunout, určite to neznamená, že by měla být opomijena. Proto bychom
+          orlovské historie, které bývaly dříve chloubou našeho města. I když
+          kvůli negativním vlivům důlní činnosti muselo být bývalé centrum
+          přesunuto, určitě to neznamená, že by mělo být opomíjeno. Proto bychom
           vám jej chtěli přiblížit a provést vás historií těchto úchvatných
           lokací, dnes již na pokraji vymizení.
         </p>
         <br />
         <p>
-          Stezka obsahuje celkem 12 cedulí roztoušených u významných staveb
+          Stezka obsahuje celkem 12 cedulí roztroušených u významných staveb
           Staré Orlové.
         </p>
         <a href="#aplikace">
@@ -145,9 +145,9 @@
         <p>
           Na následující mapě naleznete všechny zapojené místa i s umístěním
           cedulí. Nebojte se na ně kliknout a přečíst si náležité texty o jejich
-          historii. Naleznete u nich také dobové fotografie, zajímavé fakta a
-          další zajímavá místa v okolí. Mapa rovnež zobrazuje vaší polohu, a tak
-          se neumsíte obávat, že se ztratíte.
+          historii. Naleznete u nich také dobové fotografie, historická fakta a
+          další zajímavá místa v okolí. Mapa rovněž zobrazuje vaší polohu, a tak
+          se nemusíte obávat, že se ztratíte.
         </p>
         <router-link to="/mapa">
           <button>

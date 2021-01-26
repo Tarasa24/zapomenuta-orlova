@@ -1,4 +1,7 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  {
+    "file": "main.webp",
+    "alt": "Pohled na Dělnický dům z hlavní ulice (Petra Cingra)"
+  }
 ]

@@ -5,12 +5,12 @@
       Koncept projektu “Zapomenutá Orlová” vznikl na konci roku 2019 a byl
       dokončen na jaře 2021. Jeho cílem je zvětšit povědomí o dnes již
       zapomenutých místech v našem městě, která bývala dříve jeho centrem a
-      pokusit se o zvýšení turismu v Orlové 1. Proto jsem vybrali 12 zajímavých
+      pokusit se o zvýšení turismu v Orlové 1. Proto jsme vybrali 12 unikátních
       historických lokací v této oblasti, které bychom chtěli představit širší
       veřejnosti.
     </p>
     <p>
-      Jedná se i zcela studentský projekt, který bylo možné uskutečnit za pomoci
+      Jedná se i zcela studentský projekt, který bylo možno uskutečnit za pomoci
       participativního rozpočtu Města Orlové.
     </p>
 
@@ -20,11 +20,12 @@
       pomoc. Bez něj by tento projekt nebyl možný, jsme rádi za to, že nám jej
       pomohli realizovat. Zvláště pak paní <b>DiS. Petře Ožanové</b> z úřadu
       starosty za její čas a kontrolu nad projektem, která nás provázela celou
-      cestu. Také bychom chtěli poděkovat Muzeu Těšínska, za korekturu
+      cestu. Také bychom chtěli poděkovat Muzeu Těšínska za korekturu
       historických textů. Jmenovite jeho řediteli
-      <b>PaedDr. Zbyšekovi Ondřekovi</b> a historičce
-      <b>Mgr. Lence Novákové, Ph.D.</b> A nesmíme zapomenout na pamětníky a jiné
-      zájemce o místní historii. Děkujeme všem za informace a neustálou podporu.
+      <b>PaedDr. Zbyškovi Ondřekovi</b> a historičce
+      <b>Mgr. Lence Novákové, Ph.D.</b> A nesmíme zapomenout na pamětníky,
+      historiky amatéry a jiné zájemce o tento projekt. Děkujeme všem za
+      informace a neustálou podporu.
     </p>
 
     <h2>Feedback</h2>

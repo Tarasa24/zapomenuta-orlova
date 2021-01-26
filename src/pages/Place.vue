@@ -123,6 +123,10 @@ section
     width: 60%
     padding: calc(12.5vh + 63px) 0 5vh 0
     margin: auto
+    @include small-device-portrait
+      width: 100%
+    @include small-device-landscape
+      width: 80%
     h1
       margin-top: 40px
       margin-bottom: 0
@@ -191,4 +195,14 @@ hr
       padding-left: 25px
     &:last-of-type
       padding-right: 25px
+.viewer-title
+  font-size: 1.25rem
+  color: white
+  opacity: 1
+  white-space: unset
+  margin-top: 10px
+  @include small-device-portrait
+    margin-left: 0
+    margin-right: 0
+    max-width: 95%
 </style>

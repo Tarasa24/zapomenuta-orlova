@@ -31,7 +31,7 @@ Samotný konec hornictví na území Orlové nastal 28. listopadu 2019, kdy na D
 
 ### Zajímavá místa v okolí:
 
-- **Orlovské nádraží** - Tabule číslo [1](/misto/1)
+- **Vlakové nádraží** - Tabule číslo [1](/misto/1)
 - **Kostel Narození Panny Marie** - Tabule číslo [2](/misto/2)
 - **Pomník padlým za Těšínsko** - Tabule číslo [11](/misto/11)
 - **Staré náměstí** – významný střed města Orlové, kde se konaly trhy, manifestace, demonstrace a další významné akce a události. Do roku 1939 ji město nevlastnilo, ale pouze si jej pronajímalo, což byl ojedinělý případ z celého Československa. Na náměstí byl 6. července 1930 přivítán československý prezident T. G. Masaryk.

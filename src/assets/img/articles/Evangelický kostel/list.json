@@ -1,5 +1,5 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" },
-  { "file": "1.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  { "file": "main.webp", "alt": "Současný pohled na kostel od hlavní cesty" },
+  { "file": "1.webp", "alt": "Fotografie profilu kostela z roku 1903" }
 ]

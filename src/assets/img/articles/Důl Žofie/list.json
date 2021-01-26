@@ -1,7 +1,13 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" },
-  { "file": "1.webp", "alt": "" },
-  { "file": "2.webp", "alt": "" },
-  { "file": "3.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  {
+    "file": "main.webp",
+    "alt": "Fotografie dolu Žofie z přilehlé železniční trati"
+  },
+  {
+    "file": "1.webp",
+    "alt": "Dobová fotografie areálu dolu s hlavní těžní věží"
+  },
+  { "file": "2.webp", "alt": "Důl Žofie na počátku 20. století" },
+  { "file": "3.webp", "alt": "Dobová fotografie" }
 ]

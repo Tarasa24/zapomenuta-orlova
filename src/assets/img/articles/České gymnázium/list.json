@@ -1,6 +1,12 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" },
-  { "file": "1.webp", "alt": "" },
-  { "file": "2.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  {
+    "file": "main.webp",
+    "alt": "Pohlednice z 10. let 20. stol. s účelem propagace gymnázia a sbírky na jeho rozšíření"
+  },
+  { "file": "1.webp", "alt": "Část pohlednice s gymnáziem (1925)" },
+  {
+    "file": "2.webp",
+    "alt": "Současná budova gymnázia v centru města (Masarykova tř. 1313)"
+  }
 ]

@@ -1,6 +1,14 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" },
-  { "file": "1.webp", "alt": "" },
-  { "file": "2.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  {
+    "file": "main.webp",
+    "alt": "Pohled na hlavní vchod zámku (tehdy nemocnice), 1937"
+  },
+  {
+    "file": "1.webp",
+    "alt": "Katastrální mapa areálu z první poloviny 19. století"
+  },
+  { "file": "2.webp", "alt": "Zámek (nemocnice) ve 20. letech 19. stol." },
+  { "file": "3.webp", "alt": "Zámek ve zchátralém stavu (70. léta)" },
+  { "file": "4.webp", "alt": "Požár zámku roku 1975" }
 ]

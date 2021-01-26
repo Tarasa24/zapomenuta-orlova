@@ -46,9 +46,9 @@ Do bývalé budovy gymnázia v Orlové-Městě se nastěhovala učňovská škol
 
 ### Zajímavá místa v okolí:
 
-- **Bývalý dělnický dům** – Tabule číslo [3](/misto/3)
-- **Bývalý věčný oheň** – Tabule číslo [9](/misto/9)
-- **Evangelický kostel (SCEAV)** – Tabule číslo [7](/misto/7)
-- **Bývalý židovský templ** – Tabule číslo [6](/misto/6)
-- **Hlavní ulice Petra Cingra se zámeckým parkem a bývalým zámkem** - Tabule číslo [4](/misto/4)
+- **Dělnický dům** – Tabule číslo [4](/misto/4)
+- **Věčný oheň** – Tabule číslo [9](/misto/9)
+- **Evangelický kostel** – Tabule číslo [7](/misto/7)
+- **Židovský templ** – Tabule číslo [6](/misto/6)
+- **Zámecký park a bývalý zámek** - Tabule číslo [3](/misto/3)
 - **Požární zbrojnice** – na Bezručově ulici, v blízkosti se nacházelo kino Vlast

@@ -45,12 +45,12 @@ export default {
   bottom: 10px
   right: 10px
   @include small-device-portrait
-    left: 10px
     width: calc(100% - 40px)
   background-color: black
   color: white
   padding: 5px 10px
   width: 30vw
+  z-index: 999999
 
 button
   cursor: pointer
