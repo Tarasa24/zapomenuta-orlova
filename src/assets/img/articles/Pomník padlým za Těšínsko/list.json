@@ -1,7 +1,19 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" },
-  { "file": "1.webp", "alt": "" },
-  { "file": "2.webp", "alt": "" },
-  { "file": "3.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  {
+    "file": "main.webp",
+    "alt": "Původní památník se svým dominantním sousoším a citátem Petra Bezruče"
+  },
+  {
+    "file": "1.webp",
+    "alt": "Českoslovenští legionáři z Francie na polské frontě (1919)"
+  },
+  {
+    "file": "2.webp",
+    "alt": "Fotografie památníku krátce po vybudování (1928)"
+  },
+  {
+    "file": "3.webp",
+    "alt": "Sousoší slezské orlice s legionáři, které bylo zničeno během zabrání Těšínska Polskem v roce 1938"
+  }
 ]

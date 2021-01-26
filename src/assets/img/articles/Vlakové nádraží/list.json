@@ -1,4 +1,11 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  {
+    "file": "main.webp",
+    "alt": "Budova železniční stanice v období před 1. světovou válkou"
+  },
+  {
+    "file": "1.webp",
+    "alt": "Budova železniční stanice v období před 1. světovou válkou"
+  }
 ]

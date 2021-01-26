@@ -1,6 +1,6 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" },
-  { "file": "1.webp", "alt": "" },
-  { "file": "2.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  { "file": "main.webp", "alt": "Současný pohled na kostel" },
+  { "file": "1.webp", "alt": "Pohled na centrum města s kostelem z roku 1903" },
+  { "file": "2.webp", "alt": "Obraz severní strany kostela z roku 1908" }
 ]

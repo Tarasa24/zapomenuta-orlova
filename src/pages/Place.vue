@@ -191,4 +191,8 @@ hr
       padding-left: 25px
     &:last-of-type
       padding-right: 25px
+.viewer-title
+  font-size: 1.25rem
+  color: white
+  opacity: 1
 </style>

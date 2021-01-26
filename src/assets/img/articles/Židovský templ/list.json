@@ -1,6 +1,6 @@
 [
-  { "file": "map.webp", "alt": "" },
-  { "file": "main.webp", "alt": "" },
-  { "file": "1.webp", "alt": "" },
-  { "file": "2.webp", "alt": "" }
+  { "file": "map.webp", "alt": "Mapa" },
+  { "file": "main.webp", "alt": "Fotopohlednice z období první republiky" },
+  { "file": "1.webp", "alt": "Část pohlednice se synagogou (1925)" },
+  { "file": "2.webp", "alt": "Dobový pohled na tempel z hlavní cesty" }
 ]
