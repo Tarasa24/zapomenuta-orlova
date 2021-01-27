@@ -62,14 +62,14 @@
 
       <span v-if="lookForPosition">
         <l-circle
-          @click="zoomTo(position.lat, position.lng)"
+          @click="zoomTo(position.lat, position.lng, false)"
           :latLng="[position.lat, position.lng]"
           :radius="position.acc / 2"
           :color="positionAvailible ? '#FCBA03' : '#232B2B'"
           :fillColor="positionAvailible ? '#FCBA03' : 'grey'"
         />
         <l-circle-marker
-          @click="zoomTo(position.lat, position.lng)"
+          @click="zoomTo(position.lat, position.lng, false)"
           :latLng="[position.lat, position.lng]"
           :radius="7.5"
           :fill="true"
@@ -230,8 +230,8 @@ export default {
         this.zoomTo(place.lat, place.lng)
       }
     },
-    zoomTo(x, y) {
-      this.center = this.calculateOffset(x, y)
+    zoomTo(x, y, offset = true) {
+      this.center = offset ? this.calculateOffset(x, y) : [x, y]
 
       if (this.open && !this.safeScreen) this.handleClick()
     },
