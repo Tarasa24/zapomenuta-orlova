@@ -21,8 +21,8 @@ switch (window.location.hostname) {
   case 'zapomenuta-orlova.netlify.app':
     id = 'G-P4CNPTGRMQ'
     break
-  case 'zapomenuta.orlova.cz':
-    id = 'G-9TTWQTJKDV'
+  case 'zapomenutaorlova.muor.cz':
+    id = 'G-1BM9VV7LGZ'
     break
 }
 
