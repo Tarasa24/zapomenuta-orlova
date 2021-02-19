@@ -10,7 +10,12 @@
       to="/mapa"
       >Mapa</router-link
     >
-    <router-link class="link" to="/o-projektu">O projektu</router-link>
+    <router-link
+      class="link"
+      v-bind:class="{ highlighted: path == '/o-projektu' }"
+      to="/o-projektu"
+      >O projektu</router-link
+    >
 
     <a
       href="https://www.mesto-orlova.cz/"
