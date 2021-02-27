@@ -11,9 +11,19 @@
         alt="background image"
       />
       <div>
-        <span class="circle">
-          <b>{{ place.nth }}</b>
-        </span>
+        <svg width="60" height="60">
+          <circle cx="30" cy="30" r="30" fill="#FCBA03" />
+          <text
+            text-anchor="middle"
+            x="30"
+            y="42"
+            fill="white"
+            font-weight="bold"
+            font-size="35"
+          >
+            {{ place.nth }}
+          </text>
+        </svg>
         <h1>
           {{ place.name }}
         </h1>
@@ -90,8 +100,21 @@ export default {
       this.place.name = name
       this.place.nth = this.$route.params.index
 
-      const md = require(`@/assets/data/articles/${this.place.name}.md`).default
-      this.body = marked(md)
+      const md = marked(
+        require(`@/assets/data/articles/${this.place.name}.md`).default
+      )
+      const re = /<a href="\/misto\/\d+">(\d+)<\/a>/g
+      this.body = md.replaceAll(
+        re,
+        `
+      <a href="/misto/$1">
+        <svg width="28" height="28">
+          <circle cx="14" cy="14" r="14" />
+          <text text-anchor="middle" x="14" y="20" fill="white" font-weight="bold" font-size="17">$1</text>
+        </svg>
+      </a>
+      `
+      )
 
       this.images = require(`@/assets/img/articles/${this.place.name}/list.json`)
     }
@@ -128,7 +151,7 @@ section
     @include small-device-landscape
       width: 80%
     h1
-      margin-top: 40px
+      margin-top: 25px
       margin-bottom: 0
       color: white
       text-transform: uppercase
@@ -137,20 +160,6 @@ section
         font-size: 2.25rem
     h4
       color: white
-    .circle
-      background-color: $primary
-      color: white
-      border-radius: 50%
-      padding: 30px
-      font-size: 0
-      position: relative
-      bottom: 12.5px
-      b
-        font-size: 2rem
-        position: absolute
-        top: 50%
-        left: 50%
-        transform: translate(-50%, -50%)
 
 .cover
   width: 100%
@@ -165,17 +174,16 @@ section
     margin-right: 10px
     li
       margin: 7.5px 0
-    a
-      background-color: $primary
-      text-decoration: none
-      color: white
-      font-weight: bold
-      border-radius: 50%
-      padding: 2px 8px
-      font-size: 1.25rem
-      @include transition(background-color)
-      &:hover
-        background-color: $accent
+      svg
+        transform: translate(0px, 25%)
+        circle
+          fill: $primary
+          @include transition(fill)
+        text
+          fill: 'white'
+        &:hover
+          circle
+            fill: $accent
 
 hr
   margin: 30px 10px

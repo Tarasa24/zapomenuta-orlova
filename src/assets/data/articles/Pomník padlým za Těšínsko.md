@@ -18,7 +18,7 @@ Samotný spor byl vyvolán plánovanými volbami do nově vzniklého polského S
 
 Po uzavření příměří v Paříži 3. února 1919 se začaly určovat hranice. Zvažovalo se také, že se uskuteční plebiscit. Ten však polská strana zavrhla, protože ve zkušebním plebiscitu konaném ve Frýdku se kromě Čechů, Němců a Slezanů rozhodla i polovina Poláku pro setrvání v Československu. Rozhodla až arbitráž, která 28. července 1920 definitivně rozdělila Těšínsko. Československu bylo uznáno 1208 km<sup>2</sup> (56% původní rozlohy Těšínska) se 295 tisíci obyvateli, uhelným revírem a Košicko bohumínskou dráhou. Polsko získalo 1002 km<sup>2</sup> plochy (44% původní plochy) se 140 tisíci obyvateli. Hranice Těšínska vytyčila delimitační komise. Dodatečně byla na žádost goralů připojena obec Hrčava k Československu. Hranice jsou (byť s krátkou přestávkou po Mnichovské dohodě) určené ve stejné podobě dodnes.
 
-13\. června 1958 po znovuobnovených sporech (především po obsazení Těšínska polskou armádou na počátku října 1938 a následně po válce), byla na nátlak Sovětského svazu uzavřena „Smlouva o konečném vytýčení hranic Těšínska“. Hranice byly určeny ze září 1938.
+13\. června 1958 po znovuobnovených sporech (především po obsazení Těšínska polskou armádou na počátku října 1938 a následně po válce), byla na nátlak Sovětského svazu uzavřena „Smlouva o konečném vytýčení hranic Těšínska“. Hranice byly určeny podle stavu v září 1938.
 
 ---
 
@@ -44,4 +44,4 @@ _V areálu orlovského hřbitova:_
 
 _Mimo areál hřbitova:_
 
-- **bývalá Klášterní kolonie** – mezi hřbitovem a ulicí Ostravskou (silnice I/59). Pojmenována podle nedalekého kláštera Milosrdných sester sv. Karla Boromejského. Vystavěna v letech 1878 – 1901 pro společnost Kamenouhelné závody Orlová-Lazy. Jednalo se o první obytné stavby z režného spárovaného zdiva. Celkem 44 přízemních domků se 174 byty s vlastním vchodem. V roce 2005 domy zbourány společností OKD kvůli nevyhovujícímu stavu a výskytu žloutenky.
+- **Bývalá Klášterní kolonie** – mezi hřbitovem a ulicí Ostravskou (silnice I/59). Pojmenována podle nedaleké klášterní školy Milosrdných sester sv. Karla Boromejského. Vystavěna v letech 1878 – 1901 pro společnost Kamenouhelné závody Orlová-Lazy. Jednalo se o první obytné stavby z režného spárovaného zdiva. Celkem 44 přízemních domků se 174 byty s vlastním vchodem. V roce 2005 domy zbourány společností OKD kvůli nevyhovujícímu stavu a výskytu žloutenky.

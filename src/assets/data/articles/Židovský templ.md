@@ -4,7 +4,7 @@ Národnostní a náboženská skladba obyvatel byla na Těšínsku pestrá. S Č
 
 Židé na Orlovsku se usazovali po zrovnoprávnění se společností, a to po roce 1848. Narůstající počet lidí s židovským vyznáním přál ke vzniku orlovského židovského templu (bývá také nazývána jako synagoga). Novorománskou budovu s prvky maursko-orientálního stylu navrhl vídeňský architekt židovského původu Jakob Gartner, jehož portfolio návrhů zahrnovaly nejen synagogy, ale také obytné a veřejné stavby. Jeho kancelář se sídlem ve Vídni a pobočkou v Olomouci nechala postavit např. dodnes dochovanou synagogu v Trnavě, budovu spořitelny ve Šternberku nebo Porodnici císařovny Alžběty ve Vídni.
 
-Židovský templ byl vystavěn pravděpodobně mezi lety 1903 – 1905, nacházela se mezi dnešním evangelickým kostelem a bývalou sokolovnou, a sloužila k synagogálním bohoslužbám pro praktikování reformního (liberálního) judaismu. Obecně se tento náboženský směr snaží spojovat judaismus s modernou, směrodatné je pouze poselství proroků. Na rozdíl od ortodoxního judaismu praktikuje reformní judaismus kázání v národním jazyce, dochází k přeformulování vybraných modliteb, které neodrážejí obecnou víru. Muži nemusí nosit pokrývku hlavy, do synagogálních bohoslužeb se zavádí instrumentální hudba. Začaly se také stavět modlitebny neoddělující muže od žen. Orlovský templ měl údajně ještě oddělené prostory, muži se scházeli v přízemí, ženy v 1. nadzemním podlaží.
+Židovský templ byl vystavěn pravděpodobně mezi lety 1903 – 1905, nacházela se na ulici s evengelickým kostelem, mezi poslkou školou a bývalou sokolovnou, a sloužila k synagogálním bohoslužbám pro praktikování reformního (liberálního) judaismu. Obecně se tento náboženský směr snaží spojovat judaismus s modernou, směrodatné je pouze poselství proroků. Na rozdíl od ortodoxního judaismu praktikuje reformní judaismus kázání v národním jazyce, dochází k přeformulování vybraných modliteb, které neodrážejí obecnou víru. Muži nemusí nosit pokrývku hlavy, do synagogálních bohoslužeb se zavádí instrumentální hudba. Začaly se také stavět modlitebny neoddělující muže od žen. Orlovský templ měl údajně ještě oddělené prostory, muži se scházeli v přízemí, ženy v 1. nadzemním podlaží.
 
 O orlovském židovském templu je dochováno málo informací. Zprávy o něm se dovídáme např. z Brněnských novin, které se roku 1910 zmiňují o vloupání neznámých zlodějů do templu, v němž ukradli cenné stříbrné předměty. Dále víme, že ortodoxní křídlo si roku 1923 postavilo novou menší modlitebnu blízko centra města – odhaduje se, že se ortodoxní židé scházeli v budově mezi ulicemi Bedřicha Smetany a Františka Palackého. O stavbě a vnitřním interiéru templu také postrádáme podrobnější informace. Z dochovaných fotografií pouze vyplývá, že stavba byla dvojpodlažní. Exteriér tvořila bosáž (plastické vyznačení kvádrového zdiva), doplněná pilastry (dekorativními reliéfními plochými prvky představující sloupy) oddělených portály (vchody), rozetami (kruhovými okny) s Davidovou hvězdou a dalšími architektonickými prvky.
 
@@ -16,7 +16,7 @@ Hořkou závěrečnou tečku pro židovský templ si připravili nacisté. Po vy
 
 ### Věděli jste, že...?
 
-- Jeden z přeživšího holocaustu byl známý Žid Robert Sylten narozený v Orlové, který se vždy hlásil k československé národnosti, přestože běžně hovořil německy.
+- Jeden z přeživších holocaustu byl známý Žid Robert Sylten narozený v Orlové, který se vždy hlásil k československé národnosti, přestože běžně hovořil německy.
 
 ---
 

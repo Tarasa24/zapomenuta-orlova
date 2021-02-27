@@ -26,5 +26,5 @@ Své aktivity provozuje sbor dodnes. Konají se zde bohoslužby a jiné nábože
 ### Zajímavá místa v okolí
 
 - **Bývalá orlovská pošta** – funkcionalistické sídlo poštovního a telegrafního úřadu v Orlové, na ul. Františka Palackého 915, asi 150 metrů od Husova domu, dnes slouží k jiné podnikatelské činnosti.
-- **Orlovská vodárna** – vedle bývalé orlovské pošty, ul. Nad poštou, dnes podnikatelská činnost.
+- **Bývalá orlovská vodárna** – vedle bývalé orlovské pošty, ul. Nad poštou, dnes podnikatelská činnost.
 - **Tramvajový násep** – po náspu zde vedla tramvajová trať z orlovského náměstí na Kopaniny (část města Orlová hraničící s obcí Doubrava)
