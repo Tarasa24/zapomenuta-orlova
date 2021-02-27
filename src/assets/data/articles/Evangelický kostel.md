@@ -1,6 +1,6 @@
 # Evangelický kostel
 
-Vliv na evangelizaci obyvatelstva na Těšínsku měl piastovský kníže Václav III. Adam Těšínský, který se hlásil k evangelíkům. Benediktýnskému řádu dokonce zabavil roku 1561 orlovský kostel a předal ho protestantům, kteří zde působili do roku 1631.
+Vliv na evangelizaci obyvatelstva na Těšínsku měl piastovský kníže Václav III. Adam Těšínský, který se hlásil k evangelíkům. Benediktinskému řádu dokonce zabavil roku 1561 orlovský kostel a předal ho protestantům, kteří zde působili do roku 1631.
 
 I když ve Slezsku panovaly v pobělohorském období v náboženské oblasti jiné podmínky, než v Čechách a na Moravě, postupně i zde došlo k prosazení rekatolizace a pronásledování evangelíků. Jisté uvolnění nastalo roku 1781, a to na základě vydání Tolerančního patentu Josefem II., kdy byla evangelická víra povolena. Tak jako jinde v monarchii, také v Orlové a okolí nešlo až do sklonku 40. let 19. století oplnou rovnoprávnost s katolíky. Například místní katolický farář Metoděj Faster nařizoval protestantským dětem navštěvovat katolickou školu, přičemž ve třídách seděli od ostatních dětí odděleně. Na pohřbech zakazoval účast evangelického zpěváka, od evangelíků vybíral vyšší štolové poplatky (poplatky za liturgické úkony).
 
@@ -12,7 +12,7 @@ Období 60. až 80. let 19. století přálo orlovským evangelíkům, protože 
 
 Zvony byly v roce 1916 pro vojenské účely sneseny, jež poté nahradily nové před koncem války. Roku 1921 byly pořízeny varhany, roku 1929 dostal kostel nový oltář. O tři roky později se v blízkosti kostela postavil sborový dům. V období druhé světové války byli pronásledováni polští evangeličtí faráři, do čela orlovského sboru byl postaven německý duchovní.
 
-Původní název církve „Augšburská evangelická církev ve východním Slezsku v Československu“ z roku 1923 se v roce 1950 přejmenovala na název „Slezská církev evangelická augsburského vyznání“. Církev je známá pod svou zkratkou SCEAV. V roce 1987 byla postavena nová farní budova, po demolici Sborového domu byla namísto něj vystavěna v roce 1989 hospodářská budova.
+Původní název církve „Augšpurská evangelická církev ve východním Slezsku v Československu“ z roku 1923 se v roce 1950 přejmenovala na název „Slezská církev evangelická augsburského vyznání“. Církev je známá pod svou zkratkou SCEAV. V roce 1987 byla postavena nová farní budova, po demolici Sborového domu byla za novou farou vystavěna v roce 1989 nová hospodářská budova.
 
 Vzhledem k důlní činnosti byl kostel často opravován (roky oprav naleznete v sekci „Věděli jste, že…?“), evangelický hřbitov ani škola, která se postupně transformovala na Odbornou školu pro ženská povolání a v letech 1951 – 1973 pak na Střední zdravotnickou školu, již nejsou v provozu. Naposledy museli evangelíci opustit kostel v roce 2004 na základě rozhodnutí stavebního úřadu v důsledku poddolování. Církev jednala o možnostech záchrany kostela se společností OKD. V roce 2005 se od uvažované demolice odstoupilo a začala generální oprava.
 
