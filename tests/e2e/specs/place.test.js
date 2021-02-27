@@ -23,7 +23,7 @@ describe('Places pages', () => {
       })
 
       it('Should have correct header, index number and coordinates', () => {
-        cy.get('.head .circle').should('contain', index + 1)
+        cy.get('.head svg>text').should('contain', index + 1)
         cy.get('.head h1').should('contain', place)
         cy.get('.head i').should('exist')
       })
@@ -76,13 +76,14 @@ describe('Places pages', () => {
         const $lis = Cypress.$('li')
         for (const $li of $lis) {
           const strong = $li.getElementsByTagName('strong')[0],
-            a = $li.getElementsByTagName('a')[0]
+            a = $li.getElementsByTagName('a')[0],
+            text = $li.getElementsByTagName('text')[0]
           if (a) {
             const intended = strong.innerHTML,
-              actual = Object.keys(locations)[a.innerHTML - 1]
+              actual = Object.keys(locations)[text.innerHTML - 1]
 
             expect(intended).to.eql(actual)
-            expect(a.innerHTML).to.eql(
+            expect(text.innerHTML).to.eql(
               a.href.split('/')[a.href.split('/').length - 1]
             )
           }
