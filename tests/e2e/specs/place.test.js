@@ -51,8 +51,8 @@ describe('Places pages', () => {
           })
         })
 
-        it('Should contain hr three times', () => {
-          cy.get('hr').its('length').should('eq', 3)
+        it('Should contain four times', () => {
+          cy.get('hr').its('length').should('eq', 4)
         })
       })
 

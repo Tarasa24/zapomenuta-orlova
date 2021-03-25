@@ -64,6 +64,14 @@
           />
         </viewer>
       </section>
+      <section>
+        <hr />
+        <router-link
+          :to="'/o-projektu?s=' + place.name + '#sources'"
+          class="sources"
+          >Zdroje <fa :icon="['fas', 'external-link-alt']"
+        /></router-link>
+      </section>
     </div>
   </main>
 </template>
@@ -213,4 +221,15 @@ hr
     margin-left: 0
     margin-right: 0
     max-width: 95%
+</style>
+
+<style lang="sass" scoped>
+.sources
+  cursor: pointer
+  padding-bottom: 20px
+  color: grey
+  font-size: .9rem
+  @include transition(color)
+  &:hover
+    color: $primary
 </style>

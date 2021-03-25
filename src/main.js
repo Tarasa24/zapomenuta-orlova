@@ -9,6 +9,9 @@ import {
   faEnvelope,
   faGlobe,
   faChevronDown,
+  faCaretRight,
+  faCaretDown,
+  faExternalLinkAlt,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -38,7 +41,10 @@ library.add(
   faGithub,
   faFacebookF,
   faGlobe,
-  faChevronDown
+  faChevronDown,
+  faCaretRight,
+  faCaretDown,
+  faExternalLinkAlt
 )
 Vue.component('fa', FontAwesomeIcon)
 Vue.use(VuePageTransition)
