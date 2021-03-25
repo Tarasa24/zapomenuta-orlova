@@ -3,14 +3,14 @@
     <h1>O projektu</h1>
     <p>
       Koncept projektu “Zapomenutá Orlová” vznikl na konci roku 2019 a byl
-      dokončen na jaře 2021. Jeho cílem je zvětšit povědomí o dnes již
+      dokončen na jaře 2021. Cílem projektu je zvětšit povědomí o dnes již
       zapomenutých místech v našem městě, která bývala dříve jeho centrem a
       pokusit se o zvýšení turismu v Orlové 1. Proto jsme vybrali 12 unikátních
-      historických lokací v této oblasti, které bychom chtěli představit širší
+      historických lokací v této oblasti, které bychom chtěli představit široké
       veřejnosti.
     </p>
     <p>
-      Jedná se i zcela studentský projekt, který bylo možno uskutečnit za pomoci
+      Jedná se o zcela studentský projekt, který bylo možno uskutečnit za pomoci
       participativního rozpočtu Města Orlové.
     </p>
 
@@ -34,9 +34,9 @@
 
     <h2>Feedback</h2>
     <p>
-      Chcete nám zanechat zprávu, jak se Vám stezka líbila. Máte návrh na další
-      historická místa, která by si zasloužila představení veřejnosti? Nebo máte
-      jakýkoliv jiný dotaz. Neváhejte nás kontaktovat na:
+      Chcete nám zanechat zprávu? Jak se Vám stezka líbila? Máte návrh na další
+      historická místa, která by si zasloužila představení veřejnosti, nebo máte
+      jakýkoliv jiný dotaz? Neváhejte nás kontaktovat na:
       <br />
     </p>
 
