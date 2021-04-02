@@ -1,6 +1,6 @@
 # Důl Žofie
 
-První zmínky o úspěšném dolování černého uhlí na Orlovsku pochází z počátku 19. století. Bludovští nejevili o dolování větší zájem, hlavním důvodem byl nedostatek finančních prostředků. Ve 30. letech 19. století vznikly na území Orlové doly Schwabenschacht, Altmaschinenschacht (později se stal větrací šachtou Hlavní jámy) a Mühsamschacht.
+První zmínky o úspěšném dolování černého uhlí na Orlovsku pochází z konce 18. století. Bludovští nejevili o dolování větší zájem, hlavním důvodem byl nedostatek finančních prostředků. Ve 30. letech 19. století vznikly na území Orlové doly Schwabenschacht, Altmaschinenschacht (později se stal větrací šachtou Hlavní jámy) a Mühsamschacht.
 
 V tehdy samostatné obci Poremba (v dnešní době Poruba, součást Orlové) kutal také ostravský podnikatel Jan Zwierzina. Jeho vrty na Zwierzinově poli v jihovýchodní části obce v roce 1868 koupili Rothschildové, o 3 roky později toto pole odkoupili bratři Gutmannové a stalo se součástí společnosti Kamenouhelné závody Orlová-Lazy. To následně posloužilo k vybudování dvojdolu Žofie o hloubce 230 metrů. V roce 1870 byla k dolu dostavěna Báňská dráha, vedoucí z Ostravy přes Petřvald do Doubravy.
 
