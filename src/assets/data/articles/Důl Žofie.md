@@ -1,6 +1,6 @@
 # Důl Žofie
 
-První zmínky o úspěšném dolování černého uhlí na Orlovsku pochází z počátku 19. století. Bludovští nejevili o dolování větší zájem, hlavním důvodem byl nedostatek finančních prostředků. Ve 30. letech 19. století vznikly na území Orlové doly Schwabenschacht, Altmaschinenschacht (později se stal větrací šachtou Hlavní jámy) a Mühsamschacht.
+První zmínky o úspěšném dolování černého uhlí na Orlovsku pochází z konce 18. století. Bludovští nejevili o dolování větší zájem, hlavním důvodem byl nedostatek finančních prostředků. Ve 30. letech 19. století vznikly na území Orlové doly Schwabenschacht, Altmaschinenschacht (později se stal větrací šachtou Hlavní jámy) a Mühsamschacht.
 
 V tehdy samostatné obci Poremba (v dnešní době Poruba, součást Orlové) kutal také ostravský podnikatel Jan Zwierzina. Jeho vrty na Zwierzinově poli v jihovýchodní části obce v roce 1868 koupili Rothschildové, o 3 roky později toto pole odkoupili bratři Gutmannové a stalo se součástí společnosti Kamenouhelné závody Orlová-Lazy. To následně posloužilo k vybudování dvojdolu Žofie o hloubce 230 metrů. V roce 1870 byla k dolu dostavěna Báňská dráha, vedoucí z Ostravy přes Petřvald do Doubravy.
 
@@ -12,7 +12,7 @@ Za druhé světové války došlo k neúměrnému zvýšení těžby pro váleč
 
 Po druhé světové válce došlo ke znárodnění dolů a převedení všech závodů do postupně se formujícího národního podniku Ostravsko-karvinské doly. K práci na dolech byli zpočátku využíváni i Němci, kteří byli předurčení k vystěhování se z osvobozeného Československa. V 50. letech minulého století částečně zajišťovali práci také političtí vězni zařazení v Pomocných technických praporech (PTP). Pro narůstající počet pracovníků nedostačovalo ubytování v hornických koloniích, a proto se zřizovaly brigádnické domovy.
 
-Samotný Důl Žofie zaměstnával na počátku 60. let přes 1800 zaměstnanců. V roce 1963 byl Důl Žofie sloučen s Dolem Čs. pionýr v Orlové-Porubě, jehož součástí byl i orlovský Důl Václav. Následně tento komplex k 1. lednu 1970 splynul s Dolem Julius Fučík v Petřvaldu u Karviné. Tento velkodůl měl 6 závodů, Důl Žofie se stal jeho 5. závodem a přejmenoval se na Důl Fučík 5.¨
+Samotný Důl Žofie zaměstnával na počátku 60. let přes 1800 zaměstnanců. V roce 1963 byl Důl Žofie sloučen s Dolem Čs. pionýr v Orlové-Porubě, jehož součástí byl i orlovský Důl Václav. Následně tento komplex k 1. lednu 1970 splynul s Dolem Julius Fučík v Petřvaldu u Karviné. Tento velkodůl měl 6 závodů, Důl Žofie se stal jeho 5. závodem a přejmenoval se na Důl Fučík 5.
 
 Dolování na Dole Fučík 5 skončilo v roce 1995. Posléze areál získal státní podnik Diamo, aby došlo k rekultivaci krajiny. Aby však nedocházelo k zaplavení areálu a okolí vodou, byla roku 1999 zřízena čerpací stanice pro její odčerpávání. Část areálu byla na základě rozhodnutí města Orlová a vlády ČR bezúplatně převedena na město a následně vložena do firmy Orlovská průmyslová a podnikatelská zóna, s. r. o. Tuto část areálu již město Orlová většinově nevlastní.
 

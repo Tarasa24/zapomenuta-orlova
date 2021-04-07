@@ -18,7 +18,7 @@ Accompanying website for the student project - historical trail with the goal to
 
 Project is a **PWA (Progressive Web App)** made in **Vue** designed as a project presentation and trail map. As a **PWA** it's built in a way that it's possible for the website to be downloaded including the map tiles and then work entirely offline.
 
-The centre-point of the website is the map screen. Using the **Leaflet** library it was easy to create comprehensive yet simple-to-operate overview of the trail. Users can then click on trail's stopping points and open up articles about the places. 
+The centre-point of the website is the map screen. Using the **Leaflet** library it was easy to create comprehensive yet simple-to-operate overview of the trail. Users can then click on trail's stopping points and open up articles about the places.
 
 From articles writer’s point of view is the website architecture convenient because the actual articles are written in markdown and are then converted to html on runtime. Which means that the writer can focus on the content while the website itself handles the form.
 

@@ -3,7 +3,7 @@
 Arnošt Leberecht Bludovský v roce 1720 zdědil po Jáchymovi II. Bludovském statek. V té době byl Arnošt Bludovský nezletilý. Spravovat zděděné statky mohl až kolem roku 1734, po němž nechal zesílit ekonomický tlak na poddané. Jeho poměrně dobré hospodářské výsledky umožnily stavbu  
 barokního zámku u orlovského kostela. Stavba byla započata ve čtyřicátých letech 18. století a ukončena v roce 1765. Poddaní si ale stěžovali na zvyšování roboty (práce poddaných pro vrchnost) za hranou tehdejších předpisů, povstání vyvrcholilo v dubnu následujícího roku. Královská vyšetřovací komise nakonec uznala za pravdu poddaným a robota byla snížena.
 
-Zámek byl postaven z kamene a cihel, omítnut a žlutě natřen, zdoben pilastry. Vstupní průčelí bylo obrácené k severu, v jižní části zámku byl zahradní sál (sala terrena), který byl nahrazen vstupní halou s balkónem. Mezi prvky zámku patřila např. mansardova střecha, jednoduchá valená klenba čtyř místností v přízemí, kazetový strop ve schodištní hale.
+Zámek byl postaven z kamene a cihel, omítnut a žlutě natřen, zdoben pilastry. Vstupní průčelí bylo obrácené k severu, v jižní části zámku byl zahradní sál (sala terrena), který byl poté nahrazen vstupní halou s balkónem. Mezi prvky zámku patřila např. mansardová střecha, jednoduchá valená klenba čtyř místností v přízemí, kazetový strop ve schodištní hale.
 
 Zámek patřil Bludovským do roku 1838, poté ho vlastnil Jiří Thomke a v období 1844 – 1901 ho drželi ve vlastnictví Mattencloitové. Náhrobek Richarda Freiherra von Mattencloita se nachází v zámeckém parku v blízkosti římskokatolického kostela.
 
