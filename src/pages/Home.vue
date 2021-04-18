@@ -95,7 +95,11 @@
           outdooorové hře Geocaching. Doprovází je také štítky hry Munzee.
         </p>
         <div class="flex">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.geocaching.com/seek/nearest.aspx?u=Zapomenuta_Orlova"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span>
               <img
                 class="circle-img"
