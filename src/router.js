@@ -31,6 +31,11 @@ const routes = [
     component: () => import('./pages/Installation.vue'),
   },
   {
+    path: '/prameny',
+    name: 'Sources',
+    component: () => import('./pages/Sources.vue'),
+  },
+  {
     path: '*',
     name: 'Not Found',
     component: () => import('./pages/NotFound.vue'),

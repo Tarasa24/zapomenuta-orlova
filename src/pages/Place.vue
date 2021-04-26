@@ -66,9 +66,7 @@
       </section>
       <section>
         <hr />
-        <router-link
-          :to="'/o-projektu?s=' + place.name + '#sources'"
-          class="sources"
+        <router-link :to="'/prameny?s=' + place.name" class="sources"
           >Zdroje <fa :icon="['fas', 'external-link-alt']"
         /></router-link>
       </section>
