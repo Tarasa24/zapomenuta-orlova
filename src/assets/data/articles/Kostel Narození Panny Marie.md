@@ -14,7 +14,7 @@ Interiér: v presbytáři (kněžišti), nejstarší části kostela, se nacház
 
 V interiéru jsou také vitrážová okna, ozdobná klenba a malby na stěnách, zvláště malba v presbytáři, zobrazující pověst o založení kostela a Orlové, jejíž restaurace proběhla r. 2013. Nacházejí se zde také funkční varhany od firmy Bratři Riegrové z Krnova. Tento hudební nástroj se skládá z 2700 píšťal.
 
-Ke kostelu vede přístupové schodiště z roku 1861, které je ve tvaru písmene Y. Po stranách jej doplňují 4 kamenné sochy svatých v životní velikosti. Na dolní části schodiště (u cesty) se nachází dvě sochy z roku 1863, nalevo je to socha sv. Josefa a napravo socha sv. Benedikta. O 8 let později, tj. roku 1871, byly k horní části schodiště přidány další dvě sochy, nalevo je to socha sv. Hedviky a napravo socha sv. Jana Nepomuckého. Jedná se o velmi kvalitní dílenskou kamenickou práci.
+Ke kostelu vede přístupové schodiště z roku 1861, které je od přestavby kostela v roce 1905 ve tvaru písmene Y. Po stranách jej doplňují 4 kamenné sochy svatých v životní velikosti. Na dolní části schodiště (u cesty) se nachází dvě sochy z roku 1863, nalevo je to socha sv. Josefa a napravo socha sv. Benedikta. O 8 let později, tj. roku 1871, byly k horní části schodiště přidány další dvě sochy, nalevo je to socha sv. Hedviky a napravo socha sv. Jana Nepomuckého. Jedná se o velmi kvalitní dílenskou kamenickou práci.
 
 # Historie
 
