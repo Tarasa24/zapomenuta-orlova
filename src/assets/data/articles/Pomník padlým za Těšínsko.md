@@ -2,7 +2,7 @@
 
 Vybudování pomníku pro padlé vojáky v Sedmidenní válce a obětem plebiscitu (lidového hlasování, referenda) do právoplatného rozdělení Těšínska zamýšleli již členové orlovského sokolského spolku. Členové začali shánět finanční prostředky a v listopadu 1919 založili „Fond pro pozůstalé a pro zbudování pomníku padlým za Těšínsko se sídlem v Orlové“. Zpočátku byl vybudován pouze dřevěný pomník. V roce 1922 fond se Sokolskou župou Těšínskou organizovali exhumaci českého legionáře Jana Čapka z Prahy do Orlové. Převoz byl uskutečněn od března téhož roku, spolu s ním bylo pohřbeno 22 legionářů a vojínů převezených z polského Těšína a polské Pruchné.
 
-Po přebudování fondu na „Spolek pro poctu padlých za Těšínsko“ v roce 1924 byla v říjnu téhož roku vyhlášena soutěž na výstavbu důstojnějšího pomníku. Vítězi se stali architekti Stránský a Šlégr s akademickým sochařem Václavem Žaludem. Svůj projekt pojmenovali jako „Zelený vykřičník nad Orlovou“. Vítězové poté zajišťovali stavební dohled.
+Po přebudování fondu na „Spolek pro poctu padlých za Těšínsko“ v roce 1924 byla v říjnu téhož roku vyhlášena soutěž na výstavbu důstojnějšího pomníku. Vítězi se stali architekti Stránský a Šlégl s akademickým sochařem Václavem Žaludem. Svůj projekt pojmenovali jako „Zelený vykřičník nad Orlovou“. Vítězové poté zajišťovali stavební dohled.
 
 Pískovcové sousoší slezské orlice vytvořil Ferdinand Malina z Orlové, architekt a bývalý italský legionář Čeněk Volný z Doubravy se podílel na architektonické části. Pomník byl odhalen 30. září 1928. Kromě jmen obětí a sousoší byl zhotoven i citát básníka Petra Bezruče: „Zhasnuvše dále žijí padlí bojovníci v paměti národa“.
 
