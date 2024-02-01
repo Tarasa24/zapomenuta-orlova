@@ -103,6 +103,10 @@
             </button>
           </li>
         </ol>
+
+        <div class="downloadMap>
+          <a href="#">Mapa ke stažení</a>
+        </div>
       </div>
       <button
         class="sideBtn"
@@ -349,4 +353,10 @@ aside
 
 .closed
   left: -355px
+
+.downloadMap
+  text-align: center
+  margin-top: 1em
+  a
+    color: black
 </style>
