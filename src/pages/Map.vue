@@ -104,7 +104,7 @@
           </li>
         </ol>
 
-        <div class="downloadMap>
+        <div class="downloadMap">
           <a href="/zapomenutaorlova-muor-cz.pdf">Mapa ke stažení</a>
         </div>
       </div>
