@@ -118,7 +118,6 @@
         <img v-lazy="require('@/assets/img/about/Avatar.svg')" alt="" />
         <div>
           <b>Kristýna Kiliková</b>
-          <b>(norsae.ae)</b>
           <i>grafik</i>
         </div>
         <span class="links">
