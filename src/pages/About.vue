@@ -85,7 +85,7 @@
         </span>
       </span>
       <span class="member">
-        <img v-lazy="require('@/assets/img/about/Petr.svg')" alt="" />
+        <img v-lazy="require('@/assets/img/about/Avatar.svg')" alt="" />
         <div>
           <b>Petr Gajdošík</b>
           <b>(Tarasa24)</b>
@@ -115,7 +115,7 @@
         </span>
       </span>
       <span class="member">
-        <img v-lazy="require('@/assets/img/about/Kilda.webp')" alt="" />
+        <img v-lazy="require('@/assets/img/about/Avatar.svg')" alt="" />
         <div>
           <b>Kristýna Kiliková</b>
           <b>(norsae.ae)</b>
