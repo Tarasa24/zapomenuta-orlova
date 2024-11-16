@@ -1,8 +1,8 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from './pages/Home.vue'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import Home from './pages/Home.vue';
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
@@ -17,19 +17,19 @@ const routes = [
   },
   {
     path: '/misto/R1',
-    redirect: '/misto/13',
+    redirect: '/misto/13'
   },
   {
     path: '/misto/R2',
-    redirect: '/misto/14',
+    redirect: '/misto/14'
   },
   {
     path: '/misto/R3',
-    redirect: '/misto/15',
+    redirect: '/misto/15'
   },
   {
     path: '/misto/O1',
-    redirect: '/misto/16',
+    redirect: '/misto/16'
   },
   {
     path: '/misto/:index',
@@ -56,7 +56,7 @@ const routes = [
     name: 'Not Found',
     component: () => import('./pages/NotFound.vue'),
   },
-]
+];
 
 const router = new VueRouter({
   base: process.env.BASE_URL,
@@ -68,11 +68,11 @@ const router = new VueRouter({
         setTimeout(() => {
           resolve({
             selector: to.hash,
-          })
-        }, 400)
-      })
-    else return { x: 0, y: 0 }
+          });
+        }, 400);
+      });
+    else return { x: 0, y: 0 };
   },
-})
+});
 
-export default router
+export default router;

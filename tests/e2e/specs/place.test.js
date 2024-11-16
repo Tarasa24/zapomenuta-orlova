@@ -61,9 +61,7 @@ describe('Places pages', () => {
           cy.get('.gallery').should('exist')
         })
 
-        const list = require(
-          `../../../src/assets/img/articles/${place}/list.json`,
-        )
+        const list = require(`../../../src/assets/img/articles/${place}/list.json`)
         it(`Gallery should have ${list.length} element(s)`, () => {
           cy.get('.gallery img').should('have.length', list.length)
         })

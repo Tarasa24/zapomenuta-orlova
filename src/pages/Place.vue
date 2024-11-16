@@ -107,7 +107,7 @@ export default {
       this.place.nth = this.$route.params.index
 
       const md = marked(
-        require(`@/assets/data/articles/${this.place.name}.md`).default,
+        require(`@/assets/data/articles/${this.place.name}.md`).default
       )
       const re = /<a href="\/misto\/.+">(.+)<\/a>/g
       this.body = md.replaceAll(
@@ -119,12 +119,10 @@ export default {
           <text text-anchor="middle" x="14" y="20" fill="white" font-weight="bold" font-size="17">$1</text>
         </svg>
       </a>
-      `,
+      `
       )
 
-      this.images = require(
-        `@/assets/img/articles/${this.place.name}/list.json`,
-      )
+      this.images = require(`@/assets/img/articles/${this.place.name}/list.json`)
     }
   },
 }

@@ -6,12 +6,9 @@ if (process.env.NODE_ENV == 'production') {
       console.log('App is being served from cache by a service worker.')
     },
     registered(registration) {
-      setInterval(
-        () => {
-          registration.update()
-        },
-        1000 * 60 * 60,
-      )
+      setInterval(() => {
+        registration.update()
+      }, 1000 * 60 * 60)
     },
     cached() {
       console.log('Content has been cached for offline use.')
@@ -21,12 +18,12 @@ if (process.env.NODE_ENV == 'production') {
     },
     updated(registration) {
       document.dispatchEvent(
-        new CustomEvent('swUpdated', { detail: registration }),
+        new CustomEvent('swUpdated', { detail: registration })
       )
     },
     offline() {
       console.log(
-        'No internet connection found. App is running in offline mode.',
+        'No internet connection found. App is running in offline mode.'
       )
     },
     error(error) {

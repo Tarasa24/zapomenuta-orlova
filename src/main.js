@@ -44,7 +44,7 @@ library.add(
   faChevronDown,
   faCaretRight,
   faCaretDown,
-  faExternalLinkAlt,
+  faExternalLinkAlt
 )
 Vue.component('fa', FontAwesomeIcon)
 Vue.use(VuePageTransition)

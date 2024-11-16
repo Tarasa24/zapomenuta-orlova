@@ -179,7 +179,7 @@ export default {
     // safeScreen listener
     window.addEventListener(
       'resize',
-      () => (this.safeScreen = window.innerWidth >= 700),
+      () => (this.safeScreen = window.innerWidth >= 700)
     )
 
     // selected pin handeling
@@ -208,7 +208,7 @@ export default {
     this.lookForPosition = false
     window.removeEventListener(
       'resize',
-      () => (this.safeScreen = window.innerWidth >= 700),
+      () => (this.safeScreen = window.innerWidth >= 700)
     )
   },
   methods: {
@@ -223,7 +223,7 @@ export default {
         {
           duration: 500,
           easing: 'ease-in-out',
-        },
+        }
       )
       el.style.left = this.open ? '-355px' : '0'
 
@@ -247,7 +247,7 @@ export default {
 
       center = new L.point(
         center.x - (this.open && this.safeScreen ? 375 / 2 : 0),
-        center.y - 140,
+        center.y - 140
       )
       var target = map.unproject(center)
 
@@ -271,7 +271,7 @@ export default {
           },
           (err) => {
             this.positionAvailible = false
-          },
+          }
         )
       }
     },
