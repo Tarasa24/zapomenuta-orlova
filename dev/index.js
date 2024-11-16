@@ -14,8 +14,8 @@ file.write(
   JSON.stringify(
     tiles.map((xyz) => {
       return `https://a.tile.openstreetmap.org/${xyz.z}/${xyz.x}/${xyz.y}.png`
-    })
-  )
+    }),
+  ),
 )
 file.end()
 

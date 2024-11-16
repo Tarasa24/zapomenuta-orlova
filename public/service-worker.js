@@ -23,7 +23,7 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
 
 // Routing
 workbox.routing.registerNavigationRoute(
-  workbox.precaching.getCacheKeyForURL('index.html')
+  workbox.precaching.getCacheKeyForURL('index.html'),
 )
 
 //Custom
@@ -33,7 +33,7 @@ self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open('OSM_TILES').then(function (cache) {
       cache.addAll(targetCache)
-    })
+    }),
   )
 })
 
@@ -44,6 +44,6 @@ self.addEventListener('fetch', function (event) {
         return response
       }
       return fetch(event.request)
-    })
+    }),
   )
 })
