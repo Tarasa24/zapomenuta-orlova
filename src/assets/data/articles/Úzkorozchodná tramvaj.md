@@ -1,0 +1,51 @@
+# Úzkorozchodné dráhy na Ostravsku a Karvinsku
+
+Historie úzkorozchodných drah na území Ostravska a Karvinska je poměrně bohatá. Již koncem 19. století rozhodla městská rada města Bohumín o výstavbě dráhy, která měla za cíl zmírnit izolovanost a hospodářskou stagnaci města. Po dlouhém a složitém vyjednávání začala roku 1902 konečně stavba této trati, a ještě téhož roku byl zahájen provoz úzkorozchodné dráhy na koňský pohon. Trasa vedla od Bohumínského náměstí k tehdejšímu Bohumínskému nádraží. Již následující rok byla však koňská síla nahrazena parními motorovými vozy. Od roku 1916 byl zahájen také elektrický provoz.
+Inspirováni úspěchem tramvajové dopravy v Bohumíně, začaly plány na výstavbu dalších drah. Konkrétně Hrušov – Polská Ostrava (otevřena 1904), Ostrava – Karviná (otevřena 1909) a Slezské zemské dráhy, propojující Slezskou Ostravu a Karvinou (otevřena 1912), což vedlo ke vzniku Dopravního podniku města Ostravy (vznikl sloučením dosavadních provozovatelů hromadné dopravy roku 1949). Nejzajímavějšími drahami byly Ostrava – Karviná a Slezské zemské dráhy, neboť jejich tratě zasahovaly do území Orlové. Před sebou můžete vidět právě násyp, na kterém projížděla tramvaj Slezských zemských drah.
+Dráhy na Ostravsku byly v rámci Československa specifické svým rozchodem kolejí. Jako jediné tramvajové dráhy měly rozchod kolejí 760 mm; proto je klasifikace tohoto způsobu dopravy složitější a někteří autoři řadí dráhy na pomezí tramvají a vlaků, jelikož tento rozchod kolejí byl typičtější právě pro vlakovou dopravu.
+
+# Dráha Ostrava – Karviná
+
+První úvahy o výstavbě trati propojující Ostravu a Karvinou pocházejí již z roku 1898. Projekt vznikl na návrh společnosti Ganz & Comp., ale byl pozastaven a předán k dalšímu přepracování. Přepracovaný projekt byl podán k projednání roku 1900, avšak byl znovu vrácen kvůli lobování železniční společnosti FKNB, která již v této době provozovala montánní (báňskou) dráhu v podobné trase. Po přistoupení na závazek, že nová dráha nebude sloužit k nákladní dopravě, byl návrh roku 1903 přijat a výstavba mohla začít.
+V průběhu dalšího půl desetiletí probíhala příprava projektu. Do dráhy byly zapojeny další obce a vypracování projektu přešlo z původního návrhu firmy Ganz na obce Moravská a Polská Ostrava. Polská Ostrava ovšem z finančních důvodů od projektu odstoupila.
+Stavba trati začala v polovině roku 1908 a pravidelný provoz dráhy započal 6. dubna 1909. Dráha byla obzvlášť v meziválečném období velmi hojně využívána. Jezdilo po ní přibližně 3 miliony osob ročně. Linka sloužila k přepravě zboží i osob a nabízela pasažérům vozy 2. a 3. třídy.
+Třicátá léta však byla pro tuto trať plná různých krizí. Důlní vlivy se začaly na území Orlové více projevovat, což zvyšovalo náklady na údržbu a prohlubovalo následky lokálních povodní. Místní obyvatelé měli kromě úzkorozchodných tramvají k dispozici i další způsoby dopravy – na území Orlové operovaly koňské povozy, autobusy, železnice, autodopravci a více obyvatel již vlastnilo osobní automobily. Díky tomu začala poptávka po tramvajové dopravě upadat.
+Provoz dráhy fungoval i během okupace, kdy byla Orlová součástí Polska. Při jízdě mezi protektorátem (Ostravou) a „Říší“ (Orlovou a Karvinou) proto probíhala kontrola cestujících.
+Tramvajová linka vedla na dnešní ulici Ostravská. Orlová měla na svém území dvě tramvajové zastávky této dráhy - Orlová klášter a Lazy. Obě zastávky obsahovaly menší čekárnu. Zastávka Orlová klášter se nacházela velmi blízko dnešní zastávky Orlová, čerp. st.
+
+# Slezské zemské dráhy
+
+Další tramvajové linky procházející Orlovou byly postaveny roku 1913. Inspirována úspěchy dráhy Ostrava – Karviná zřídila Země Slezská nové tratě propojující jednotlivé obce na Karvinsku. První trať tohoto projektu vznikla roku 1912 a spojovala Karvinou s Fryštátem.
+Dne 31. května 1913 byly zřízeny hned dvě linky tohoto projektu v Orlové. První z nich byla linka z Jámy Jan v Karviné (dnešní areál ČSA; v době výstavby velmiblízko karvinského nádraží) do Kopanin (zastávka byla umístěna poblíž dnešní zastávky Kopaniny). Tato trať byla ještě téhož roku prodloužena o spojení do Dolní Lutyně (směřující podél ulice 17. listopadu).
+Stejného dne byla také zřízena i kratší linka propojující Kopaniny s Orlovou náměstí. Tato trať zastavovala i u Evangelického kostela a právě její násyp můžete vidět před sebou.
+V průběhu dalších let se tratě Slezských zemských drah rozšiřovaly o linky v Bohumíně, Ostravě a Karviné, čímž vznikla největší tramvajová síť na Karvinsku.
+
+# Dráhy po roce 1949
+
+Po roce 1945 se musely na dráze Ostrava – Karviná i na Slezských zemských drahách musely provádět rozsáhlé opravy infrastruktury, která byla zničena na konci druhé světové války.
+Dramatický vývoj nastal roku 1949, kdy sjednocením jednotlivých drah vznikl konglomerát Dopravní podnik města Ostravy (DPMO). DPMO zakoupil na tratě nové vozy a pokračoval v jejich údržbě.
+V 50. letech však docházelo vlivem poddolování a přírodních katastrof na orlovských tratích k mnoha nepříznivým událostem. Vyšší rychlost jízdy také zvýrazňovala propady terénu. Bylo zřejmé, že úzkorozchodná tramvaj již kvůli poddolování nemá dlouhou budoucnost. V důsledku těchto událostí a několika změn na trati (zejména nevýhodného umístění nové výhybny na Kopaninách) byly tratě postupně zkracovány a rušeny. V roce 1966 byl tedy zastaven provoz na trati Karviná – Orlová – Dolní Lutyně a přilehlé trati Orlová Kopaniny – Orlová náměstí. O rok později pak byla zrušena i trať Karviná – Ostrava.
+Po roce 1967 úzkorozchodné dráhy v Orlové kompletně vymizely. Poslední dvě funkční dráhy spojovaly Ostravu s Bohumínem a Bohumín s Dolní Lutyní. I ty byly v 70. letech zlikvidovány (jako poslední byla roku 1973 zrušena trať Hrušov – Bohumín).
+
+---
+
+### Věděli jste, že...?
+
+- dráhy na Ostravsku a Karvinsku byli unikátní svým rozchodem. Jednalo se o jediné tramvajové dráhy v Československu s rozchodem 760 mm.
+- provoz tratě Orlová náměstí - Orlová Kopaniny – Karviná byl obnoven již ve stejný den, kdy byly v roce 1945 ukončeny boje v Orlové (3. 5. 1945)
+- po tratích už toho moc nezbylo, přesto před sebou můžete vidět jejich doklad v podobě násypu tratě Orlová Kopaniny – Orlová náměstí. Při průchodu ulicí Husova si můžete všimnou, že násyp měl dvě úrovně. Na té nižší jezdily tramvaje, zatímco vyšší obsahovala vlečku.
+- díky mnoha národnostním menšinám a časté změně populace bylo problematické rozhodnutí, v jakém jazyce budou vedeny tramvajové zastávky. Po roce 1918 byla ustálená čeština.
+
+
+---
+
+### Zajímavá místa v okolí
+
+- __Zámecký park a bývalý zámek__ – Tabule číslo [3](/misto/3)
+- __Vlakové nádraží__ – Tabule číslo [1](/misto/1)
+- __Bývalá městská spořitelna__ – Tabule číslo [R3](/misto/15)
+- __Staré náměstí__ - významný střed města Orlové, kde se konaly trhy, manifestace, demonstrace a další významné akce a události. Do roku 1939 ji město nevlastnilo, ale pouze si jej pronajímalo, což byl ojedinělý případ z celého Československa. Na náměstí byl 6. července 1930 přivítán československý prezident T. G. Masaryk.
+- __Budova radnice__ – Klasicistně laděná stavba dvacátých let 20. století, postavená jako radnice v roce 1928. Nahradila původní radnici s pseudorenesančním štítem z roku 1908. V současnosti zde sídlí stavební odbor a odbor životního prostředí městského úřadu, lékárna a kavárna. Kulturní památka od roku 1993.
+- __Budova dnešní městské polikliniky__ – dříve obchodní dům Chamrád s hotelem Orlová, 28. února 2002 otevřena jako poliklinika. Budova je v majetku města Orlová.
+- __Bývalá klášterní škola__ - založena v roce 1877 milosrdnými sestrami řádu Karla Boromejského. Jednalo se o soukromou dívčí česko-německou školu, ve své vlastní budově nad závorami a u křižovatky od roku 1887. V roce 1946 byla na školu Místním národním výborem v Orlové uvalena národní správa, o dva roky později školu obsadila armáda. V květnu 1950 se kongregace rozhodla k opuštění budovy, a to v důsledku likvidačních zákroků proti katolické církvi. Dnes slouží objekt k podnikatelským účelům.
+- __Ulice Petra Cingra__ – hlavní ulice v Orlové, dříve s velkým podílem obchodů a služeb. Dřívější názvy hlavní třídy: Haupt Straße, Masarykova třída, Piłsudskiego ulica, Adolf Hitler Straße, Gottwaldova třída.

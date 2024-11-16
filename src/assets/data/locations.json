@@ -46,5 +46,21 @@
   "Důl Žofie": {
     "lat": 49.84542355,
     "lng": 18.41847924
+  },
+  "Úzkorozchodná tramvaj": {
+    "lat": 49.844520,
+    "lng": 18.431801
+  },
+  "Sokolovna": {
+    "lat": 49.847145,
+    "lng": 18.442368
+  },
+  "býv. Spořitelna": {
+    "lat": 49.845660,
+    "lng": 18.430195
+  },
+  "Eduard Hořovský": {
+    "lat": 49.842526,
+    "lng": 18.435938
   }
 }

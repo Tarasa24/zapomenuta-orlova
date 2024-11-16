@@ -1,0 +1,57 @@
+Ing. Eduard Hořovský (1831–1895) je jednou z centrálních figur technologických a manažerských pokroků v rámci hornictví na Ostravsku. Jednalo se o ředitele Doubravsko-orlovské společnosti mezi lety 1873 a 1895.
+
+Hořovský nastoupil do služeb Doubravsko-orlovské společnosti v roce 1868 na místo horního inženýra. Jako vrchní inženýr nechal vybudovat důl Žofie a roku 1873 byl povýšen na ředitele. Ve své činnosti se zasloužil o modernizaci dolů, zavedení ventilace, elektrifikaci dolů a zvýšení bezpečnosti v dolech. Pracoval primárně na Hlavní jámě, dole Bettina, dole Eleonora a dole Mühsam. Hořovský byl i filantropem a daroval velké částky na spolky horníků a charity.
+
+Jeho magnum opus je třídílné dílo O způsobech dobývání kamenného uhlí: dle anglických, francouzských a německých zpráv. Sestavil také Německo-česko-ruský hornický a hutnický slovník obsahující 19 000 výrazů.
+
+Hořovský zemřel roku 1895 a je pohřben ve Vídni.
+
+Ing. Eduard Hořovský (1831–1989) je jednou z centrálních osobností technologického a manažerského pokroku v rámci hornictví na Ostravsku. Jednalo se o ředitele Doubravsko-orlovské společnosti mezi lety 1873 a 1895. Ve své činnosti se zasloužil o modernizaci dolů, jejich elektrifikaci a zvýšení bezpečnosti v dolech. Z akademických aktivit vydal dvě významná díla: O způsobech dobývání kamenného uhlí a Německo-česko-ruský hornický a hutnický slovník. Jednalo se také o filantropa, který daroval velkou část svých financí na aktivity horníků.
+
+# Mládí
+
+Eduard Hořovský se narodil roku 1831 v Příbrami do hornické rodiny. Jeho děd i strýc byli horníci, otec byl dokonce správcem hutě v místním stříbrném dole. Stejně jako jeho otec a děd studoval Eduard Hořovský Báňskou akademii v Banské Štiavnici, kde získal základní znalosti hornictví a hutnictví. Poslední rok svého studia strávil na učilišti v Příbrami, kde také absolvoval (učiliště zaměřené na hornictví a hutnictví vzniklo roku 1849; titul získal roku 1854). Po studiích pracoval Eduard Hořovský krátký čas na Žacléřsku a na dole Zárubek ve Slezské Ostravě. Již tehdy prokázal svou dobrotivou povahu, když každou sobotu vedl zdarma lekce o hornictví pro Čechy i cizince. Ve svém mládí podnikl také řadu studijních cest do Německa, Belgie, Francie, Ruska a na Balkán.
+
+# Doubravsko-orlovská společnost
+
+Další významnou figurou hornictví na Karvinsku je Ignác Vondráček. Vondráček je důlní podnikatel pocházející z chudé rodiny, kterému patřilo mnoho dolů v Orlové a v Doubravě. Roku 1867 si Vondráček pronajal s bratry Gutmannovými (velmi bohatí podnikatelé prodávající a těžící uhlí) doly v Orlové a Doubravě. Vondráček s bratry Gutmannovými společně založili Doubravsko-orlovskou společnost. Stejně jako Hořovský byl Vondráček příbramský rodák.
+Hořovský nastoupil do služeb Doubravsko-orlovské společnosti v roce 1868 na místo horního inženýra. Již roku 1873 se z něj stal ředitelem této společnosti. V této funkci setrval až do roku 1895, kdy odešel z veřejného života.
+Hořovský se do Karvinska přistěhoval v době velkého nárůstu populace. Od roku 1851 do roku 1869 se počet obyvatel zvýšil o 51 %. Rok 1869 byl pro pro Orlovou významný také dokončením úseku Košicko–bohumické dráhy v úseku z Bohumína do Orlové a výstavbou první pošty na území města (stála vedle Cingrova domu). Mezi lety 1869 a 1880 se následně počet obyvatel Orlové více než zdvojnásobil. Doubravsko-orlovská společnost zaměstnávala velký podíl z těchto osob a vykazovala v tomto období velké zisky, z velké míry díky přínosu Hořovského. Příliv osob především z Příbramska je zásluhou právě Hořovského.
+Hořovský modernizoval důl Hlavní jáma v Orlové a doubravské doly Bettina a Eleonora. Pracoval také na dole Mühsam. Doly byly při nástupu Hořovského poměrně mladé (Hlavní jáma začala fungovat roku 1849; Bettina a Eleonora pocházejí z 50. let 18. století), přesto byly zanedbávané a vyžadovaly mnohé opravy. Vybavení bylo mnohdy jen v kvalitě nutné pro minimální provoz. Ventilace v dolech skoro nebyla. Hořovský doly modernizoval, přidal ventilaci a jako jeden z prvních zavedl elektrické osvětlení v dolech. Mimoto pečoval Hořovský i o zázemí horníků - daroval peníze místním spolkům a řešil místní spory.
+
+# Spisovatelská činnost
+
+Eduard Hořovský byl absolventem pražského gymnázia, kde získal velmi silný vztah k filologii. Kombinace jeho zájmu o techniku a filologii se promítla i v jeho spisovatelské činnosti.
+
+Jeho magnum opus byl třídílný svazek O způsobech dobývání kamenného uhlí: dle anglických, francouzských a německých zpráv. Poslední z knih vyšla roku 1875. První kniha se zabývá obecnou teorií hornictví, druhý díl se zabývá detaily jednotlivých uhelných pánví v Evropě a třetí díl obsahuje schémata jednotlivých evropských dolů. Za tuto knihu dostal také titul císařsko-královský horní rada.
+
+Další významnou publikací od Hořovského je Německo-česko-ruský hornický a hutnický slovník. Kniha vyšla roku 1890 a obsahuje 19 000 výrazů z oborů mineralogie, metalurgie, strojírenství a mnoha dalších. Publikace je volně dostupná v online archivu NDK.
+
+# Charakter
+
+Povaha historických postav se popisuje obtížně, protože se ve zdrojích často mísí legendy, pomluvy a fakta. Ze zdrojů víme, že Hořovský byl pracovitý a štědrý člověk, který nesnášel polovičatou práci a hluboce si vážil pilných lidí. Mezi horníky byl velmi oblíbený a často za ním chodili pro radu. Hořovský se účastnil mnoha spolků a přispíval i na charitativní účely. 
+Měl ženu, tři syny a šest dcer.
+
+# Závěr života
+
+V polovině devadesátých let se zdravotní stav Hořovského zhoršil. Roku 1895 odešel do důchodu a přestěhoval se do Vídně, kde roku 1898 ve věku 66 let zemřel. Pohřben je na Vídeňském ústředním hřbitově.
+
+> Děkujeme Janě Sobocikové za laskavé poskytnutí prostoru k umístění informační cedule
+
+---
+
+### Věděli jste, že...?
+
+- ... Hořovský byl velkým zastáncem myšlenky panslavismu. Již od svého studia na pražském gymnáziu měl hluboký vztah ke slovanským jazykům, především pak k ruštině.
+- ... Hořovský jako první zavedl dobývací metodu stěnování.
+- ... v roce 1925 byla v Doubravě věnována Hořovskému pamětní deska na bludném balvanu. Při okupaci polským vojskem roku 1938 byla ovšem deska zničena.
+
+---
+
+### Zajímavá místa v okolí
+
+- __Evangelický kostel__ – Tabule číslo [7](/misto/7)
+- __Husův dům__ – Tabule číslo [10](/misto/10)
+- __Důl Žofie__ – Tabule číslo [12](/misto/12)
+- __Orlovské jámy__ – černouhelné jámy, jáma č. 1 hloubena v roce 1930, jáma č. 2 v roce 1896. Likvidovány zásypem, č. 1 roku 2001, č. 2 roku 1999.
+- __Jáma Mühsam a bývalá kolonie Mühsam__ – černouhelná jáma Mühsam (česky Obtížná, lidově přezdívaná „Mízam“) mezi lety 1838 – 1896. Konečná likvidace jámy v roce 2001. Naproti jámy stála kolonie Mühsam, jednalo se o kolonii s prvními závodními byty v Orlové. V 50. a 60. letech 19. století zde vzniklo 42 domů s byty pro dělníky, poslední 4 domy byly dostavěny v roce 1907. Kolonie byla zničena postupně do roku 1989.
