@@ -109,7 +109,7 @@ export default {
       const md = marked(
         require(`@/assets/data/articles/${this.place.name}.md`).default
       )
-      const re = /<a href="\/misto\/\d+">(\d+)<\/a>/g
+      const re = /<a href="\/misto\/.+">(.+)<\/a>/g
       this.body = md.replaceAll(
         re,
         `

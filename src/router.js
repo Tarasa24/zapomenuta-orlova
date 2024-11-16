@@ -16,6 +16,22 @@ const routes = [
     component: () => import('./pages/Map.vue'),
   },
   {
+    path: '/misto/R1',
+    redirect: '/misto/13',
+  },
+  {
+    path: '/misto/R2',
+    redirect: '/misto/14',
+  },
+  {
+    path: '/misto/R3',
+    redirect: '/misto/15',
+  },
+  {
+    path: '/misto/O1',
+    redirect: '/misto/16',
+  },
+  {
     path: '/misto/:index',
     name: 'Place',
     component: () => import('./pages/Place.vue'),

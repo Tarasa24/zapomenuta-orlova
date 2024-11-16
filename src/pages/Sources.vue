@@ -9,6 +9,7 @@
           Dějiny města Orlové v datech – k 90. výročí povýšení Orlové na město
           1922-2012 – Město Orlová, 2013
         </li>
+        <li>Orlová v proměnách času – Město Orlová, 2010</li>
       </ul>
 
       <h2>Obecné internetové zdroje:</h2>
@@ -503,6 +504,136 @@
               target="_blank"
               rel="noopener noreferrer"
               >Důl Žofie - Historie hornictví - nejen Hornictví .info</a
+            >
+          </div>
+        </li>
+
+        <li>
+          <button @click="toggleLinks('Úzkorozchodná tramvaj')">
+            <fa
+              :icon="[
+                'fas',
+                toggeledList.includes('Úzkorozchodná tramvaj')
+                  ? 'caret-down'
+                  : 'caret-right',
+              ]"
+            />
+            <h4>Úzkorozchodná tramvaj</h4>
+          </button>
+
+          <div v-show="toggeledList.includes('Úzkorozchodná tramvaj')">
+            <span>
+              Od koňky k Sedanu : historie úzkorozchodných drah na Ostravsku a
+              Karvinsku : 1902-1973 – Dopravní podnik Ostrava, 2004
+            </span>
+            <a
+              href="https://www.cs-dopravak.cz/osud-uzkorozchodek-v-ostrave-byl-rozhodnut-uz-po-valce-cast-i/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Osud úzkorozchodek v Ostravě byl rozhodnut už po válce –
+              Československý dopravák</a
+            >
+          </div>
+        </li>
+
+        <li>
+          <button @click="toggleLinks('Sokolovna')">
+            <fa
+              :icon="[
+                'fas',
+                toggeledList.includes('Sokolovna')
+                  ? 'caret-down'
+                  : 'caret-right',
+              ]"
+            />
+            <h4>Sokolovna</h4>
+          </button>
+
+          <div v-show="toggeledList.includes('Sokolovna')">
+            <a
+              href="http://www.fonorama.cz/odkazy/Orlov%C3%A1%20ve%20fotografii%202004.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Orlová ve fotografii – Klub přátel staré Orlové, 2004</a
+            >
+            <a
+              href="http://www.fonorama.cz/fanzin/f_07/jamsession_07.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Malá hudební historie Orlové – Hudební klub muzikantů a jejich
+              příznivců v Orlové, 2013</a
+            >
+          </div>
+        </li>
+
+        <li>
+          <button @click="toggleLinks('býv. Spořitelna')">
+            <fa
+              :icon="[
+                'fas',
+                toggeledList.includes('býv. Spořitelna')
+                  ? 'caret-down'
+                  : 'caret-right',
+              ]"
+            />
+            <h4>býv. Spořitelna</h4>
+          </button>
+
+          <div v-show="toggeledList.includes('býv. Spořitelna')">
+            <span>Orlová 1223-1973 – Městský národní výbor (Orlová), 1973</span>
+            <a
+              href="https://www.archives.cz/web/soka/karvina/projekt/resources/karvina/Mestska_sporitelna_v_Orlove.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mgr. Trojak, Marek: Spořitelnu v Orlové postavili za osm měsíců. –
+              Právo, 2004</a
+            >
+            <a
+              href="https://mko.knihovna-orlova.cz/mestska-knihovna-orlova/historie/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Historie – Městská knihovna Orlová</a
+            >
+          </div>
+        </li>
+
+        <li>
+          <button @click="toggleLinks('Eduard Hořovský')">
+            <fa
+              :icon="[
+                'fas',
+                toggeledList.includes('Eduard Hořovský')
+                  ? 'caret-down'
+                  : 'caret-right',
+              ]"
+            />
+            <h4>Eduard Hořovský</h4>
+          </button>
+
+          <div v-show="toggeledList.includes('Eduard Hořovský')">
+            <a
+              href="http://www.joern.de/horovsky.htm"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ing. Eduard Hořovský; Biographische Skizze – 1927</a
+            >
+            <span
+              >Biografický slovník Slezska a severní Moravy (s. 48) –
+              Universitas Ostraviensis, 1993</span
+            >
+            <span
+              >O způsobech dobývání kamenného uhlí – Eduard Hořovský, 1876</span
+            >
+            <a
+              href="https://ndk.cz/view/uuid:914ef780-77bd-11df-8141-000d606f5dc6?page=uuid:5b84e3c4-2e41-4d74-a896-fbea38898400"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Německo-česko-ruský hornický a hutnický slovník – Eduard
+              Hořovský, 1890</a
             >
           </div>
         </li>
