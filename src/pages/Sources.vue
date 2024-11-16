@@ -511,7 +511,7 @@
         </li>
 
         <li>
-          <button @click="toggleLinks('Úzkorozchodná tramvaj")">
+          <button @click="toggleLinks('Úzkorozchodná tramvaj')">
             <fa
               :icon="[
                 'fas',
