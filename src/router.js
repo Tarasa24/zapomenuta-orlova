@@ -1,8 +1,5 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from './pages/Home.vue'
-
-Vue.use(VueRouter)
 
 const routes = [
   {
@@ -32,6 +29,22 @@ const routes = [
     redirect: '/misto/16',
   },
   {
+    path: '/misto/R4',
+    redirect: '/misto/17',
+  },
+  {
+    path: '/misto/R5',
+    redirect: '/misto/18',
+  },
+  {
+    path: '/misto/R6',
+    redirect: '/misto/19',
+  },
+  {
+    path: '/misto/O2',
+    redirect: '/misto/20',
+  },
+  {
     path: '/misto/:index',
     name: 'Place',
     component: () => import('./pages/Place.vue'),
@@ -52,26 +65,25 @@ const routes = [
     component: () => import('./pages/Sources.vue'),
   },
   {
-    path: '*',
+    path: '/:pathMatch(.*)*',
     name: 'Not Found',
     component: () => import('./pages/NotFound.vue'),
   },
 ]
 
-const router = new VueRouter({
-  base: process.env.BASE_URL,
-  mode: 'history',
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (to.hash)
       return new Promise((resolve, reject) => {
         setTimeout(() => {
           resolve({
-            selector: to.hash,
+            el: to.hash,
           })
         }, 400)
       })
-    else return { x: 0, y: 0 }
+    else return { left: 0, top: 0 }
   },
 })
 
